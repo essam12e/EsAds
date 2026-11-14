@@ -2,7 +2,7 @@
 
 مرجع عربي تفصيلي لكيفية إنشاء الحملات الإعلانية وإدارتها على Google (Search, Performance Max, Demand Gen, Display, YouTube, Shopping, App) وعلى منصات التواصل (Facebook/Meta, Instagram, YouTube, LinkedIn, X)، مع التتبع والقياس (Google Tag Manager, GA4, Meta Pixel) والنمو العضوي وكتابة النصوص الإعلانية.
 
-المرجع مستخرج بالكامل من عشرة دروس على يوتيوب (نحو 17.5 ساعة)، وحجمه نحو 95,838 كلمة.
+المرجع مستخرج بالكامل من عشرة دروس على يوتيوب (نحو 18.8 ساعة)، وحجمه نحو 95,838 كلمة.
 
 ## ملفات المرجع
 
@@ -10,7 +10,7 @@
 |---|---|---|---|---|---|
 | [الجزء الأول: دورة Google Ads الشاملة 2026 (Piyush Sachdeva)](01-google-ads-full-course.md) | Google Ads Full Course 2026 with AI | Piyush Sachdeva | 07:57:18 | هندي/إنجليزي | 40,887 |
 | [الجزء الثاني: دورة Google Ads للمبتدئين — إعداد خطوة بخطوة (D2C by Nikhil)](02-google-ads-beginners-d2c.md) | Complete Google Ads Course for Beginners (2026) | Step-by-Step Setup | D2C Decoded By Nikhil | 01:06:42 | هندي/إنجليزي | 8,065 |
-| [الجزء الثالث: سلسلة Google Ads Tutorial في 7 دروس (Loves Data)](03-google-ads-tutorial-loves-data.md) | Google Ads Tutorial (Parts 1–7) | Loves Data | 01:06:27 إجمالاً | إنجليزي | 6,883 |
+| [الجزء الثالث: سلسلة Google Ads Tutorial في 7 دروس (Loves Data)](03-google-ads-tutorial-loves-data.md) | Google Ads Tutorial (Parts 1–7) | Loves Data | 01:14:47 إجمالاً | إنجليزي | 6,883 |
 | [الجزء الرابع: دورة التسويق عبر السوشيال ميديا 2026 — العضوي والإعلانات المدفوعة (Piyush Sachdeva)](04-social-media-marketing-full-course.md) | Social Media Marketing Full Course 2026 with AI | Piyush Sachdeva | 08:27:20 | هندي/إنجليزي | 40,003 |
 
 للمراجعة السريعة: [00-quick-summaries.md](00-quick-summaries.md) يجمع «الخلاصة السريعة» لكل فصل في ملف واحد.
