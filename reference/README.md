@@ -1,21 +1,23 @@
 # المرجع الشامل لإنشاء الإعلانات — Google Ads وإعلانات السوشيال ميديا
 
-مرجع عربي تفصيلي لكيفية إنشاء الحملات الإعلانية وإدارتها على Google (Search, Performance Max, Demand Gen, Display, YouTube, Shopping, App) وعلى منصات التواصل (Facebook/Meta, Instagram, YouTube, LinkedIn, X)، مع التتبع والقياس (Google Tag Manager, GA4, Meta Pixel)، وإعداد Google Merchant Center، وتحليل الأداء العضوي عبر Google Search Console، والنمو العضوي وكتابة النصوص الإعلانية.
+مرجع عربي تفصيلي لكيفية إنشاء الحملات الإعلانية وإدارتها على Google (Search, Performance Max, Demand Gen, Display, YouTube, Shopping, App) وعلى منصات التواصل (Facebook/Meta, Instagram, YouTube, LinkedIn, X, TikTok, Snapchat)، مع التتبع والقياس (Google Tag Manager, GA4, Meta Pixel)، وإعداد Google Merchant Center، وتحليل الأداء العضوي عبر Google Search Console، والنمو العضوي وكتابة النصوص الإعلانية.
 
-المرجع مستخرج بالكامل من أربعة عشر درساً على يوتيوب (نحو 22.6 ساعة)، وحجمه نحو 125,422 كلمة.
+المرجع مستخرج بالكامل من ستة عشر درساً على يوتيوب (نحو 23.6 ساعة)، وحجمه نحو 134,197 كلمة.
 
 ## ملفات المرجع
 
 | الملف | الدرس | القناة | المدة | لغة الدرس | الكلمات |
 |---|---|---|---|---|---|
 | [الجزء الأول: دورة Google Ads الشاملة 2026 (Piyush Sachdeva)](01-google-ads-full-course.md) | Google Ads Full Course 2026 with AI | Piyush Sachdeva | 07:57:18 | هندي/إنجليزي | 40,887 |
-| [الجزء الثاني: دورة Google Ads للمبتدئين — إعداد خطوة بخطوة (D2C by Nikhil)](02-google-ads-beginners-d2c.md) | Complete Google Ads Course for Beginners (2026) | Step-by-Step Setup | D2C Decoded By Nikhil | 01:06:42 | هندي/إنجليزي | 8,065 |
+| [الجزء الثاني: دورة Google Ads للمبتدئين — إعداد خطوة بخطوة (D2C by Nikhil)](02-google-ads-beginners-d2c.md) | Complete Google Ads Course for Beginners (2026) — Step-by-Step Setup | D2C Decoded By Nikhil | 01:06:42 | هندي/إنجليزي | 8,065 |
 | [الجزء الثالث: سلسلة Google Ads Tutorial في 7 دروس (Loves Data)](03-google-ads-tutorial-loves-data.md) | Google Ads Tutorial (Parts 1–7) | Loves Data | 01:14:47 إجمالاً | إنجليزي | 6,883 |
 | [الجزء الرابع: دورة التسويق عبر السوشيال ميديا 2026 — العضوي والإعلانات المدفوعة (Piyush Sachdeva)](04-social-media-marketing-full-course.md) | Social Media Marketing Full Course 2026 with AI | Piyush Sachdeva | 08:27:20 | هندي/إنجليزي | 40,003 |
 | [الجزء الخامس: Google Merchant Center — الدليل الكامل 2026 (KeyCommerce)](05-google-merchant-center.md) | The Only Google Merchant Center Tutorial You Need in 2026 | KeyCommerce | 01:08:51 | إنجليزي | 7,460 |
 | [الجزء السادس: Google Analytics 4 — الدرس الكامل 2026 (Loves Data)](06-google-analytics-4-loves-data.md) | Google Analytics 4 Tutorial (2026) | Loves Data | 01:01:34 | إنجليزي | 7,332 |
 | [الجزء السابع: Google Search Console — الدليل الكامل 2026 (Surfer Academy)](07-google-search-console.md) | Google Search Console Tutorial (2026): The Complete Guide | Surfer Academy | 00:30:14 | إنجليزي | 5,621 |
-| [الجزء الثامن: Google Tag Manager للمبتدئين 2026 (Analytics Mania)](08-google-tag-manager-beginners.md) | Google Tag Manager tutorial for beginners (2026) || GTM Course | Analytics Mania | 01:08:36 | إنجليزي | 9,171 |
+| [الجزء الثامن: Google Tag Manager للمبتدئين 2026 (Analytics Mania)](08-google-tag-manager-beginners.md) | Google Tag Manager tutorial for beginners (2026) —— GTM Course | Analytics Mania | 01:08:36 | إنجليزي | 9,171 |
+| [الجزء التاسع: إعلانات تيك توك — الدورة الكاملة 2026 (Chasmish Tech)](09-tiktok-ads.md) | How to Run TikTok Ads in 2026 — Complete TikTok Ads Course (Step-by-Step) | Chasmish Tech | 00:37:40 | هندي/إنجليزي | 4,643 |
+| [الجزء العاشر: إعلانات سناب شات — الدليل خطوة بخطوة 2026 (Snapchat Ads Community)](10-snapchat-ads.md) | Snapchat Ads Tutorial 2026 (Complete Step-by-Step Guide for Beginners) | Snapchat Ads Community | 00:21:22 | إنجليزي | 4,132 |
 
 للمراجعة السريعة: [00-quick-summaries.md](00-quick-summaries.md) يجمع «الخلاصة السريعة» لكل فصل في ملف واحد.
 
@@ -29,11 +31,13 @@
 - Google Analytics 4 Tutorial (2026) — Loves Data: https://youtu.be/YCCWXp408h0
 - Google Search Console Tutorial (2026): The Complete Guide — Surfer Academy: https://youtu.be/93uhFZ_9IzY
 - Google Tag Manager tutorial for beginners (2026) || GTM Course — Analytics Mania: https://youtu.be/hc4EOTiCpA4
+- How to Run TikTok Ads in 2026 | Complete TikTok Ads Course (Step-by-Step) — Chasmish Tech: https://youtu.be/sbOLbhkjLaU
+- Snapchat Ads Tutorial 2026 (Complete Step-by-Step Guide for Beginners) — Snapchat Ads Community: https://youtu.be/IwTybTMnYOk
 
 ## كيف أُعدّ هذا المرجع وما حدوده
 
 - **المصدر:** التفريغ النصي الآلي (captions) الذي يولّده يوتيوب لكل درس. لم تُشاهَد الصورة، لذلك ما ظهر على الشاشة فقط ولم يُنطق (أرقام في لوحة، نص زر لم يُقرأ) غير موجود في المرجع.
-- **اللغة:** ثلاثة دروس بالهندية المخلوطة بالإنجليزية (دورتا Piyush Sachdeva ودورة Nikhil) ونُقلت إلى العربية؛ بقية الدروس بالإنجليزية. درسا GA4 (Loves Data) وSearch Console لهما ترجمة مكتوبة يدوياً فتفريغهما أدق من التفريغ الآلي.
+- **اللغة:** أربعة دروس بالهندية المخلوطة بالإنجليزية (دورتا Piyush Sachdeva ودورة Nikhil ودورة TikTok) ونُقلت إلى العربية؛ بقية الدروس بالإنجليزية. درسا GA4 (Loves Data) وSearch Console لهما ترجمة مكتوبة يدوياً فتفريغهما أدق من التفريغ الآلي.
 - **«(غير واضح في التفريغ)»:** توضع حيث لم يكفِ التفريغ الآلي للجزم بكلمة أو رقم أو اسم، بدل التخمين.
 - **«ملاحظة تحقق»:** توضع حيث قال المدرّب شيئاً غير دقيق أو قديماً؛ يُنقل قوله كما هو ثم يُذكر التصحيح.
 - **⏱ الطوابع الزمنية:** تشير إلى موضع الشرح في الفيديو للرجوع إليه.
@@ -173,3 +177,29 @@
 11. مقدمة إلى تتبع الأحداث في GA4 (GA4 event tracking introduction)
 12. المشغِّلات (Triggers)
 13. تتبع الأحداث مع GA4 والكلمة الختامية (Event tracking with GA4 / Final Words)
+
+### [الجزء التاسع: إعلانات تيك توك — الدورة الكاملة 2026 (Chasmish Tech)](09-tiktok-ads.md)
+
+1. مقدمة الدرس: لماذا إعلانات تيك توك؟ (Why TikTok Ads)
+2. أنواع الحسابات: حساب إعلاني عادي مقابل حساب وكالة (Simple Ad Account vs Agency Account)
+3. جولة في مركز الأعمال (TikTok Business Center)
+4. ربط حساب تيك توك بمركز الأعمال (Link TikTok Account / TikTok ID)
+5. المالية وإضافة الرصيد (Finance & Add Balance)
+6. ربط البكسل مع متجر Shopify (Pixel Setup via Events Manager & Shopify)
+7. إنشاء الحملة: الهدف ونوع الحملة (Campaign Level)
+8. المجموعة الإعلانية: التحسين والمواضع والاستهداف (Ad Group Level)
+9. الميزانية والجدولة وعروض الأسعار (Budget, Schedule & Bidding)
+10. إنشاء الإعلان والنشر (Ad Level & Publish)
+11. مؤشرات الأداء وتحليل النتائج والتوسّع (KPIs, Analysis & Scaling)
+12. الجماهير المخصصة والمشابهة وإعادة الاستهداف (Custom & Lookalike Audiences)
+
+### [الجزء العاشر: إعلانات سناب شات — الدليل خطوة بخطوة 2026 (Snapchat Ads Community)](10-snapchat-ads.md)
+
+1. لماذا Snapchat Ads وما الذي ستتعلمه (Why Snapchat Ads & What You'll Learn)
+2. إنشاء حساب Snapchat Ads (How to Create a Snapchat Ads Account)
+3. أهداف الحملات في Snapchat (Snapchat Campaign Objectives)
+4. Snap Pixel: الإنشاء والتثبيت والتحقق (Snap Pixel)
+5. إنشاء الحملة (Creating Your First Campaign)
+6. إعداد المجموعة الإعلانية Ad Set بكل إعداداتها (Setting Up Your Ad Set)
+7. إنشاء الإعلان وصيغه (Creating Your Snapchat Ad & Ad Formats)
+8. المراجعة والدفع والنشر ثم الإدارة والتوسّع (Review, Payment, Publish & Beyond)

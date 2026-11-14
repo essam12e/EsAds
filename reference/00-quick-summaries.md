@@ -1,6 +1,6 @@
 # الخلاصات السريعة لكل الفصول
 
-> هذا الملف يجمع أقسام «خلاصة سريعة» من كل فصول المرجع في مكان واحد للمراجعة السريعة. التفاصيل الكاملة والخطوات في ملفات الأجزاء الثمانية.
+> هذا الملف يجمع أقسام «خلاصة سريعة» من كل فصول المرجع في مكان واحد للمراجعة السريعة. التفاصيل الكاملة والخطوات في ملفات الأجزاء العشرة.
 
 ## الجزء الأول: دورة Google Ads الشاملة 2026 (Piyush Sachdeva)
 
@@ -1027,3 +1027,153 @@
 - اختبر مرتين: Preview ثم DebugView (Admin ← Data display ← DebugView)، مع توقع تأخير أحياناً.
 - التحليل: Explore ← Blank؛ أبعاد Link URL و Link text و Event name، مقياس Event count، فلتر Event name exactly matches، وانتبه للنطاق الزمني (28 يوماً افتراضياً).
 - الدرس يغطي ~10% مما يحتاجه المبتدئ في GTM بحسب المدرّب.
+
+---
+
+## الجزء التاسع: إعلانات تيك توك — الدورة الكاملة 2026 (Chasmish Tech)
+
+التفاصيل الكاملة: [09-tiktok-ads.md](09-tiktok-ads.md)
+
+### مقدمة الدرس: لماذا إعلانات تيك توك؟ (Why TikTok Ads)
+
+- تيك توك خيار مناسب للمبتدئين والعلامات الجديدة بميزانيات صغيرة وإعداد بسيط.
+- المدرّب يقدّمه كبديل لمن تراجعت نتائجه على Meta بعد تحديثها الأخير (Andromeda على الأرجح).
+- الدرس يغطي: Business Center، ربط TikTok ID، الدفع، البكسل، إنشاء الحملة، KPIs، الجماهير المخصصة والمشابهة.
+
+### أنواع الحسابات: حساب إعلاني عادي مقابل حساب وكالة (Simple Ad Account vs Agency Account)
+
+- المدرّب يرى (من اختباراته) أن حسابات الوكالة تعطي وصولاً أعلى من الحسابات العادية.
+- فضّل حساب وكالة بشحن ذاتي، مع Business Center وحساب إعلاني موثَّقين من المصدر نفسه لتقليل خطر التعليق.
+- لا تشترِ حساباً فيه مستخدمون آخرون مضافون.
+- دولة الحساب وعملته لا تؤثران؛ المهم دولة الاستهداف داخل الحملة.
+
+### جولة في مركز الأعمال (TikTok Business Center)
+
+- الأقسام المهمة عملياً: Users، Accounts، Assets، Finance. الباقي يمكن تجاهله في البداية.
+- إضافة حساب إعلاني: Accounts ← Add advertiser account ← Create new أو Request access.
+- أيقونة القائمة أعلى اليسار هي بوابة التنقل إلى Ads Manager و Events Manager.
+
+### ربط حساب تيك توك بمركز الأعمال (Link TikTok Account / TikTok ID)
+
+- TikTok ID في تيك توك يقابل صفحة فيسبوك في Meta: هو الهوية التي يظهر بها الإعلان.
+- المسار: Accounts ← TikTok accounts ← Link existing ← مسح QR من تطبيق الهاتف.
+- هذا الحساب المربوط هو ما ستختاره لاحقاً في حقل Identity عند إنشاء الإعلان.
+
+### المالية وإضافة الرصيد (Finance & Add Balance)
+
+- أضف الرصيد دائماً على مستوى Business Center لا على مستوى الحساب الإعلاني، ليبقى محفوظاً لو عُلِّق الحساب (بحسب المدرّب).
+- اشحن قبل إنشاء/نشر الحملة، لا في نافذة النشر.
+- Transactions لمتابعة الشحن والخصم، و Invoices لفواتير العملاء.
+
+### ربط البكسل مع متجر Shopify (Pixel Setup via Events Manager & Shopify)
+
+- البكسل يُربط من جهة Shopify عبر تطبيق TikTok، لا يدوياً.
+- الترتيب: Business Center ← Ad account ← Data sharing = Maximum ← Pixel يُنشأ تلقائياً ← Confirm ← Finish setup.
+- طابِق آخر أرقام المعرّفات للتأكد من اختيار المركز والحساب الصحيحين.
+
+### إنشاء الحملة: الهدف ونوع الحملة (Campaign Level)
+
+- الهدف: Sales ← Website. النوع: Manual campaign؛ تجنّب Smart+ حالياً بحسب المدرّب.
+- أوقف Catalog، وسمِّ الحملة باسم المنتج + التاريخ.
+- لا split test ولا CBO ولا ميزانية حملة في الحساب الجديد؛ الميزانية ستوضع على مستوى المجموعة الإعلانية.
+
+### المجموعة الإعلانية: التحسين والمواضع والاستهداف (Ad Group Level)
+
+- Optimization event: Add to cart إن توفر، وإلا View content.
+- Placements: TikTok فقط، وأزل Pangle و Global App Bundle.
+- عطّل التعليقات والتنزيل والمشاركة.
+- استهداف مفتوح: الدولة + العمر + الجنس فقط، دون اهتمامات أو سلوكيات، وكل إعدادات الأجهزة على All.
+
+### الميزانية والجدولة وعروض الأسعار (Budget, Schedule & Bidding)
+
+- الحد الأدنى 20 AED/يوم، والموصى به 30 AED/يوم فأكثر (أمثلة بعملة حساب المدرّب).
+- ابدأ دائماً في اليوم التالي الساعة 7:00 صباحاً بتوقيت الدولة المستهدفة.
+- Optimization goal = Conversion.
+- Target CPA: فارغ في أول حملة؛ بعد 5–6 طلبات ضع قيمة (1.10 أو القيمة المقترحة من النظام).
+
+### إنشاء الإعلان والنشر (Ad Level & Publish)
+
+- إعلانان (فيديوان) داخل مجموعة واحدة، كل منهما بنص، وزر Shop now، ورابط صفحة المنتج نفسها.
+- Identity = حساب تيك توك المربوط.
+- ألغِ «Show through ads only» إن أردت أن تتراكم المشاهدات على ملف حسابك لبناء المصداقية.
+- Publish all؛ ويشترط وجود رصيد.
+
+### مؤشرات الأداء وتحليل النتائج والتوسّع (KPIs, Analysis & Scaling)
+
+- راقب: CPC، CPM، Impressions، CTR، Conversions، Cost per conversion، CVR.
+- CTR ضعيف ⇒ مشكلة تصميم. CTR جيد بلا مبيعات ⇒ مشكلة صفحة هبوط أو منتج.
+
+### الجماهير المخصصة والمشابهة وإعادة الاستهداف (Custom & Lookalike Audiences)
+
+- المسار: Tools ← Audience manager ← Create audience.
+- Custom audience من Website traffic: Page view (+ Purchase) خلال 30/60/90 يوماً.
+- Lookalike يحتاج جمهوراً مصدراً فيه بيانات كافية.
+- أضِف الجمهور في حقل Include داخل المجموعة الإعلانية.
+
+---
+
+## الجزء العاشر: إعلانات سناب شات — الدليل خطوة بخطوة 2026 (Snapchat Ads Community)
+
+التفاصيل الكاملة: [10-snapchat-ads.md](10-snapchat-ads.md)
+
+### لماذا Snapchat Ads وما الذي ستتعلمه (Why Snapchat Ads & What You'll Learn)
+
+- Snapchat: نحو 946 مليون مستخدم شهري و470 مليون يومي؛ 97 مليون يومياً في أوروبا وأكثر من 100 مليون في أمريكا (بحسب المدرّب).
+- حجّة المدرّب الأساسية: منافسة أقل من Meta وTikTok ⇒ CPM وCPC وتكلفة اكتساب أقل عادةً.
+- الجمهور ليس مراهقين فقط، ويفتح التطبيق عشرات المرات يومياً.
+- مسار الدرس: حساب ← Pixel ← حملة ← Ad Set ← إعلان ← نشر ← متابعة وتوسيع.
+
+### إنشاء حساب Snapchat Ads (How to Create a Snapchat Ads Account)
+
+- التسجيل من `ads.snapchat.com` ← Sign up ← البيانات الشخصية ← username + website ← Create account.
+- فعّل Import brand assets ليملأ Snapchat أصول علامتك من موقعك تلقائياً.
+- أكمل الدولة والعملة ورقم الهاتف.
+- إن ظهر زر Open a business account أعلى الشاشة فاضغطه وأكمل بياناته (مسار التسجيل تغيّر مؤخراً).
+
+### أهداف الحملات في Snapchat (Snapchat Campaign Objectives)
+
+- خمسة أهداف: Awareness and Engagement، Traffic، Leads، App Promotion، Sales.
+- اختر الهدف المطابق للإجراء الذي تريده من المستخدم.
+- Sales يحتاج Snap Pixel يعمل وبيانات: 50–100 تحويل ناجح على الأقل قبل الاعتماد عليه.
+- Pixel جديد بلا تاريخ؟ ابدأ بـTraffic (أو هدف آخر) لتوليد البيانات ثم انتقل إلى Sales.
+
+### Snap Pixel: الإنشاء والتثبيت والتحقق (Snap Pixel)
+
+- المسار: Manage Ads ← Pixels ← Create Pixel ← اسم ← (تخطَّ جزء الموقع) ← طريقة التثبيت.
+- طريقتان: يدوي (لصق الكود) أو Partner integration (Shopify، Google Tag Manager، BigCommerce) وهي الأسهل عادةً.
+- تحقق بإضافة Snap Pixel Helper على Chrome: يجب أن يظهر Pixel ID والأحداث (Page View، Add to Cart، Purchase، Registration).
+- لا تطلق حملات تحويل قبل التأكد من سلامة التتبع.
+
+### إنشاء الحملة (Creating Your First Campaign)
+
+- اختر الهدف ← سمِّ الحملة ← أطفئ الحالة Active مؤقتاً حتى تتم الموافقة.
+- Split test يختبر creatives/audiences/placements/campaign goals؛ مفيد في مرحلة الاختبار (أطفأه المدرّب في العرض).
+- اجعل تاريخ البدء في اليوم التالي لا في يوم الإنشاء، لإتاحة وقت للمراجعة.
+
+### إعداد المجموعة الإعلانية Ad Set بكل إعداداتها (Setting Up Your Ad Set)
+
+- الـAd Set = من يرى الإعلان وكيف يُسلَّم: ميزانية، استهداف، مواضع.
+- أطفئ الحالة مؤقتاً، واربط Snap Pixel من Tracking (Set up Pixel إن ظهر خطأ)؛ Snap App ID لحملات التطبيقات فقط.
+- Performance Goal يجب أن يطابق هدف الحملة؛ Auto Bid للمبتدئين، Max Bid للمتقدمين.
+- ميزانية يومية لا تقل عن 30 دولاراً/يورو، بدء في اليوم التالي، وتشغيل 4 أيام على الأقل.
+- Automatic placement هو الأفضل لمعظم الحملات.
+- مواقع تطابق أماكن عملائك (يمكن رفع قائمة bulk)؛ عمر/جنس/لغة بحسب الجمهور.
+- Predefined audiences للاهتمامات والسلوك؛ Custom audiences من قوائم العملاء، أحداث الموقع، أحداث التطبيق، تفاعل الإعلان/الملف، وLookalike (تحتاج مصدراً قائماً).
+- Frequency cap يحدّ التكرار؛ Third-party tagging وDoubleVerify للمتقدمين.
+
+### إنشاء الإعلان وصيغه (Creating Your Snapchat Ad & Ad Formats)
+
+- خمس صيغ: Single Image/Video (فيديو 6–10 ثوانٍ)، Story Ad (سهل للمبتدئين)، Collection (تجارة إلكترونية)، Commercial (غير قابل للتخطي، ميزانية أكبر)، AR (متقدّم).
+- Story Ad = عدة tiles تُعرض تباعاً؛ رفع المدرّب مقطعي فيديو.
+- Attachment: Web View (افتراضي) أو Deep Link أو App Install؛ ثم URL وCTA (الافتراضي View؛ اختير Book Now).
+- للـtile الثاني: Add assets ← Duplicate previous asset ← احذف الوسائط وارفع الجديدة (يحافظ على URL وCTA).
+- اكتب Headline، راجع Public Profile، أبقِ Discover tile مفعّلاً، ارفع الشعار.
+- Message design، Impression/Click trackers: غير لازمة للمبتدئ. أطفئ Status حتى الموافقة.
+
+### المراجعة والدفع والنشر ثم الإدارة والتوسّع (Review, Payment, Publish & Beyond)
+
+- راجع الإعدادات، تأكد من Business address، أكمل Payment details، ثم Publish campaign ← تدخل الحملة مرحلة المراجعة.
+- Manage campaign يعيدك إلى Ads Manager لمتابعة الإنفاق، مرات الظهور، النقرات، CTR.
+- تبويب Analyze: Audience Insights، تقارير الأداء، وCampaign Lab لإجراء split tests.
+- لا تقيّم قبل 4 أيام (مرحلة التعلّم).
+- وسّع الـad sets الرابحة تدريجياً: +20% ميزانية كل 48 ساعة.
