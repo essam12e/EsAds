@@ -38,7 +38,7 @@ illustration: tag-manager
 1. افتح **Variables**.
 2. في قسم **Built-In Variables** انقر **Configure** (ضبط).
 3. تظهر المتغيرات مرتبة في مجموعات، منها **Clicks** و **Forms** و **Errors** و **Utilities**.
-4. فعّل كل متغيرات مجموعة **Clicks**: Click Element و Click Classes و Click ID و Click Target و Click URL و Click Text.
+4. فعّل كل متغيرات مجموعة **Clicks**: Click Element و Click Classes و Click ID و Click URL و Click Text.
 5. فعّل كذلك متغيرات مجموعة **Forms** للاحتياط؛ بعض الأزرار تظهر قيمها ضمن متغيرات النماذج.
 6. أغلق اللوحة. ستلاحظ أن عدّاد **Workspace Changes** (تغييرات مساحة العمل) زاد بعدد المتغيرات التي فعّلتها.
 7. انقر **Preview** (معاينة) من جديد ليأخذ وضع المعاينة أحدث نسخة من الحاوية.
