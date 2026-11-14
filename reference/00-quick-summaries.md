@@ -1,6 +1,6 @@
 # الخلاصات السريعة لكل الفصول
 
-> هذا الملف يجمع أقسام «خلاصة سريعة» من كل فصول المرجع في مكان واحد للمراجعة السريعة. التفاصيل الكاملة والخطوات في ملفات الأجزاء الأربعة.
+> هذا الملف يجمع أقسام «خلاصة سريعة» من كل فصول المرجع في مكان واحد للمراجعة السريعة. التفاصيل الكاملة والخطوات في ملفات الأجزاء الثمانية.
 
 ## الجزء الأول: دورة Google Ads الشاملة 2026 (Piyush Sachdeva)
 
@@ -588,3 +588,442 @@
 - المقاييس الأساسية التي شدّد عليها: CTR، Impressions، Unique views، Video retention.
 - مهارات مكمّلة: Creative strategy، Landing pages و CRO، فهم الـ Funnel، التقارير وبحث السوق بالذكاء الاصطناعي.
 - باقي المقطع ترويج لدورة المدرّب المدفوعة.
+
+---
+
+## الجزء الخامس: Google Merchant Center — الدليل الكامل 2026 (KeyCommerce)
+
+التفاصيل الكاملة: [05-google-merchant-center.md](05-google-merchant-center.md)
+
+### مقدمة الدورة المصغّرة (Intro)
+
+- الدورة تغطي أربعة محاور: امتثال الموقع، إعداد GMC Next وواجهته، تحسين الـ feed، وحل التعليق.
+- توجد قوالب وقوائم تحقق مجانية في وصف الفيديو لكل صفحات السياسات.
+
+### متطلبات الموقع قبل إنشاء الحساب (Website Requirements Before You Create an Account)
+
+- Google تمنح كل معلن درجة مخاطر؛ التعليق يحدث عند تراكم إشارات عدم الشفافية.
+- صفحة الإرجاع: 5 عناصر (القبول، الأهلية + الحالات الثلاث الإلزامية، طريقتا بدء، مدة بالأيام، طريقة الاسترداد). سياسة «لا إرجاع» تُذكر في صفحة المنتج أيضاً.
+- صفحة الاتصال: اسم + عنوان حقيقي (لا PO box ولا مكتب افتراضي) + هاتف يُجاب عليه كحد أدنى، ثم بريد على النطاق، ساعات عمل، مدة الرد، ونموذج تواصل.
+- الشحن: مناطق، تكلفة مطابقة تماماً للـ checkout ولإعدادات GMC، وقت تجهيز + وقت نقل بـ «business days».
+- الخصوصية: 7 بنود + ذكر GDPR و CCPA والإعلانات المخصصة + بيانات اتصال أسفل الصفحة.
+- صفحة المنتج: 10 نقاط؛ أهمها تطابق السعر في الإعلان/الصفحة/الـ checkout، والتوفر، وصور 250×250 على الأقل وأقل من 16MB بلا نص.
+- الفوتر: روابط كل السياسات، أيقونات الدفع، والاسم والعنوان كنص لا كصورة.
+
+### ما هو Google Merchant Center وكيف تُعدّه (What Is GMC & How to Set It Up)
+
+- أنشئ الحساب من google.com/retail بالبريد نفسه المستخدم في Google Ads و Analytics.
+- في حقل اسم النشاط عند الإنشاء: اسم الإعلان/الاسم التجاري (DBA) لا الاسم القانوني. الدولة لا تتغير بعد الإنشاء.
+- فعّل Automations وخصوصاً Shipping updates؛ عدم تطابق سياسة الشحن هو السبب الأول للتعليق بحسب المدرّب.
+- أبقِ Free listings مفعّلة، وفعّل Product protection على 40%.
+- تجاهل Ad campaigns و Product Studio حالياً؛ أدر الحملات من Google Ads.
+- ربط Google Ads عبر Apps and services شرط لتشغيل الإعلانات.
+
+### إضافة معلومات نشاطك التجاري (Adding Your Business Information)
+
+- Settings → Business info → Details → Edit business details.
+- الاسم: الاسم التجاري بلا لواحق/ترويج/إيموجي/رموز؛ وهو ما يظهر في الإعلان.
+- العنوان يطابق الموقع، ولا PO box.
+- املأ قسم Customer service رغم أنه اختياري؛ ورقم الهاتف قد يُنشر علناً.
+- فعّل سمة Small business إن كان لديك 500 موظف أو أقل، وأضف حسابات التواصل.
+
+### كيف تطالب بملكية موقعك وتتحقق منه (How to Claim & Verify Your Website)
+
+- Overview → Complete setup → Use your e-commerce platform → Shopify → انسخ الكود.
+- Shopify: Online Store → Themes → ⋯ → Edit code → Layout → theme.liquid → الصق الكود قبل وسم head → Save.
+- بعد دقيقة: Verify your online store.
+
+### ربط Shopify بـ GMC (Connecting Shopify to GMC)
+
+- ثبّت Google & YouTube من Shopify App Store واربط حساب Google ثم حساب Merchant Center.
+- Product sync و Checkout link: Automatic. الشحن: Automatic إلا إن كانت لديك إعدادات يدوية في GMC تريد إبقاءها (Manual).
+- التحقق من النجاح: ظهور Content API في Data sources (قد يستغرق حتى ساعة).
+
+### تحسين بيانات المنتج والخلاصة (Optimizing Your Product Data & Feed)
+
+- الذكاء الاصطناعي لدى Google يقرأ الـ feed لا موقعك؛ الـ feed الناقص يعني توصية بمنافس.
+- أعد كتابة العنوان بكلمات بحث المتسوق (نوع، خامة، مقاس، نقش، طريقة صنع) دون حشو.
+- السعر والتوفر والتخفيض تُعدَّل من المصدر (Shopify) فقط.
+- لا تغيّر ID/SKU أبداً. أدخل GTIN إن وُجد؛ وإلا ضع MPN (ولو مختلقاً وفريداً) لغير القطع الفريدة.
+- اللون: حتى 3 ألوان مفصولة بـ «/» وبأسماء بسيطة. عبّئ سمات الملابس حتى لغير الملابس عند انطباقها.
+- استخدم Custom labels للتقسيم (هامش، مبيعات، سعر) و Product highlights (3–4 لكل منتج).
+- مع تطبيق feed طرف ثالث: عدّل في التطبيق لا في GMC.
+
+### كيف تحل تعليق حساب GMC (How to Resolve a GMC Suspension)
+
+- لا تحذف الحساب، لا تنشئ حساباً ثانياً، ولا تضغط زر المراجعة قبل إصلاح كل شيء؛ المحاولات محدودة.
+- تعليق الـ misrepresentation تراكم مخاطر لا سبب واحد؛ افحص أولاً المنتجات المحظورة والادعاءات الصحية.
+- القائمة: معلومات نشاط متسقة في كل مكان، نطاق مخصص وبريد عليه، شحن متطابق (GMC/الصفحة/checkout)، موقع بلا أخطاء أو Lorem Ipsum أو تطبيقات مريبة، صفحات اتصال/من نحن/سياسات فريدة، منتجات بلا ادعاءات أو استعجال زائف، و checkout بروابط السياسات ومعلومات الاتصال و SSL.
+- يجب وجود feed فيه منتج واحد على الأقل ليظهر زر الاستئناف.
+- فضّل التصعيد اليدوي (? ← Contact us ← chat/email) على المراجعة التلقائية (Fix ← I disagree with this issue) ذات التهدئة 7 أيام.
+- بعد الاستعادة: تدقيق شهري، Search Console، وتبويب Needs attention.
+
+---
+
+## الجزء السادس: Google Analytics 4 — الدرس الكامل 2026 (Loves Data)
+
+التفاصيل الكاملة: [06-google-analytics-4-loves-data.md](06-google-analytics-4-loves-data.md)
+
+### المقدمة وإنشاء حساب وموقع (Property) في Google Analytics (Introduction + Create a Google Analytics account and property)
+
+- التسجيل من `marketingplatform.google.com` عبر «Get Started Today» أو «Sign In To Analytics» بحساب Google.
+- Account = تنظيم (حساب لكل نشاط تجاري)، Property = مكان جمع البيانات والتقارير (غالباً واحد لكل نشاط، ويمكنه استقبال عدة مواقع وتطبيقات).
+- سمِّ الحساب باسم النشاط، والـProperty باسم ما يُقاس.
+- انتبه للمنطقة الزمنية: تغييرها لاحقاً يسبب فجوة أو تداخلاً في البيانات.
+- اختر العملة الأساسية لنشاطك؛ تُستخدم للتحويل التلقائي للقيم المرسلة بعملات أخرى.
+- في أهداف النشاط اختر «Other Business Objectives» للحصول على مجموعة التقارير الكاملة.
+
+### إنشاء مصدر بيانات ويب والقياس المحسّن (Create a web data stream and enhanced measurement)
+
+- Data Stream هو قناة إرسال البيانات إلى الـProperty؛ مصدر لكل موقع/تطبيق.
+- عند الإنشاء: النوع Web + عنوان الموقع + اسم المصدر.
+- Enhanced Measurement مفعّل افتراضياً ويتتبّع: مشاهدات الصفحات، التمرير، النقرات الخارجية، البحث الداخلي، النماذج، فيديوهات YouTube المضمّنة، تنزيل الملفات — ويمكن تعطيل أي منها من أيقونة الإعدادات.
+- Measurement ID (أعلى يمين صفحة المصدر) هو ما يربط موقعك بالـProperty.
+- المدرّب يفضّل التثبيت عبر Google Tag Manager على Google Tag.
+
+### نظرة عامة على واجهة Google Analytics (Google Analytics interface overview)
+
+- استخدم الـdemo property لمتجر Google Merchandise Store للتدرّب على بيانات حقيقية.
+- القائمة اليسرى: Home، Reports، Explore، Advertising، ثم Admin في الأسفل.
+- Reports للمراقبة، Explore للإجابة عن أسئلة محددة.
+- لا تحاول حفظ كل التقارير؛ ركّز على ما يفسّر أداء موقعك.
+
+### تقرير الصفحة الرئيسية ولقطة التقارير (Home and snapshot reports)
+
+- Home يعرض: Active users، Key events، Sessions، Purchases لآخر 14 يوماً افتراضياً (قابلة للتغيير)، مع خط اتجاه وخط منقّط للفترة السابقة.
+- Key events = التحويلات = أي إجراء مهم لنشاطك.
+- Sessions = عدد مرات زيارة الموقع.
+- بطاقة «آخر 30 دقيقة» للمستخدمين النشطين، وقسم للرؤى الآلية والمخصصة.
+- Reports Snapshot مشابه لـHome مع بطاقات لأهم الصفحات ومصادر الزيارات والمستخدمين الجدد/العائدين.
+
+### تقارير الوقت الفعلي (Realtime reports)
+
+- بيانات الوقت الفعلي تظهر خلال ثوانٍ وتغطي آخر 30 دقيقة (مع رقم لآخر 5 دقائق).
+- المخطط الشريطي يُقرأ من اليمين (الدقيقة الحالية) إلى اليسار.
+- مفيد للتحقق الفوري من الحملات (مثل حملة بريد إلكتروني) ومن صفحات الهبوط.
+- يعرض: المصدر، الجماهير، الصفحات، الأحداث، الأحداث الرئيسية، خصائص المستخدم.
+- Realtime Pages تقرير مخصص للصفحات مع بحث وتصفّح.
+
+### تقارير الاكتساب (Acquisition reports)
+
+- تقارير الاكتساب = كيف يجد الناس الموقع.
+- Primary channel group يصنّف مصادر الوصول تلقائياً في فئات؛ Medium يوضح طريقة التواصل (cpc، organic، referral...).
+- يمكن تغيير البُعد في أي بطاقة/تقرير، وإضافة بُعد ثانٍ بعلامة (+) مثل Landing Page.
+- النطاق الزمني قابل للتخصيص مع خيار Compare لمقارنة فترتين.
+- User Acquisition = أول مرة للمستخدم؛ Traffic Acquisition = مصدر كل جلسة.
+
+### تقارير التفاعل: الأحداث والصفحات وصفحات الهبوط (Engagement reports)
+
+- Events: كل الأحداث (page_view + أحداث القياس المحسّن + الموصى بها والمخصصة) مع رؤى آلية في الأعلى.
+- Pages and Screens: الصفحات حسب Page Path مرتبة بعدد Views.
+- Landing Page: أول صفحة في الجلسة = نقاط الدخول، مع عدد Key events لكل صفحة هبوط.
+
+### تقارير تحقيق الدخل والتجارة الإلكترونية (Monetization / ecommerce reports)
+
+- Total revenue = قيمة كل الأحداث؛ Purchase revenue = إيرادات معاملات الشراء؛ يتساويان إن لم تُسند قيماً لأحداث غير الشراء.
+- مقاييس المشترين (الإجمالي وأول مرة) مبنية على المستخدم.
+- بطاقات للمنتجات الأعلى، أسماء القوائم، العروض الترويجية، القسائم.
+- تقارير تفصيلية: Ecommerce Purchases، Purchase Journey، Checkout Journey، العروض، Transaction IDs.
+
+### تقارير سمات المستخدم والتقنية (User attributes and technology reports)
+
+- User Attributes: البلد، المدينة، الجنس، الاهتمامات، العمر، اللغة.
+- غياب الجنس/العمر/الاهتمامات = Google Signals غير مفعّل.
+- `(not set)` = غير معروف.
+- Tech: نظام التشغيل، المتصفح، فئة الجهاز، حجم الشاشة؛ Platform = نوع الـData Stream.
+- Library (للمحرر/المسؤول فقط) لتخصيص قائمة التقارير، وهو سبب اختلاف شكل التقارير بين الـProperties.
+
+### تقارير الاستكشاف: التقارير المخصصة والأقماع (Exploration reports)
+
+- Explore يضم: Free Form، Funnel، Path، Segment Overlap، Cohort، User Lifetime، User Exploration (الأخير غير متاح في الحساب التجريبي).
+- بناء التقرير: أضف الأبعاد والمقاييس في العمود الأول (+ ثم Confirm)، ثم ضعها تحت Rows/Values بالنقر المزدوج أو السحب.
+- تقرير الحملات: Session Campaign + (Active Users, Sessions, Key Events) مع فلتر Does not match regex بالقيمة `^\(.*\)$` لاستبعاد (organic) و(direct) و(not set).
+- قمع التحويل: begin_checkout ← add_payment_info ← purchase، مع «is indirectly followed by» الافتراضي ودون مهلة زمنية.
+- خيارات: Open Funnel للدخول من أي خطوة، وTrended Funnel لرؤية الاتجاه عبر الزمن.
+
+### تقارير الإعلانات والإحالة (Advertising reports and attribution)
+
+- تقارير Advertising تتطلب عملياً ربط Google Ads وتتبّع Key events.
+- Key Events مصطلح Analytics؛ Conversions مصطلح Google Ads ويشمل Key events المستوردة + التحويلات المنشأة داخل Google Ads.
+- Key Event Performance: الأحداث الرئيسية لكل قناة، مع إمكانية التركيز على Google Ads.
+- Attribution Paths: تسلسل نقاط التماس قبل التحويل. Attribution Models: مقارنة Last Click مع Data-Driven والفرق بالنسبة المئوية.
+- Budgeting (Overview/Projection/Scenario Planner) للتنبؤ بأثر تغيير الميزانية.
+- Conversion Management يوحّد عرض التحويلات، وAdvertising Segments يبيّن هل حجم القوائم كافٍ لإعادة التسويق.
+
+### استخدام Analytics Advisor: رؤى الذكاء الاصطناعي (Using Analytics Advisor)
+
+- Analytics Advisor = مساعد محادثة بالذكاء الاصطناعي داخل GA، أيقونته أعلى اليمين.
+- اسأله بلغة طبيعية (مثل الأداء سنة بسنة) فيحلل بيانات الـProperty ويعطي ملخصاً.
+- يصلح لأسئلة التقارير والتحليل والتحسين.
+
+### إعداد الأحداث الرئيسية / التحويلات (Configuring key events)
+
+- Admin ← Data Display ← Events: تبويب Key Events وتبويب Recent Events.
+- أحداث تلقائية: first_visit، page_view، session_start؛ قياس محسّن: scroll (90%)، click (خارجي)؛ تجارة: add_to_cart، purchase.
+- تعليم Key Event بالنجمة يتطلب صلاحية Marketer/Editor/Administrator.
+- لا تعلّم page_view كـKey Event؛ لصفحة الشكر أنشئ حدثاً مستقلاً.
+- Create Event: الاسم generate_lead + Mark as key event + Once per event + Create without code + page_view + URL يحتوي thank-you.
+- الظهور فوري في Realtime، و12–24 ساعة في التقارير القياسية.
+
+### إنشاء الجماهير (Creating audiences)
+
+- الجماهير = مجموعات مستخدمين للتقارير ولإعادة التسويق في Google Ads.
+- جمهوران جاهزان: All Users وجمهور المشترين (فارغ إن لم يوجد حدث purchase).
+- جمهور «غير المحوّلين»: Custom Audience ← احذف مجموعة Include ← Add Group to Exclude ← الحدث generate_lead ← Save.
+- إذا لم يُجمع الحدث بعد فاكتب اسمه بدقة واختر Create Event.
+
+### إعدادات إضافية وتهيئة الـProperty (Additional settings and property configuration)
+
+- Comparisons = شرائح على التقارير القياسية؛ Custom Definitions = تسجيل المعاملات كأبعاد/مقاييس مخصصة؛ Channel Groups = تصنيف مخصص للقنوات؛ DebugView = اختبار حي.
+- Property Details للاسم/المنطقة الزمنية/العملة/نقل الـProperty؛ Property Access Management للصلاحيات.
+- فعّل Google Signals من Data Collection (للديموغرافيا ولجماهير Google Ads).
+- اجعل Data Retention = 14 شهراً بدل شهرين.
+- استبعد الزيارات الداخلية عبر Data Filters.
+- Consent Mode ضروري لاستخدام بيانات مستخدمي الاتحاد الأوروبي في استهداف Google Ads.
+- اربط Google Ads وSearch Console من Product Links.
+
+### تثبيت Google Analytics باستخدام Google Tag Manager والخطوات التالية (Installing Google Analytics using Google Tag Manager + Next steps)
+
+- انسخ Measurement ID من Admin ← Data Collection and Modification ← Data Streams ← المصدر.
+- في GTM: Tag جديد من نوع Google Tag، وTag ID عبر متغيّر Constant باسم «GA4 Measurement ID» لإعادة الاستخدام.
+- المشغّل: Initialization - All Pages (كل الصفحات، وقبل الوسوم الأخرى).
+- اختبر بـPreview/Tag Assistant ثم تحقق في DebugView داخل GA.
+- انشر عبر Submit ← تسمية النسخة ← Publish.
+
+---
+
+## الجزء السابع: Google Search Console — الدليل الكامل 2026 (Surfer Academy)
+
+التفاصيل الكاملة: [07-google-search-console.md](07-google-search-console.md)
+
+### مقدمة: ما الذي تفعله Search Console فعلاً (Intro: what Search Console actually does)
+
+- Search Console مجانية، وتزداد أهمية مع تقريري Generative AI وSocial Media/Platform properties الجديدين.
+- الدرس مبني على 12 سيناريو عملياً لا على سرد للميزات.
+- المحاور: إثبات نتائج الـSEO، إصلاح الفهرسة، استخراج الكلمات المفتاحية، رؤية الظهور في الـAI، بيانات backlinks مجانية، والتكامل مع Surfer.
+
+### إعداد Search Console: Domain مقابل URL Prefix (Setting up Search Console — domain vs URL prefix)
+
+- Add property ← Domain ← Continue ← انسخ TXT record ← الصقه في إعدادات DNS لدى مسجّل النطاق ← Verify.
+- Domain يغطي كل النطاقات الفرعية والبروتوكولات، ومقابله اشتراط التحقق عبر DNS.
+- فشل التحقق فوراً طبيعي؛ استخدم Verify later وعُد غداً.
+
+### جولة عامة على الواجهة (High-level tour of the interface)
+
+- Performance = قلب الأداة (الاستعلامات + Generative AI + Discover + Google News).
+- Indexing = هل الصفحات مفهرسة (Pages / Videos / Sitemaps / Removals).
+- Experience = Core Web Vitals وHTTPS؛ Shopping/Enhancements = أهلية rich results.
+- Security & Manual Actions يجب أن يبقى فارغاً؛ Links للروابط؛ Settings للصلاحيات وتقارير الزحف.
+- شريط URL inspection أعلى الصفحة لفحص صفحة واحدة وطلب إعادة الزحف.
+
+### السيناريو 1: قراءة أدائك العام في البحث (Scenario 1: Reading your overall search performance)
+
+- المسار: Performance → Search results.
+- فعّل المقاييس الأربعة، واختر المدى (24 ساعة–16 شهراً)، وقارن آخر 3 أشهر بالفترة السابقة.
+- الرسم = الاتجاه، Queries = ماذا يُكتب، Pages = أي الصفحات تجلب الزيارات.
+- Surfer (اختياري) يراقب التراجعات وينبّه عند هبوط خلال 7 أيام.
+
+### السيناريو 2: صفحتي لا تظهر في Google (Scenario 2: My page isn't showing up on Google)
+
+- URL inspection: يُظهر حالة الفهرسة وآخر زحف وسبب الحجب.
+- Discovered = لم يُزحف بعد (ساعِده بروابط داخلية). Crawled = زُحف ورُفض مؤقتاً (جودة/تشابه، أو موقع صغير يحتاج صبراً وسلطة).
+- Request indexing له حصة يومية وليس فورياً ولا مضموناً.
+- Indexing → Pages يعرض غير المفهرس مجمّعاً حسب السبب.
+- صفحات هبوط الإعلانات وصفحات الشكر والبحث الداخلي وstaging يُفضَّل أن تكون `noindex`/محجوبة — وهذا ليس خطأ.
+
+### السيناريو 3: تتبّع ترتيب صفحة واحدة أو كلمة مفتاحية واحدة (Scenario 3: Tracking a single page or keyword's ranking)
+
+- فلتر Page + رابط دقيق + Average position = سجل ترتيب الصفحة حتى 16 شهراً.
+- فلتر Query + Exact query = تتبّع كلمة واحدة.
+- Compare (3 أشهر مقابل 3 أشهر) يعطي مقدار التحرك رقماً.
+- المتوسط اتجاه لا ترتيب دقيق؛ تجاهل تذبذب الكلمات قليلة الظهور؛ ركّز على non-branded.
+
+### السيناريو 4: إثبات النمو العضوي بفلاتر regex لغير العلامة (Scenario 4: Proving organic growth with non-branded regex filters)
+
+- النقرات الخام مضلِّلة لأنها تمزج بحث العلامة ببحث غيرها.
+- Query filter → Custom (regex) → Doesn't match regex → مصطلحات العلامة مفصولة بـ`|`.
+- أضف Compare (آخر 3 أشهر مقابل السابقة) لإثبات النمو أو التراجع المكتسَب بالمحتوى.
+- branded search نفسه مقياس مهم في عصر الـAI، لكنه يُتتبَّع منفصلاً.
+
+### السيناريو 5: هبطت زياراتي ولا أعرف السبب (Scenario 5: My traffic dropped and I don't know why)
+
+- Compare يغطي فترة الهبوط (مثال: 6 أشهر مقابل السابقة) ← فرز Clicks Difference تصاعدياً ← الخاسرون في الأعلى.
+- ابحث عن القاسم المشترك: cluster، نوع الصفحة، thin content، cannibalization.
+- إن لم يوجد قاسم، فالأرجح أن الـSERP أو نية البحث تغيّرت والمحتوى يحتاج إعادة تحسين.
+
+### السيناريو 6: إيجاد أفضل كلمة مفتاحية لصفحة كتبتَها مسبقاً (Scenario 6: Finding the best keyword for a page you already wrote)
+
+- فلتر Page ← تبويب Queries ← قارن الكلمة المستهدفة في H1/title بالكلمة التي تجلب نقرات أكثر.
+- مثال: 3 نقرات للكلمة المستهدفة مقابل 19 لكلمة أخرى ← أعد توجيه الصفحة نحو الثانية.
+- إعادة الاستهداف يدوياً ممكنة لكنها بطيئة؛ المدرّب يستخدم Content Editor في Surfer.
+
+### السيناريو 7: استخراج الأسئلة لمحتوى FAQ (Scenario 7: Mining questions for FAQ content)
+
+- Query filter → Custom (regex) → نمط كلمات الاستفهام (who / what / when / where / why / how / can / does).
+- القائمة = أسئلة يظهر لها موقعك دون أن يجيب عنها مباشرة.
+- عالجها بقسم FAQ في صفحة قائمة أو بمقال مستقل.
+- هذه الإجابات المباشرة هي نفسها ما سيُسمّى لاحقاً «AI magnets».
+
+### السيناريو 8: بيانات backlinks مجانية في تقرير Links (Scenario 8: Free backlink data in the Links report)
+
+- Links (أسفل الشريط الجانبي): most linked pages، عدد الروابط الداخلية، المواقع الرابطة، وتفصيل لكل صفحة.
+- استخدمه لتحديد الصفحات ذات السلطة ثم اربط منها داخلياً إلى الصفحات الاستراتيجية الجديدة.
+- لا يعطي بيانات منافسين ولا جودة روابط.
+
+### السيناريو 9: فيديوهاتي ليست في Google + خصائص المنصات الجديدة (Scenario 9: My videos aren't in Google + new platform properties)
+
+- Indexing → Videos يبيّن الفيديوهات المفهرسة وأسباب عدم فهرسة البقية.
+- السبب الأشهر: Video isn't on a watch page — الفيديو يجب أن يكون محور الصفحة وأعلاها.
+- الصفحة قد تترتّب دون الفيديو، لكن تخسر نتائج الفيديو والـthumbnails وتبويب الفيديو.
+- Platform properties (أُعلنت يوليو 2026 بحسب المدرّب): إضافة Instagram/TikTok/X/YouTube كـproperties؛ الطرح تدريجي.
+
+### السيناريو 10: كيف يترتّب محتواي الاجتماعي في Google؟ — تقريرا Discover وGoogle News (Scenario 10: How does my social content rank in Google?)
+
+- Discover = feed في تطبيق Google يدفع المحتوى بحسب الاهتمامات، بلا استعلامات.
+- التقرير يعرض pages وimpressions فقط؛ Google News مثله.
+- المحتوى الآني/البصري/القوائم قد يجلب من Discover أكثر من البحث.
+
+### السيناريو 11: الترتيب ثابت والنقرات تهبط — تقرير Generative AI (Scenario 11: Rankings held, clicks fell — the Generative AI report)
+
+- ترتيب ثابت + CTR هابط = إما snippet باهت (أعد كتابة title/meta description) أو AI Overview فوقك.
+- تقرير Generative AI (beta، يونيو 2026 بحسب المدرّب): impressions حسب page/country/device، بلا clicks ولا position حالياً.
+- AI impressions مرتفعة على صفحة تخسر نقرات = خسارة نقرة لا خسارة ترتيب.
+
+### إيجاد «مغناطيسات الـAI» (Finding your AI magnets)
+
+- رتّب تقرير Generative AI حسب impressions لتعرف صفحاتك المفضّلة لدى الـAI، ثم كرّر بنيتها (إجابات مباشرة منظمة).
+- يوجد toggle للخروج من AI Overviews/AI Mode دون أثر على الترتيب العادي؛ المدرّب لا ينصح به، وراجع التقرير قبل تفعيله.
+- التقرير لا يغطي إلا Google، ولا يعطي مضمون الإجابة ولا نقرات.
+
+### السيناريو 12: تحديد المحتوى الذي تنشئه لاحقاً (Scenario 12: Deciding what content to create next)
+
+- Performance → Export إلى Google Sheets (حد 1000 صف) + sitemap XML ← اسأل Claude/ChatGPT عن الفجوات.
+- الناتج: كلمات تظهر لها دون صفحة مخصّصة = أولويات المحتوى القادم.
+- Recommendations في Surfer تؤتمت ذلك وتضيف search volume وkeyword difficulty وتغطية المنافسين.
+
+### الخاتمة (Wrap-up)
+
+- Search Console تكفي مجاناً لتشخيص الأداء، الفهرسة، الترتيب، الروابط، الفيديو، Discover، والظهور في AI.
+- فلاتر regex (استبعاد العلامة، كلمات الاستفهام) وCompare هما أقوى أداتين تحليليتين في الدرس.
+- Surfer يُطرح طوال الدرس كطبقة مكمّلة (مراقبة، تقارير، Content Editor، Internal Linking، AI Tracker، Recommendations).
+
+---
+
+## الجزء الثامن: Google Tag Manager للمبتدئين 2026 (Analytics Mania)
+
+التفاصيل الكاملة: [08-google-tag-manager-beginners.md](08-google-tag-manager-beginners.md)
+
+### مقدمة وما هو Google Tag Manager؟ (Intro / What is GTM?)
+
+- GTM أداة لإدارة أكواد التتبع على الموقع من مكان واحد دون الرجوع إلى المطوّر في كل مرة.
+- الطريقة القديمة: مطوّر يضيف كل كود يدوياً ← أسئلة كثيرة، مراسلات، وانتظار أيام أو أسابيع.
+- طريقة GTM: المطوّر يركّب GTM مرة واحدة، ثم أنت تدير الأكواد وشروط تفعيلها من الواجهة.
+- الفوائد الأربع: مكان واحد، اعتماد أقل على المطوّرين (لا استغناء كامل)، السرعة، الشعبية ووفرة المصادر.
+- الارتباك في البداية طبيعي.
+
+### إنشاء الحساب والحاوية (Create an account and container)
+
+- الرابط: tagmanager.google.com، ويلزم حساب Google.
+- Account = شركة؛ Container = وعاء أكواد التتبع (غالباً لكل موقع حاوية).
+- مواقع مختلفة البنية والأكواد ← حاويات منفصلة؛ ويمكن حاوية واحدة لعدة مواقع إن كان ذلك منطقياً.
+- نوع الحاوية لتتبع المواقع: Web.
+- بعد الإنشاء يظهر كود الحاوية المطلوب تركيبه على الموقع.
+
+### نظرة عامة على الحساب والواجهة (Account overview)
+
+- Workspace: مكان العمل اليومي (Tags / Triggers / Variables / Folders / Templates).
+- القالب = واجهة حقول بدل الكود الخام؛ معرض القوالب (Gallery) يضيف قوالب المجتمع مثل Facebook/Meta Pixel؛ وإن لم يوجد قالب فاستخدم Custom HTML.
+- Container quality يعطي تحذيرات مفيدة (مع احتمال إنذارات كاذبة).
+- كل نشر = إصدار جديد، ويمكن التراجع عبر Versions ← ⋮ ← Publish.
+- Admin: مستخدمون (حساب/حاوية)، كود الحاوية، Export/Import لنسخ الإعداد بين الحاويات.
+- الدورة: تغيير ← Preview ← Submit/Publish.
+
+### تركيب GTM على الموقع (Install GTM)
+
+- GTM «بوابة» تُفعَّل عبرها أكواد التتبع حسب قواعدك.
+- كودان: الأول في الـ head (أساسي، والأفضل قبل `</head>` مباشرة)، والثاني بعد `<body>` الافتتاحي (اختياري، يفيد مثلاً في تحقق Search Console).
+- وضع الكود الأول في الـ body مقبول تقنياً إن اضطررت.
+- يجب أن يكون الكود على كل الصفحات.
+- ثلاث حالات: موقع مخصص (تعديل الكود)، منصة لها إضافة (مثل Google Tag Manager for WordPress وإدخال Container ID)، أو حقل كود مخصص في الإعدادات.
+- التحقق: Preview ← URL ← Connect ← يجب ظهور «connected» وخمسة أحداث على الأقل.
+- ثبّت إضافة Tag Assistant Companion.
+
+### ما هي الـ Tags والـ Triggers والـ Variables؟ (What are tags, triggers, and variables?)
+
+- Tag = ماذا (الكود الذي يُنفَّذ)، Trigger = متى (الشروط)، Variable = التفاصيل الدقيقة.
+- الوسوم ليست بالضرورة أكواد تتبع؛ قد تكون أي مقطع كود.
+- مثال: Google Ads Conversion Tag يُطلق عندما Page URL contains «purchase successful»، ويرسل order total.
+- المتغيرات تُستخدم في المشغِّلات (شروط) وفي الوسوم (قيم).
+
+### مقدمة سريعة إلى GA4 (Quick GA4 introduction)
+
+- GA4 يحلل سلوك المستخدمين على المواقع والتطبيقات؛ معظم العمل في Reports و Explore.
+- مصادر الزيارات: Acquisition ← Traffic acquisition (ويُفضَّل Session source / medium).
+- Key event = الاسم الجديد لـ Conversion.
+- الصفحات: Engagement ← Pages and screens؛ وصفحات الهبوط في تقرير Landing page.
+- الرسم البياني: خمسة مصادر افتراضياً + خط منقّط للإجمالي؛ استخدم Plot rows لرسم صفوف محددة.
+- Explore: Free form، Funnel exploration، Path exploration؛ القمع يُبنى من أحداث مثل view_item ← add_to_cart ← begin_checkout ← purchase.
+- أحداث التجارة الإلكترونية لا تُتتبَّع تلقائياً. القيمة المجهولة تظهر (not set).
+
+### الوسوم: تركيب GA4 عبر GTM (Tags)
+
+- هيكل GA4: Account (شركة) ← Property ← Data stream (Web) ← Measurement ID.
+- Business objectives تؤثر في التقارير الظاهرة؛ المدرّب يختار Other.
+- في GTM: Tags ← New ← Google Analytics ← Google Tag ← Tag ID = Measurement ID.
+- المشغِّل: Initialization - All Pages (أبكر من All Pages)، لأن Google Tag يجب أن يسبق كل وسوم GA4 الأخرى.
+- اسم الوسم في المثال: GA4 config.
+
+### اختبار الوسوم (Testing tags)
+
+- الاختبار خطوتان: (1) الوسم أُطلق في Preview/Tag Assistant، (2) البيانات وصلت إلى الوجهة (DebugView في GA4).
+- خمس مراحل تحميل: Consent Initialization، Initialization، Container Loaded، DOM Ready، Window Loaded.
+- انقر الوسم لترى شروط الإطلاق؛ بدّل إلى Values لرؤية القيم (`gtm.init` equals `gtm.init`).
+- «Unknown tag type» علّة عرض فقط.
+- تبويب Console يساعد في تشخيص وسم فشل.
+- DebugView قد يتأخر في الخصائص الجديدة: أعد التحميل وانتظر.
+- أحداث تلقائية ظهرت: first_visit، session_start، page_view (مع page_location و page_title).
+
+### نشر الوسوم (Publish tags)
+
+- المعاينة لك وحدك؛ الزوار لا يرون التغييرات إلا بعد Submit/Publish.
+- سمِّ كل إصدار باسم/وصف مختصر (مثل «installed GA4»).
+- Live = ما يراه الزوار؛ Latest = ما تعمل عليه في Workspace.
+- التراجع: Versions ← ⋮ ← Publish للإصدار السابق؛ و Set as Latest Version لجعل عناصره أساس العمل.
+- كل نشر = إصدار جديد.
+
+### تنفيذ السكربتات المخصصة والقوالب (Implementing custom scripts)
+
+- Facebook/Meta Pixel غير موجود في القوالب المضمّنة؛ أضفه من Community Template Gallery (Templates ← Search Gallery ← Add to workspace) فيظهر تحت Custom.
+- Custom HTML: كود JavaScript محاط بـ `<script>`.
+- All Pages = الإطلاق عند Container Loaded.
+- لا تلصق كوداً غير مختبَر (من الإنترنت أو AI)؛ قد يكسر الموقع.
+- عناصر الواجهة (شرائط، ودجات محادثة) الأفضل أن يضيفها المطوّر في كود الموقع؛ GTM قد يُحجب بموانع الإعلانات، فاستخدامه هنا حل مؤقت.
+- الوسوم = أكواد تفعل شيئاً، وليس بالضرورة تتبعاً.
+
+### مقدمة إلى تتبع الأحداث في GA4 (GA4 event tracking introduction)
+
+- أربعة أنواع أحداث: تلقائية، Enhanced measurement، Recommended، Custom.
+- Enhanced measurement: Admin ← Data streams ← التدفق ← أيقونة الترس؛ التمرير يُسجَّل عند 90% (المعامل percent_scrolled).
+- المدرّب يعطّل Form interactions لعدم دقته.
+- أحداث المبيعات يجب أن تحمل الأسماء الرسمية (purchase، add_to_cart، view_item) وإلا لن تُملأ مقاييس الإيرادات؛ currency معامل مطلوب مع purchase.
+- الأحداث المخصصة: lowercase و underscores (مثل booking_confirmation).
+- البيانات تظهر في Engagement ← Events وفي عمود Event count؛ المعالجة 24–48 ساعة.
+
+### المشغِّلات (Triggers)
+
+- أنواع المشغِّلات: مراحل تحميل الصفحة الخمس، النقر (Just Links / All Elements)، Element Visibility، Form Submission، Scroll Depth، YouTube Video، Custom Event، تغيّر الرابط، أخطاء JavaScript، Timer، Trigger Group.
+- Form Submission غير موثوق؛ البدائل: Element Visibility أو Page View مع Page URL contains «thank you».
+- Timer يُصفَّر مع كل تحميل صفحة؛ Trigger Group يدمج شروطاً (مثل 30 ثانية + 50% تمرير).
+- إنشاء مشغِّل نقر يجعل بيانات النقرة تظهر في Data Layer، لكن لاستخدامها يجب تفعيل المتغيرات المضمّنة: Variables ← Built-In Variables ← Configure ← كل متغيرات Click.
+- بعد أي تغيير حدّث Preview.
+
+### تتبع الأحداث مع GA4 والكلمة الختامية (Event tracking with GA4 / Final Words)
+
+- لا تربط وسماً بمشغِّل عام؛ ضيّقه بقاسم مشترك (Click Classes) عبر Some Link Clicks.
+- لكل حدث وسم GA4 Event: Measurement ID + Event Name (مثل menu_link_click) + معاملات.
+- أعد استخدام أسماء معاملات Enhanced measurement (link_text، link_url) لأن GA يتعرف عليها.
+- القيم ديناميكية بالمتغيرات ({{Click Text}}، {{Click URL}}) لا نصوصاً ثابتة.
+- حدث Link Click يظهر في المعاينة مع كل نقرة؛ العبرة بإطلاق الوسم لا بظهور الحدث.
+- اختبر مرتين: Preview ثم DebugView (Admin ← Data display ← DebugView)، مع توقع تأخير أحياناً.
+- التحليل: Explore ← Blank؛ أبعاد Link URL و Link text و Event name، مقياس Event count، فلتر Event name exactly matches، وانتبه للنطاق الزمني (28 يوماً افتراضياً).
+- الدرس يغطي ~10% مما يحتاجه المبتدئ في GTM بحسب المدرّب.

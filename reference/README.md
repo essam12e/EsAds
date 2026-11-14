@@ -1,8 +1,8 @@
 # المرجع الشامل لإنشاء الإعلانات — Google Ads وإعلانات السوشيال ميديا
 
-مرجع عربي تفصيلي لكيفية إنشاء الحملات الإعلانية وإدارتها على Google (Search, Performance Max, Demand Gen, Display, YouTube, Shopping, App) وعلى منصات التواصل (Facebook/Meta, Instagram, YouTube, LinkedIn, X)، مع التتبع والقياس (Google Tag Manager, GA4, Meta Pixel) والنمو العضوي وكتابة النصوص الإعلانية.
+مرجع عربي تفصيلي لكيفية إنشاء الحملات الإعلانية وإدارتها على Google (Search, Performance Max, Demand Gen, Display, YouTube, Shopping, App) وعلى منصات التواصل (Facebook/Meta, Instagram, YouTube, LinkedIn, X)، مع التتبع والقياس (Google Tag Manager, GA4, Meta Pixel)، وإعداد Google Merchant Center، وتحليل الأداء العضوي عبر Google Search Console، والنمو العضوي وكتابة النصوص الإعلانية.
 
-المرجع مستخرج بالكامل من عشرة دروس على يوتيوب (نحو 18.8 ساعة)، وحجمه نحو 95,838 كلمة.
+المرجع مستخرج بالكامل من أربعة عشر درساً على يوتيوب (نحو 22.6 ساعة)، وحجمه نحو 125,422 كلمة.
 
 ## ملفات المرجع
 
@@ -12,6 +12,10 @@
 | [الجزء الثاني: دورة Google Ads للمبتدئين — إعداد خطوة بخطوة (D2C by Nikhil)](02-google-ads-beginners-d2c.md) | Complete Google Ads Course for Beginners (2026) | Step-by-Step Setup | D2C Decoded By Nikhil | 01:06:42 | هندي/إنجليزي | 8,065 |
 | [الجزء الثالث: سلسلة Google Ads Tutorial في 7 دروس (Loves Data)](03-google-ads-tutorial-loves-data.md) | Google Ads Tutorial (Parts 1–7) | Loves Data | 01:14:47 إجمالاً | إنجليزي | 6,883 |
 | [الجزء الرابع: دورة التسويق عبر السوشيال ميديا 2026 — العضوي والإعلانات المدفوعة (Piyush Sachdeva)](04-social-media-marketing-full-course.md) | Social Media Marketing Full Course 2026 with AI | Piyush Sachdeva | 08:27:20 | هندي/إنجليزي | 40,003 |
+| [الجزء الخامس: Google Merchant Center — الدليل الكامل 2026 (KeyCommerce)](05-google-merchant-center.md) | The Only Google Merchant Center Tutorial You Need in 2026 | KeyCommerce | 01:08:51 | إنجليزي | 7,460 |
+| [الجزء السادس: Google Analytics 4 — الدرس الكامل 2026 (Loves Data)](06-google-analytics-4-loves-data.md) | Google Analytics 4 Tutorial (2026) | Loves Data | 01:01:34 | إنجليزي | 7,332 |
+| [الجزء السابع: Google Search Console — الدليل الكامل 2026 (Surfer Academy)](07-google-search-console.md) | Google Search Console Tutorial (2026): The Complete Guide | Surfer Academy | 00:30:14 | إنجليزي | 5,621 |
+| [الجزء الثامن: Google Tag Manager للمبتدئين 2026 (Analytics Mania)](08-google-tag-manager-beginners.md) | Google Tag Manager tutorial for beginners (2026) || GTM Course | Analytics Mania | 01:08:36 | إنجليزي | 9,171 |
 
 للمراجعة السريعة: [00-quick-summaries.md](00-quick-summaries.md) يجمع «الخلاصة السريعة» لكل فصل في ملف واحد.
 
@@ -21,11 +25,15 @@
 - Complete Google Ads Course for Beginners (2026) | Step-by-Step Setup — D2C Decoded By Nikhil: https://youtu.be/V03pdF3P4QM
 - Google Ads Tutorial (Parts 1–7) — Loves Data: https://youtube.com/playlist?list=PL1vNrn711L8SBV2eAXq0UL4pMCS_AGV7i
 - Social Media Marketing Full Course 2026 with AI — Piyush Sachdeva: https://youtu.be/d5pVjv1KYVw
+- The Only Google Merchant Center Tutorial You Need in 2026 — KeyCommerce: https://youtu.be/Z_oy0Qpr83g
+- Google Analytics 4 Tutorial (2026) — Loves Data: https://youtu.be/YCCWXp408h0
+- Google Search Console Tutorial (2026): The Complete Guide — Surfer Academy: https://youtu.be/93uhFZ_9IzY
+- Google Tag Manager tutorial for beginners (2026) || GTM Course — Analytics Mania: https://youtu.be/hc4EOTiCpA4
 
 ## كيف أُعدّ هذا المرجع وما حدوده
 
 - **المصدر:** التفريغ النصي الآلي (captions) الذي يولّده يوتيوب لكل درس. لم تُشاهَد الصورة، لذلك ما ظهر على الشاشة فقط ولم يُنطق (أرقام في لوحة، نص زر لم يُقرأ) غير موجود في المرجع.
-- **اللغة:** ثلاثة دروس بالهندية المخلوطة بالإنجليزية ونُقلت إلى العربية؛ سلسلة Loves Data بالإنجليزية.
+- **اللغة:** ثلاثة دروس بالهندية المخلوطة بالإنجليزية (دورتا Piyush Sachdeva ودورة Nikhil) ونُقلت إلى العربية؛ بقية الدروس بالإنجليزية. درسا GA4 (Loves Data) وSearch Console لهما ترجمة مكتوبة يدوياً فتفريغهما أدق من التفريغ الآلي.
 - **«(غير واضح في التفريغ)»:** توضع حيث لم يكفِ التفريغ الآلي للجزم بكلمة أو رقم أو اسم، بدل التخمين.
 - **«ملاحظة تحقق»:** توضع حيث قال المدرّب شيئاً غير دقيق أو قديماً؛ يُنقل قوله كما هو ثم يُذكر التصحيح.
 - **⏱ الطوابع الزمنية:** تشير إلى موضع الشرح في الفيديو للرجوع إليه.
@@ -99,3 +107,69 @@
 15. إعلانات لينكدإن (LinkedIn Ads) — الدليل الكامل
 16. إعلانات إكس / تويتر (X Ads)
 17. رسالة مهمة (Important Message)
+
+### [الجزء الخامس: Google Merchant Center — الدليل الكامل 2026 (KeyCommerce)](05-google-merchant-center.md)
+
+1. مقدمة الدورة المصغّرة (Intro)
+2. متطلبات الموقع قبل إنشاء الحساب (Website Requirements Before You Create an Account)
+3. ما هو Google Merchant Center وكيف تُعدّه (What Is GMC & How to Set It Up)
+4. إضافة معلومات نشاطك التجاري (Adding Your Business Information)
+5. كيف تطالب بملكية موقعك وتتحقق منه (How to Claim & Verify Your Website)
+6. ربط Shopify بـ GMC (Connecting Shopify to GMC)
+7. تحسين بيانات المنتج والخلاصة (Optimizing Your Product Data & Feed)
+8. كيف تحل تعليق حساب GMC (How to Resolve a GMC Suspension)
+
+### [الجزء السادس: Google Analytics 4 — الدرس الكامل 2026 (Loves Data)](06-google-analytics-4-loves-data.md)
+
+1. المقدمة وإنشاء حساب وموقع (Property) في Google Analytics (Introduction + Create a Google Analytics account and property)
+2. إنشاء مصدر بيانات ويب والقياس المحسّن (Create a web data stream and enhanced measurement)
+3. نظرة عامة على واجهة Google Analytics (Google Analytics interface overview)
+4. تقرير الصفحة الرئيسية ولقطة التقارير (Home and snapshot reports)
+5. تقارير الوقت الفعلي (Realtime reports)
+6. تقارير الاكتساب (Acquisition reports)
+7. تقارير التفاعل: الأحداث والصفحات وصفحات الهبوط (Engagement reports)
+8. تقارير تحقيق الدخل والتجارة الإلكترونية (Monetization / ecommerce reports)
+9. تقارير سمات المستخدم والتقنية (User attributes and technology reports)
+10. تقارير الاستكشاف: التقارير المخصصة والأقماع (Exploration reports)
+11. تقارير الإعلانات والإحالة (Advertising reports and attribution)
+12. استخدام Analytics Advisor: رؤى الذكاء الاصطناعي (Using Analytics Advisor)
+13. إعداد الأحداث الرئيسية / التحويلات (Configuring key events)
+14. إنشاء الجماهير (Creating audiences)
+15. إعدادات إضافية وتهيئة الـProperty (Additional settings and property configuration)
+16. تثبيت Google Analytics باستخدام Google Tag Manager والخطوات التالية (Installing Google Analytics using Google Tag Manager + Next steps)
+
+### [الجزء السابع: Google Search Console — الدليل الكامل 2026 (Surfer Academy)](07-google-search-console.md)
+
+1. مقدمة: ما الذي تفعله Search Console فعلاً (Intro: what Search Console actually does)
+2. إعداد Search Console: Domain مقابل URL Prefix (Setting up Search Console — domain vs URL prefix)
+3. جولة عامة على الواجهة (High-level tour of the interface)
+4. السيناريو 1: قراءة أدائك العام في البحث (Scenario 1: Reading your overall search performance)
+5. السيناريو 2: صفحتي لا تظهر في Google (Scenario 2: My page isn't showing up on Google)
+6. السيناريو 3: تتبّع ترتيب صفحة واحدة أو كلمة مفتاحية واحدة (Scenario 3: Tracking a single page or keyword's ranking)
+7. السيناريو 4: إثبات النمو العضوي بفلاتر regex لغير العلامة (Scenario 4: Proving organic growth with non-branded regex filters)
+8. السيناريو 5: هبطت زياراتي ولا أعرف السبب (Scenario 5: My traffic dropped and I don't know why)
+9. السيناريو 6: إيجاد أفضل كلمة مفتاحية لصفحة كتبتَها مسبقاً (Scenario 6: Finding the best keyword for a page you already wrote)
+10. السيناريو 7: استخراج الأسئلة لمحتوى FAQ (Scenario 7: Mining questions for FAQ content)
+11. السيناريو 8: بيانات backlinks مجانية في تقرير Links (Scenario 8: Free backlink data in the Links report)
+12. السيناريو 9: فيديوهاتي ليست في Google + خصائص المنصات الجديدة (Scenario 9: My videos aren't in Google + new platform properties)
+13. السيناريو 10: كيف يترتّب محتواي الاجتماعي في Google؟ — تقريرا Discover وGoogle News (Scenario 10: How does my social content rank in Google?)
+14. السيناريو 11: الترتيب ثابت والنقرات تهبط — تقرير Generative AI (Scenario 11: Rankings held, clicks fell — the Generative AI report)
+15. إيجاد «مغناطيسات الـAI» (Finding your AI magnets)
+16. السيناريو 12: تحديد المحتوى الذي تنشئه لاحقاً (Scenario 12: Deciding what content to create next)
+17. الخاتمة (Wrap-up)
+
+### [الجزء الثامن: Google Tag Manager للمبتدئين 2026 (Analytics Mania)](08-google-tag-manager-beginners.md)
+
+1. مقدمة وما هو Google Tag Manager؟ (Intro / What is GTM?)
+2. إنشاء الحساب والحاوية (Create an account and container)
+3. نظرة عامة على الحساب والواجهة (Account overview)
+4. تركيب GTM على الموقع (Install GTM)
+5. ما هي الـ Tags والـ Triggers والـ Variables؟ (What are tags, triggers, and variables?)
+6. مقدمة سريعة إلى GA4 (Quick GA4 introduction)
+7. الوسوم: تركيب GA4 عبر GTM (Tags)
+8. اختبار الوسوم (Testing tags)
+9. نشر الوسوم (Publish tags)
+10. تنفيذ السكربتات المخصصة والقوالب (Implementing custom scripts)
+11. مقدمة إلى تتبع الأحداث في GA4 (GA4 event tracking introduction)
+12. المشغِّلات (Triggers)
+13. تتبع الأحداث مع GA4 والكلمة الختامية (Event tracking with GA4 / Final Words)
