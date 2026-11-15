@@ -1,0 +1,31 @@
+{
+  "slides": [
+    { "type": "idea", "title": "أين ترى نتيجة التتبع؟", "text": "في GA4 قسمان أساسيان: Reports لتقارير جاهزة عن الزيارات والصفحات والأحداث، و Explore لتقارير تبنيها أنت.", "visual": "analytics-report" },
+    { "type": "cards", "title": "التقارير الجاهزة الأهم", "cards": [
+      { "title": "Traffic acquisition", "text": "مصادر الزيارات، والأفضل عرضها بالبُعد Session source / medium." },
+      { "title": "Pages and screens", "text": "عدد المشاهدات والمستخدمين لكل صفحة." },
+      { "title": "Landing page", "text": "أول صفحة في كل جلسة، أي أين يهبط الزوار." },
+      { "title": "Events", "text": "قائمة كل الأحداث وعددها، ومنها أحداثك المخصصة." }
+    ] },
+    { "type": "steps", "title": "ابنِ قمع الشراء", "steps": [
+      { "do": "افتح استكشاف القمع وانقر أيقونة القلم.", "ui": ["Explore", "Funnel exploration", "Steps"] },
+      { "do": "احذف الخطوات الموجودة." },
+      { "do": "أضف بالترتيب: view_item ثم add_to_cart ثم begin_checkout ثم purchase.", "ui": ["Apply"], "note": "يعمل فقط إذا وصلت أحداث التجارة الإلكترونية إلى GA4." }
+    ] },
+    { "type": "steps", "title": "تقرير لحدثك المخصص", "steps": [
+      { "do": "افتح تقريراً فارغاً.", "ui": ["Explore", "Blank"] },
+      { "do": "أضف الأبعاد Link URL و Link text و Event name.", "ui": ["Dimensions", "+", "Confirm"] },
+      { "do": "أضف المقياس Event count.", "ui": ["Metrics", "+", "Confirm"] },
+      { "do": "انقر نقراً مزدوجاً على البُعدين والمقياس لإضافتها إلى الجدول." },
+      { "do": "احصر التقرير في اسم حدثك، مثل menu_link_click.", "ui": ["Filters", "Event name", "exactly matches", "Apply"] }
+    ] },
+    { "type": "compare", "title": "إذا لم تظهر بيانات", "columns": ["السبب", "الحل"], "rows": [
+      ["الوقت", "لم تمر 24 ساعة", "انتظر 24 إلى 48 ساعة"],
+      ["النطاق الزمني", "الافتراضي آخر 28 يوماً", "غيّره ليشمل فترة الأحداث"],
+      ["الفلتر", "الاسم لا يطابق المرسَل", "انسخه حرفياً من وسم GTM"],
+      ["النشر", "الحاوية لم تُنشر", "انشر الحاوية"]
+    ] },
+    { "type": "quiz", "title": "اختبر فهمك", "question": "ما الاسم الحالي لما كان يسمى Conversions في GA4؟", "options": ["Event count", "Key events", "Sessions"], "answer": 1, "why": "Key events هي الأحداث المهمة لنشاطك، وكانت تسمى سابقاً Conversions." },
+    { "type": "checklist", "title": "قبل أن تنتقل", "items": ["أعرف أين أجد تقرير مصادر الزيارات.", "أعرف أين أجد تقريري الصفحات والأحداث.", "بنيت تقريراً لحدثي المخصص في Explore.", "أنتبه للنطاق الزمني ومهلة المعالجة."] }
+  ]
+}

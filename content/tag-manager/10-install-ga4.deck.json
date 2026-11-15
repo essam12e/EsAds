@@ -1,0 +1,28 @@
+{
+  "slides": [
+    { "type": "idea", "title": "GA4 بمعرّف قياس ووسم واحد", "text": "Google Analytics 4 يحلل سلوك زوار متجرك. تثبيته عبر GTM لا يتطلب لمس كود المتجر.", "visual": "analytics-report" },
+    { "type": "cards", "title": "هيكل GA4", "cards": [
+      { "title": "Account", "text": "يمثل النشاط التجاري، مثل حساب GTM." },
+      { "title": "Property", "text": "تحت الحساب، وتُستخدم لموقع واحد." },
+      { "title": "Data stream", "text": "المكان الذي تُجمع فيه بيانات الموقع." },
+      { "title": "Measurement ID", "text": "المعرّف الذي يربط وسم GTM بتدفق البيانات." }
+    ] },
+    { "type": "steps", "title": "أنشئ الخاصية وانسخ المعرّف", "steps": [
+      { "do": "افتح analytics.google.com وأنشئ خاصية.", "ui": ["Admin", "Create", "Property"] },
+      { "do": "اكتب الاسم واختر المنطقة الزمنية والعملة.", "ui": ["Property name", "Reporting time zone", "Currency"] },
+      { "do": "اختر المنصة وأدخل رابط المتجر واسم التدفق.", "ui": ["Web", "Stream name"], "note": "اترك Enhanced measurement مفعّلاً." },
+      { "do": "أنشئ التدفق، أغلق نافذة الكود، وانسخ المعرّف.", "ui": ["Create & continue", "Measurement ID"] }
+    ] },
+    { "type": "steps", "title": "أضف الوسم واختبره وانشره", "steps": [
+      { "do": "أنشئ وسم Google Tag.", "ui": ["Tags", "New", "Google Analytics", "Google Tag"] },
+      { "do": "الصق معرّف القياس.", "ui": ["Tag ID"] },
+      { "do": "اختر مشغّل التهيئة وسمِّ الوسم GA4 config.", "ui": ["Triggering", "Initialization - All Pages", "Save"] },
+      { "do": "تأكد في المعاينة من حالة Succeeded عند حدث Initialization.", "ui": ["Preview", "Connect"] },
+      { "do": "تأكد من ظهور page_view في GA4.", "ui": ["Admin", "Data display", "DebugView"] },
+      { "do": "انشر الحاوية.", "ui": ["Submit", "Publish"] }
+    ] },
+    { "type": "dosdonts", "title": "تجنّب هذه الأخطاء", "do": ["اجعل Google Tag أول وسم Google Analytics يُطلق.", "تابع تقرير Realtime بعد النشر."], "dont": ["لا تثبّت كود GA4 في المتجر وعبر GTM معاً.", "لا تقلق من رسالة Data collection is pending."] },
+    { "type": "quiz", "title": "اختبر فهمك", "question": "أي مشغّل تختار لوسم Google Tag؟", "options": ["All Pages", "Initialization - All Pages", "DOM Ready"], "answer": 1, "why": "يُطلق أبكر، والوسم يحمل إعدادات تعتمد عليها وسوم الأحداث اللاحقة." },
+    { "type": "checklist", "title": "قبل أن تنتقل", "items": ["نسخت Measurement ID من تدفق البيانات.", "أنشأت وسم Google Tag بمشغّل Initialization.", "أُطلق الوسم في Preview.", "ظهرت الأحداث في DebugView.", "نشرت الحاوية وتابعت Realtime."] }
+  ]
+}

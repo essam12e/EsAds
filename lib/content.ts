@@ -65,3 +65,14 @@ export function topicsOf(service: string): Topic[] {
 export function topicOf(service: string, slug: string): Topic | undefined {
   return topicsOf(service).find((t) => t.slug === slug);
 }
+
+/** The condensed interactive deck for a guide, if one was authored. */
+export function deckOf(service: string, slug: string): { slides: unknown[] } | null {
+  if (!/^[a-z0-9-]+$/.test(service) || !/^[a-z0-9-]+$/.test(slug)) return null;
+  try {
+    const deck = JSON.parse(fs.readFileSync(path.join(ROOT, service, `${slug}.deck.json`), "utf8"));
+    return Array.isArray(deck?.slides) && deck.slides.length ? deck : null;
+  } catch {
+    return null;
+  }
+}

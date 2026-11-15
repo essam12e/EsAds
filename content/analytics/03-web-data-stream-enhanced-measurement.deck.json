@@ -1,0 +1,28 @@
+{
+  "slides": [
+    { "type": "idea", "title": "Data stream قناة بيانات متجرك", "text": "مصدر البيانات يرسل بيانات متجرك إلى Google Analytics لتُعالَج وتظهر في التقارير. مصدر لكل موقع أو تطبيق.", "visual": "pixel-flow" },
+    { "type": "steps", "title": "أنشئ مصدر Web", "steps": [
+      { "do": "اختر منصة الويب.", "ui": ["Choose a platform", "Web"] },
+      { "do": "أدخل رابط متجرك.", "ui": ["Website URL"] },
+      { "do": "اكتب اسماً واضحاً للمصدر.", "ui": ["Stream name"] },
+      { "do": "راجع القياس المحسّن وعطّل ما لا تحتاجه من أيقونة الترس.", "ui": ["Enhanced measurement", "Save"] },
+      { "do": "أنشئ المصدر.", "ui": ["Create & continue"] }
+    ] },
+    { "type": "cards", "title": "ما يتتبّعه القياس المحسّن تلقائياً", "cards": [
+      { "title": "Page views و Scrolls", "text": "مشاهدات الصفحات وتمريرها." },
+      { "title": "Outbound clicks", "text": "النقرات على الروابط الخارجية." },
+      { "title": "Site search و Form interactions", "text": "البحث داخل الموقع والتفاعل مع النماذج." },
+      { "title": "Video engagement و File downloads", "text": "فيديوهات YouTube المضمّنة وتنزيل الملفات." }
+    ] },
+    { "type": "steps", "title": "اعثر على Measurement ID", "steps": [
+      { "do": "افتح مصادر البيانات.", "ui": ["Admin", "Data collection and modification", "Data streams"] },
+      { "do": "اختر مصدرك وانسخ المعرّف من أعلى اليمين.", "ui": ["Measurement ID"], "note": "هو ما يربط موقعك بالـ Property." }
+    ] },
+    { "type": "compare", "title": "طريقة التثبيت", "columns": ["Google Tag Manager", "تكامل المنصة الجاهز"], "rows": [
+      ["الميزة", "يدير عدة وسوم في مكان واحد", "أسرع طريق"],
+      ["يناسب", "معظم الحالات والمدى الطويل", "متجر على منصة لها تكامل"]
+    ] },
+    { "type": "quiz", "title": "اختبر فهمك", "question": "هل يحتاج القياس المحسّن إلى إضافة كود؟", "options": ["لا، وهو مفعّل افتراضياً", "نعم، كود لكل حدث", "نعم، ويُفعَّل يدوياً"], "answer": 0, "why": "يتتبّع الإجراءات تلقائياً دون إضافة أو تعديل أي كود." },
+    { "type": "checklist", "title": "قبل أن تنتقل", "items": ["أنشأت مصدر Web برابط المتجر واسم واضح.", "راجعت خيارات Enhanced measurement.", "نسخت Measurement ID.", "اخترت طريقة التثبيت المناسبة."] }
+  ]
+}

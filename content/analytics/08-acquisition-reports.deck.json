@@ -1,0 +1,32 @@
+{
+  "slides": [
+    { "type": "idea", "title": "كيف يجد الناس متجرك؟", "text": "تقارير Acquisition تكشف أي قناة تجلب الزوار الجدد وأيها تجلب الزيارات المتكررة، فتقرر أين تنفق ميزانيتك.", "visual": "analytics-report" },
+    { "type": "cards", "title": "أهم مجموعات القنوات", "cards": [
+      { "title": "Direct", "text": "كتب الزائر الرابط أو فتحه مباشرة." },
+      { "title": "Organic Search", "text": "نقر على نتيجة بحث غير إعلانية." },
+      { "title": "Paid Search", "text": "نقر على نتيجة إعلانية في محرك البحث." },
+      { "title": "Referral", "text": "نقر على رابط لموقعك في موقع آخر." },
+      { "title": "Organic Social", "text": "جاء من شبكات التواصل." },
+      { "title": "Unassigned", "text": "لم تُحدَّد القناة." }
+    ] },
+    { "type": "compare", "title": "المصدر والوسيط", "columns": ["Source", "Medium"], "rows": [
+      ["يخبرك", "من أين تحديداً", "كيف وصلت الزيارة"],
+      ["مثال google / cpc", "google", "cpc: إعلان مدفوع"],
+      ["مثال google / organic", "google", "organic: بحث مجاني"]
+    ] },
+    { "type": "compare", "title": "تقريران مختلفان", "columns": ["User acquisition", "Traffic acquisition"], "rows": [
+      ["يجيب عن", "كيف وجدنا المستخدم لأول مرة؟", "كيف بدأت كل جلسة؟"],
+      ["الأساس", "المستخدم", "الجلسة"]
+    ] },
+    { "type": "steps", "title": "تعمّق في التقرير", "steps": [
+      { "do": "افتح تقرير اكتساب المستخدمين.", "ui": ["Reports", "Acquisition", "User acquisition"] },
+      { "do": "غيّر البُعد من القائمة أعلى العمود الأول.", "ui": ["First user source / medium"] },
+      { "do": "ابحث فوق الجدول عن organic أو cpc." },
+      { "do": "أضف بُعداً ثانياً بعلامة (+).", "ui": ["Landing page"] },
+      { "do": "غيّر النطاق الزمني أعلى التقرير.", "ui": ["Last 12 months", "Apply"] }
+    ] },
+    { "type": "dosdonts", "title": "قبل استخلاص النتائج", "do": ["انقر رأس عمود Sessions لترتيب الجدول به."], "dont": ["لا تفترض أن الصف الأول هو أكبر قناة."] },
+    { "type": "quiz", "title": "اختبر فهمك", "question": "عميلة عرفتك من إعلان بحث ثم عادت ثلاث مرات مباشرة. كيف تظهر في Traffic acquisition؟", "options": ["أربع جلسات Paid Search", "أربع جلسات Direct", "جلسة Organic Search", "جلسة Paid Search وثلاث Direct"], "answer": 3, "why": "هذا التقرير يعرض مصدر كل جلسة، لا المرة الأولى فقط." },
+    { "type": "checklist", "title": "قبل أن تنتقل", "items": ["أعرف معنى كل مجموعة قنوات.", "أفرّق بين Source و Medium.", "أفرّق بين User acquisition و Traffic acquisition.", "أتحقق من عمود الترتيب قبل الاستنتاج."] }
+  ]
+}

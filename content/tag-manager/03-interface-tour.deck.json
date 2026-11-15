@@ -1,0 +1,28 @@
+{
+  "slides": [
+    { "type": "idea", "title": "ثلاثة تبويبات تدير منها كل شيء", "text": "واجهة GTM مقسّمة إلى Workspace للعمل اليومي، و Versions لسجل الإصدارات، و Admin للإدارة.", "visual": "tag-manager" },
+    { "type": "cards", "title": "القائمة الجانبية في Workspace", "cards": [
+      { "title": "Tags", "text": "أكواد التتبع التي تضيفها إلى الحاوية." },
+      { "title": "Triggers", "text": "الشروط التي تحدد متى يُطلق كل وسم." },
+      { "title": "Variables", "text": "القيم التي تستخدمها الوسوم والمشغّلات." },
+      { "title": "Folders", "text": "لترتيب عناصر الحاوية، كمجلد لوسوم Google Analytics." },
+      { "title": "Templates", "text": "حقول تعبّئها بدل الكود الخام، ومنها تصل إلى معرض قوالب المجتمع." }
+    ] },
+    { "type": "cards", "title": "أقسام تستحق الانتباه", "cards": [
+      { "title": "Workspace Changes", "text": "كل تعديل يبقى غير منشور حتى تنشر إصداراً جديداً." },
+      { "title": "Container quality", "text": "ينبهك إلى الإعدادات الناقصة أو الخاطئة بعد التثبيت." },
+      { "title": "Versions", "text": "كل نشر يحفظ إصداراً يمكنك الرجوع إليه." }
+    ] },
+    { "type": "steps", "title": "انسخ إعداد حاوية إلى أخرى", "steps": [
+      { "do": "في الحاوية الأولى نزّل ملف الحاوية.", "ui": ["Admin", "Export Container"] },
+      { "do": "في الحاوية الثانية ارفع الملف نفسه.", "ui": ["Admin", "Import Container"] }
+    ] },
+    { "type": "steps", "title": "سير العمل الدائم", "steps": [
+      { "do": "أجرِ التغييرات.", "ui": ["Workspace"] },
+      { "do": "اختبرها.", "ui": ["Preview"] },
+      { "do": "انشر إصداراً جديداً ليصبح مباشراً للزوار.", "ui": ["Submit"] }
+    ] },
+    { "type": "quiz", "title": "اختبر فهمك", "question": "لم تجد قالباً لمنصتك ضمن القوالب المضمّنة. أين تبحث أولاً؟", "options": ["Community Template Gallery", "Versions", "Container quality"], "answer": 0, "why": "المعرض يوفّر قوالب المنصات غير المضمّنة، والبديل الأخير وسم Custom HTML." },
+    { "type": "checklist", "title": "قبل أن تنتقل", "items": ["أعرف وظيفة Workspace و Versions و Admin.", "أعرف أين أجد الوسوم والمشغّلات والمتغيرات.", "أعرف كيف أصل إلى معرض القوالب.", "لا أنشر أي تغيير قبل اختباره في المعاينة."] }
+  ]
+}

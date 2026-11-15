@@ -1,0 +1,118 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "أثبت أن المتجر ملكك",
+      "text": "التحقق والمطالبة خطوة إلزامية قبل حملات Shopping و Performance Max، وتستغرق في Shopify أقل من خمس دقائق.",
+      "visual": "store-linking"
+    },
+    {
+      "type": "compare",
+      "title": "التحقق والمطالبة",
+      "columns": [
+        "Verify",
+        "Claim"
+      ],
+      "rows": [
+        [
+          "المعنى",
+          "إثبات صلاحية التعديل على الموقع",
+          "حجز رابط الموقع لحسابك"
+        ],
+        [
+          "كيف",
+          "كود من Google داخل الموقع",
+          "يتم مع التحقق بالخطوات نفسها"
+        ]
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "انسخ الكود من Merchant Center",
+      "steps": [
+        {
+          "do": "افتح قائمة الإعداد وتأكد من رابط المتجر.",
+          "ui": [
+            "Overview",
+            "Complete setup"
+          ]
+        },
+        {
+          "do": "اختر منصتك ثم انسخ الكود الأخضر.",
+          "ui": [
+            "Use your e-commerce platform",
+            "Shopify"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "الصق الكود في القالب",
+      "steps": [
+        {
+          "do": "افتح محرر كود القالب الحي.",
+          "ui": [
+            "Online Store",
+            "Themes",
+            "Edit code"
+          ]
+        },
+        {
+          "do": "افتح ملف القالب وابحث عن وسم head.",
+          "ui": [
+            "Layout",
+            "theme.liquid"
+          ]
+        },
+        {
+          "do": "الصق الكود في سطر جديد قبل الوسم واحفظ.",
+          "ui": [
+            "Save"
+          ]
+        },
+        {
+          "do": "انتظر دقيقة ثم تحقق من Merchant Center.",
+          "ui": [
+            "Verify your online store"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dosdonts",
+      "title": "انتبه",
+      "do": [
+        "استخدم نطاقاً مخصصاً لا myshopify.com.",
+        "طابق اسم النشاط وعنوانه مع الموقع.",
+        "استخدم بريداً على نطاق المتجر."
+      ],
+      "dont": [
+        "لا تحذف أي سطر موجود في القالب.",
+        "لا تلصق الكود في قالب غير مفعّل."
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "في أي ملف يُلصق كود التحقق في Shopify؟",
+      "options": [
+        "ملف Business info",
+        "theme.liquid داخل مجلد Layout",
+        "صفحة المنتج"
+      ],
+      "answer": 1,
+      "why": "الكود يُلصق قبل وسم head في theme.liquid بالقالب الحي."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "الكود ملصوق في theme.liquid بالقالب الحي.",
+        "ضغطت Save في محرر الكود.",
+        "نجح Verify your online store.",
+        "معلومات النشاط تطابق ما في الموقع."
+      ]
+    }
+  ]
+}

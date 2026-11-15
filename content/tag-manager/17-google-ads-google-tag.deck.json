@@ -1,0 +1,29 @@
+{
+  "slides": [
+    { "type": "idea", "title": "أساس تتبع Google Ads", "text": "لتعرف Google Ads أن زائر إعلانك أتم شراءً أو أرسل نموذجاً، تحتاج إجراء تحويل في Google Ads ووسوماً في GTM.", "visual": "conversion-tracking" },
+    { "type": "compare", "title": "الحدث والتحويل", "columns": ["Event", "Conversion"], "rows": [
+      ["ما هو", "أي إجراء يقوم به الزائر", "الحدث المهم لنشاطك"],
+      ["أين يُعرَّف", "يُلتقط عبر GTM", "يُنشأ داخل Google Ads"],
+      ["أمثلة", "تمرير، نقرة واتساب", "شراء، إرسال نموذج"]
+    ] },
+    { "type": "cards", "title": "الوسوم الثلاثة", "cards": [
+      { "title": "Google Tag", "text": "بمعرّف يبدأ بـ AW- على Initialization - All Pages." },
+      { "title": "وسم التحويل", "text": "يحمل Conversion ID و Conversion Label، ويُنشأ لكل تحويل على حدة." },
+      { "title": "Conversion Linker", "text": "بلا بيانات، على All Pages، ويخدم كل وسوم التحويل." }
+    ] },
+    { "type": "steps", "title": "احصل على Tag ID", "steps": [
+      { "do": "ابدأ إجراء تحويل جديداً في Google Ads.", "ui": ["Goals", "Conversions", "Summary", "New conversion action"] },
+      { "do": "اختر المصدر وأدخل رابط متجرك.", "ui": ["Conversions on a website"] },
+      { "do": "اختر التثبيت اليدوي وانسخ المعرّف.", "ui": ["Set up", "Install manually", "Tag ID"] }
+    ] },
+    { "type": "steps", "title": "أنشئ الوسمين وانشر", "steps": [
+      { "do": "أنشئ وسم Google Tag والصق المعرّف.", "ui": ["Tags", "New", "Google Tag", "Tag ID"] },
+      { "do": "اختر مشغّل التهيئة وسمِّه Google Tag - Ads.", "ui": ["Triggering", "Initialization - All Pages"] },
+      { "do": "أنشئ وسم Conversion Linker على كل الصفحات.", "ui": ["Conversion Linker", "All Pages"] },
+      { "do": "انشر الحاوية.", "ui": ["Submit", "Publish"] },
+      { "do": "اختبر التثبيت في Google Ads ثم تابع.", "ui": ["Test installation", "Confirm", "Save and continue"] }
+    ] },
+    { "type": "quiz", "title": "اختبر فهمك", "question": "لم يكتشف Google Ads الوسم عند Test installation. ما السبب الأرجح؟", "options": ["المعرّف طويل", "الحاوية لم تُنشر", "غياب وسم التحويل"], "answer": 1, "why": "الوسم المحفوظ دون نشر لا يُحمَّل في المتجر. انشر أولاً ثم اختبر." },
+    { "type": "checklist", "title": "قبل أن تنتقل", "items": ["أفرّق بين الحدث والتحويل.", "أنشأت Google Tag بمعرّف AW-.", "أضفت Conversion Linker على All Pages.", "نشرت الحاوية قبل Test installation."] }
+  ]
+}

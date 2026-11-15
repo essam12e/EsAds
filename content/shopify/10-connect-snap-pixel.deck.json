@@ -1,0 +1,118 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "تحقق من البكسل قبل حملة التحويل",
+      "text": "Snap Pixel يسجّل المشاهدة والإضافة إلى السلة والشراء. بدون تتبع دقيق لا تستطيع Snapchat تحسين الحملات.",
+      "visual": "pixel-flow"
+    },
+    {
+      "type": "steps",
+      "title": "أنشئ البكسل واربطه",
+      "steps": [
+        {
+          "do": "افتح البكسلات وأنشئ بكسلاً باسم المتجر.",
+          "ui": [
+            "Manage Ads",
+            "Pixels",
+            "Create Pixel"
+          ]
+        },
+        {
+          "do": "اختر تكامل الشريك ثم منصتك.",
+          "ui": [
+            "Partner integration",
+            "Shopify"
+          ]
+        },
+        {
+          "do": "اتبع تعليمات Snapchat لإتمام الربط."
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "طريقتا التثبيت",
+      "columns": [
+        "Manual installation",
+        "Partner integration"
+      ],
+      "rows": [
+        [
+          "الوصف",
+          "تضع الكود على موقعك بنفسك",
+          "ربط عبر منصة مدعومة مثل Shopify"
+        ],
+        [
+          "متى تناسبك",
+          "منصتك ليست ضمن الشركاء",
+          "منصتك مدعومة؛ وهي الأسهل عادةً"
+        ]
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "تحقق بإضافة Snap Pixel Helper",
+      "steps": [
+        {
+          "do": "ثبّت الإضافة على Chrome.",
+          "ui": [
+            "Chrome Web Store",
+            "Snap Pixel Helper"
+          ]
+        },
+        {
+          "do": "افتح متجرك وحدّث الصفحة واضغط أيقونة الإضافة.",
+          "note": "يجب أن يظهر Pixel ID مع الأحداث."
+        },
+        {
+          "do": "جرّب المسار كاملاً: منتج ثم السلة ثم إتمام الطلب."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "الأحداث المتوقعة",
+      "cards": [
+        {
+          "title": "Page View",
+          "text": "عند فتح أي صفحة."
+        },
+        {
+          "title": "Add to Cart",
+          "text": "عند إضافة منتج إلى السلة."
+        },
+        {
+          "title": "Purchase",
+          "text": "عند إتمام طلب."
+        },
+        {
+          "title": "Registration",
+          "text": "عند إنشاء حساب."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "بكسلك جديد بلا أي تاريخ. بأي حملة تبدأ؟",
+      "options": [
+        "Sales مباشرة",
+        "App Promotion",
+        "Traffic لتوليد البيانات"
+      ],
+      "answer": 2,
+      "why": "هدف Sales يحتاج من 50 إلى 100 تحويل ناجح على الأقل قبل الاعتماد عليه."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "البكسل مُنشأ ومربوط عبر Partner integration.",
+        "Pixel ID في الإضافة يطابق بكسل حسابك.",
+        "أحداث Page View و Add to Cart و Purchase تُطلق.",
+        "لا أخطاء في Snap Pixel Helper."
+      ]
+    }
+  ]
+}

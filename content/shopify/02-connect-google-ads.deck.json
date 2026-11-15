@@ -1,0 +1,120 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "اربط Shopify من داخل Google Ads",
+      "text": "بدون الربط لن تجد أي حساب Merchant Center عند إنشاء حملة تسوق. ابدأ الربط من مدير البيانات ليظهر متجرك ومنتجاتك.",
+      "visual": "store-linking"
+    },
+    {
+      "type": "steps",
+      "title": "افتح مدير البيانات",
+      "steps": [
+        {
+          "do": "افتح شاشة المنتجات المتصلة في Google Ads.",
+          "ui": [
+            "Tools",
+            "Data manager",
+            "Connected products"
+          ]
+        },
+        {
+          "do": "اربط منتجاً جديداً وابحث عن Shopify.",
+          "ui": [
+            "Connect product",
+            "Shopify"
+          ]
+        },
+        {
+          "do": "اختر الاتصال المباشر ثم فوّض.",
+          "ui": [
+            "Direct connection",
+            "Authorize"
+          ],
+          "note": "هو الموصى به إن كان المتجر حياً وبلا مشاكل."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "أدخل رابط المتجر",
+      "steps": [
+        {
+          "do": "انسخ الرابط المنتهي بـ myshopify.com من لوحة Shopify.",
+          "ui": [
+            "Settings",
+            "Domains"
+          ]
+        },
+        {
+          "do": "الصقه في Google Ads وتابع ثم أنهِ.",
+          "ui": [
+            "Continue",
+            "Finish"
+          ]
+        },
+        {
+          "do": "أكمل التعليمات داخل التطبيق: حساب Google ثم Google Ads ثم Merchant Center.",
+          "ui": [
+            "Apps",
+            "Google & YouTube"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "أي رابط تدخل؟",
+      "columns": [
+        "النطاق الخاص",
+        "الرابط الداخلي"
+      ],
+      "rows": [
+        [
+          "ما هو",
+          "الرابط الأساسي المتاح للعامة",
+          "المنتهي بـ myshopify.com"
+        ],
+        [
+          "هل هو المطلوب؟",
+          "لا",
+          "نعم"
+        ]
+      ]
+    },
+    {
+      "type": "dosdonts",
+      "title": "انتبه",
+      "do": [
+        "اختر حساب Merchant Center الخاص بهذا المتجر.",
+        "راجع أهداف التحويل قبل أول حملة.",
+        "عند أي خلل اقطع الاتصال ثم اربط من جديد."
+      ],
+      "dont": [
+        "لا تربط حساب Merchant Center تابعاً لمتجر آخر."
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "أي رابط يطلبه Google Ads عند الاتصال المباشر؟",
+      "options": [
+        "رابط myshopify.com الداخلي",
+        "رابط النطاق الخاص",
+        "رابط صفحة المنتج"
+      ],
+      "answer": 0,
+      "why": "المطلوب هو رابط Shopify الداخلي، وتجده في Settings ثم Domains."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "Shopify يظهر بحالة Connected في Google Ads.",
+        "المنتجات بدأت تظهر في Merchant Center.",
+        "حساب Merchant Center يظهر عند إنشاء حملة Shopping.",
+        "حدث الشراء ظاهر في أهداف التحويل."
+      ]
+    }
+  ]
+}

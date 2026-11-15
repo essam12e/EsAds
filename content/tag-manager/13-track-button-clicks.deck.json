@@ -1,0 +1,29 @@
+{
+  "slides": [
+    { "type": "idea", "title": "طريقة واحدة لتتبع أي زر", "text": "تعرّف على ما يميّز الزر، أنشئ مشغّلاً، ثم اربطه بوسم لكل منصة. الطريقة نفسها لواتساب والاتصال وأزرار المتجر.", "visual": "tag-manager" },
+    { "type": "cards", "title": "اختر المتغير الذي يميّز الزر", "cards": [
+      { "title": "Click Text", "text": "للزر صاحب النص الثابت الواضح، مثل «سجّل الآن»." },
+      { "title": "Click URL", "text": "للزر الذي يقود إلى رابط مميّز، كواتساب أو الاتصال الهاتفي." },
+      { "title": "Click ID", "text": "للزر الذي له معرّف ID خاص به." },
+      { "title": "Click Classes", "text": "لمجموعة أزرار تشترك في class واحد وتريد تتبعها معاً." }
+    ] },
+    { "type": "steps", "title": "أنشئ المشغّل", "steps": [
+      { "do": "فعّل متغيرات النقر والنماذج.", "ui": ["Variables", "Configure", "Clicks", "Forms"] },
+      { "do": "انقر الزر في المعاينة وانسخ القيمة المميّزة.", "ui": ["Preview", "Variables"] },
+      { "do": "أنشئ مشغّل نقر لبعض النقرات.", "ui": ["Triggers", "New", "All Elements", "Some Clicks"] },
+      { "do": "اضبط الشرط بالقيمة المنسوخة واحفظ.", "ui": ["Click Text", "contains", "Save"] }
+    ] },
+    { "type": "steps", "title": "اربط المشغّل بالمنصتين", "steps": [
+      { "do": "أنشئ وسم GA4 باسم حدث مثل whatsapp_click.", "ui": ["Google Analytics: GA4 Event", "Event Name"] },
+      { "do": "أنشئ وسم Facebook Pixel بحدث مخصص وبالمتغير الثابت للمعرّف.", "ui": ["Pixel ID", "Custom"] },
+      { "do": "اختر المشغّل نفسه في الوسمين.", "ui": ["Triggering"] },
+      { "do": "اختبر ثم انشر.", "ui": ["Preview", "Submit", "Publish"], "note": "تحقق في DebugView و Test Events." }
+    ] },
+    { "type": "compare", "title": "طريقتان للإرسال إلى GA4", "columns": ["وسم لكل حدث", "وسم واحد باسم Event"], "rows": [
+      ["الميزة", "أسماء واضحة ومعاملات مفصلة", "إعداد سريع وصورة عامة"],
+      ["الملاحظة", "وسم ومشغّل لكل حدث", "تصل أسماء تقنية مثل gtm.js"]
+    ] },
+    { "type": "quiz", "title": "اختبر فهمك", "question": "زر واتساب العائم بلا نص. على أي متغير تعتمد؟", "options": ["Click Text", "Page Path", "Click ID أو Click URL"], "answer": 2, "why": "الأيقونات العائمة قد لا يكون لها نص، فتعتمد على معرّفها أو رابطها." },
+    { "type": "checklist", "title": "قبل أن تنتقل", "items": ["فعّلت متغيرات Clicks و Forms.", "نسخت قيمة الشرط من المعاينة.", "أنشأت مشغّل All Elements بشرط contains.", "ربطت المشغّل بوسم GA4 ووسم Meta.", "اختبرت ثم نشرت."] }
+  ]
+}

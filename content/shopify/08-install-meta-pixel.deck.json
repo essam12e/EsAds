@@ -1,0 +1,136 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "أوصل حدث البيع إلى Meta",
+      "text": "Meta Pixel كود يرسل إشارات المشاهدة والإضافة إلى السلة والشراء. بدونها حملة المبيعات على Facebook و Instagram بلا قيمة.",
+      "visual": "pixel-flow"
+    },
+    {
+      "type": "steps",
+      "title": "أنشئ البكسل",
+      "steps": [
+        {
+          "do": "افتح مدير الأحداث.",
+          "ui": [
+            "All tools",
+            "Events Manager"
+          ]
+        },
+        {
+          "do": "اربط بيانات ويب وتابع حتى يُنشأ البكسل.",
+          "ui": [
+            "Connect data",
+            "Web"
+          ]
+        },
+        {
+          "do": "انسخ معرّف البكسل.",
+          "ui": [
+            "Datasets"
+          ],
+          "note": "Dataset ID هو نفسه Pixel ID."
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "طريقتا التثبيت",
+      "columns": [
+        "لصق الكود",
+        "Google Tag Manager"
+      ],
+      "rows": [
+        [
+          "ما تفعله",
+          "تلصق الكود كاملاً في theme.liquid",
+          "تضع Pixel ID في وسم"
+        ],
+        [
+          "متى تناسبك",
+          "Meta منصتك الإعلانية الوحيدة",
+          "أكثر من منصة؛ وهي الموصى بها"
+        ]
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "التثبيت عبر GTM",
+      "steps": [
+        {
+          "do": "أنشئ وسماً وابحث عن Facebook في معرض القوالب.",
+          "ui": [
+            "Tags",
+            "New",
+            "Template Gallery"
+          ],
+          "note": "تحقق من ناشر القالب أولاً."
+        },
+        {
+          "do": "أضف القالب والصق المعرّف.",
+          "ui": [
+            "Add to workspace",
+            "Pixel ID"
+          ]
+        },
+        {
+          "do": "اختر الحدث ومشغّل كل الصفحات واحفظ.",
+          "ui": [
+            "PageView",
+            "All Pages",
+            "Save"
+          ]
+        },
+        {
+          "do": "اختبر ثم انشر.",
+          "ui": [
+            "Preview",
+            "Submit",
+            "Publish"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "اختبر الأحداث",
+      "steps": [
+        {
+          "do": "افتح تبويب اختبار الأحداث وأدخل رابط متجرك.",
+          "ui": [
+            "Datasets",
+            "Test events",
+            "Website"
+          ]
+        },
+        {
+          "do": "تصفّح المتجر وافتح منتجاً.",
+          "note": "يجب أن ترى PageView و ViewContent."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "ما الجزء الذي يختلف في كود البكسل بين حساب وآخر؟",
+      "options": [
+        "سطر الحدث",
+        "Pixel ID",
+        "اسم الوسم"
+      ],
+      "answer": 1,
+      "why": "الكود الأساسي واحد في كل الحسابات، والفرق الوحيد هو Pixel ID."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "Pixel ID منسوخ وسليم.",
+        "الأحداث تظهر في Test events.",
+        "الحاوية منشورة إن استخدمت GTM.",
+        "البكسل يظهر Active في المجموعة الإعلانية.",
+        "خيار Website events محدد في الإعلان."
+      ]
+    }
+  ]
+}

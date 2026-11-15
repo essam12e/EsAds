@@ -1,0 +1,26 @@
+{
+  "slides": [
+    { "type": "idea", "title": "بكسل Meta من داخل GTM", "text": "البكسل يرسل أحداث متجرك إلى Meta لقياس الحملات وتحسينها. ثبّته عبر قالب جاهز بدل لصق الكود في المتجر.", "visual": "pixel-flow" },
+    { "type": "cards", "title": "تحقق من ناشر القالب أولاً", "cards": [
+      { "title": "حساب GitHub", "text": "موثّق، وله مستودعات وأعضاء ومتابعون." },
+      { "title": "موقع الناشر", "text": "موقع حقيقي لشركة تعمل في هذا المجال." },
+      { "title": "حضور الشركة", "text": "صفحة شركة فعلية بعدد موظفين ومتابعين معقول." }
+    ] },
+    { "type": "steps", "title": "أنشئ الوسم الأساسي", "steps": [
+      { "do": "انسخ معرّف البكسل من Events Manager.", "ui": ["Data Sets", "Dataset ID"] },
+      { "do": "احفظه في متغير ثابت باسم FB Pixel ID.", "ui": ["Variables", "New", "Constant"] },
+      { "do": "أنشئ وسماً وابحث في المعرض عن Facebook.", "ui": ["Tags", "New", "Tag Configuration"] },
+      { "do": "أضف القالب ووافق على التحذير.", "ui": ["Add to workspace", "Add"] },
+      { "do": "اختر المتغير في حقل المعرّف والحدث القياسي PageView.", "ui": ["Pixel ID", "PageView"] },
+      { "do": "اختر المشغّل، سمِّ الوسم FB Base، واحفظ.", "ui": ["Triggering", "All Pages", "Save"] }
+    ] },
+    { "type": "steps", "title": "اختبر وانشر وتحقق", "steps": [
+      { "do": "تأكد في المعاينة أن FB Base يزيد مع كل صفحة.", "ui": ["Preview", "Connect"] },
+      { "do": "انشر الحاوية.", "ui": ["Submit", "Publish"] },
+      { "do": "ابدأ اختباراً في Events Manager وتصفّح المتجر.", "ui": ["Test Events", "Website"], "note": "الحدث بلا علامة GTM debug حدث حيّ." }
+    ] },
+    { "type": "dosdonts", "title": "قبل الاعتماد على GTM", "do": ["استخدم قوالب الناشرين الموثوقين فقط.", "أزل كود البكسل القديم من المتجر أولاً."], "dont": ["لا تختر قالباً عشوائياً من نتائج البحث.", "لا تُبقِ البكسل مثبتاً بطريقتين؛ يتكرر PageView."] },
+    { "type": "quiz", "title": "اختبر فهمك", "question": "لم تجد Facebook ضمن أنواع الوسوم المضمّنة. أين تجد القالب؟", "options": ["Container quality", "Versions", "Community Template Gallery"], "answer": 2, "why": "القائمة المضمّنة تحددها Google، وقوالب المنصات الأخرى في معرض المجتمع." },
+    { "type": "checklist", "title": "قبل أن تنتقل", "items": ["تحققت من ناشر القالب.", "حفظت Pixel ID في متغير ثابت.", "أنشأت FB Base بحدث PageView على All Pages.", "نشرت الحاوية.", "ظهر PageView في Test Events."] }
+  ]
+}

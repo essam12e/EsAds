@@ -1,0 +1,125 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "تطبيق واحد يزامن منتجاتك",
+      "text": "تطبيق Google & YouTube يدخل منتجاتك إلى Merchant Center ويبقيها متزامنة تلقائياً، بلا ملف خلاصة يدوي.",
+      "visual": "product-feed"
+    },
+    {
+      "type": "steps",
+      "title": "ثبّت التطبيق واربطه",
+      "steps": [
+        {
+          "do": "افتح متجر التطبيقات وابحث عن Google & YouTube.",
+          "ui": [
+            "Settings",
+            "Apps and sales channels",
+            "Shopify App Store"
+          ]
+        },
+        {
+          "do": "ثبّت التطبيق وأكّد التثبيت.",
+          "ui": [
+            "Install",
+            "Install"
+          ]
+        },
+        {
+          "do": "اربط حساب Google المستخدم للإعلانات و Merchant Center.",
+          "ui": [
+            "Connect Google account"
+          ]
+        },
+        {
+          "do": "اربط حساب Merchant Center.",
+          "ui": [
+            "Connect"
+          ]
+        },
+        {
+          "do": "اضبط الإعدادات واقبل الشروط واختر الدول واللغات.",
+          "ui": [
+            "Complete setup"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "إعدادات التطبيق",
+      "cards": [
+        {
+          "title": "Product sync",
+          "text": "اختر Automatic حتى لا تزامن يدوياً عند كل تعديل."
+        },
+        {
+          "title": "Target country and language",
+          "text": "حدد دولتك ولغة المتجر ثم احفظ."
+        },
+        {
+          "title": "Checkout link settings",
+          "text": "اختر Automatic ليُسحب كل شيء من Shopify."
+        },
+        {
+          "title": "Product protection",
+          "text": "فعّلها على 40% لتُنبَّه قبل أي حذف كبير للمنتجات."
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "إعداد الشحن",
+      "columns": [
+        "Automatic",
+        "Manual"
+      ],
+      "rows": [
+        [
+          "متى تختاره",
+          "لا إعدادات شحن يدوية في Merchant Center",
+          "لديك إعدادات يدوية تريد إبقاءها"
+        ],
+        [
+          "ماذا يفعل",
+          "يسحب إعدادات التوصيل من Shopify",
+          "يحافظ على إعداداتك اليدوية"
+        ]
+      ]
+    },
+    {
+      "type": "dosdonts",
+      "title": "بعد المزامنة",
+      "do": [
+        "عدّل السعر والتوفر والتخفيض من Shopify فقط.",
+        "تأكد أن Google Ads مربوط في Apps and services."
+      ],
+      "dont": [
+        "لا تحفظ الإعدادات دون مراجعة خيار الشحن."
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "ما علامة نجاح الربط داخل Merchant Center؟",
+      "options": [
+        "ظهور شارة Sale",
+        "اكتمال Business info",
+        "ظهور Content API في Data sources"
+      ],
+      "answer": 2,
+      "why": "وجود Content API ضمن مصادر البيانات يعني أن الاتصال قائم، وقد يستغرق حتى ساعة."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "Product sync و Checkout link على Automatic.",
+        "خيار الشحن يطابق وضعك.",
+        "Content API ظاهر في Data sources.",
+        "المنتجات تظهر في تبويب Products.",
+        "Product protection مفعّلة على 40%."
+      ]
+    }
+  ]
+}

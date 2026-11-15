@@ -1,0 +1,24 @@
+{
+  "slides": [
+    { "type": "idea", "title": "اعرف أي روابط القائمة يُنقر أكثر", "text": "GA4 لا يسجل نقرات روابط القائمة تلقائياً، لكنك تعدّها كاملة من GTM بمشغّل مضيَّق ووسم حدث مخصص.", "visual": "tag-manager" },
+    { "type": "steps", "title": "جهّز المشغّل", "steps": [
+      { "do": "أنشئ مشغّلاً لكل نقرات الروابط.", "ui": ["Triggers", "New", "Just Links", "All Link Clicks"] },
+      { "do": "فعّل متغيرات النقر ثم حدّث المعاينة.", "ui": ["Variables", "Configure", "Clicks"] },
+      { "do": "انقر روابط القائمة وقارن قيم كل حدث Link Click.", "note": "القاسم المشترك غالباً Click Classes." },
+      { "do": "ضيّق المشغّل بالقيمة المنسوخة دون علامات تنصيص.", "ui": ["Some Link Clicks", "Click Classes", "contains"] }
+    ] },
+    { "type": "steps", "title": "أنشئ وسم الحدث", "steps": [
+      { "do": "أنشئ وسم حدث GA4.", "ui": ["Tags", "New", "Google Analytics", "Google Analytics: GA4 Event"] },
+      { "do": "الصق معرّف القياس واكتب اسم الحدث menu_link_click.", "ui": ["Measurement ID", "Event Name"] },
+      { "do": "أضف المعاملين link_text و link_url بقيم المتغيرات.", "ui": ["Event Parameters"], "note": "القيمتان: Click Text و Click URL." },
+      { "do": "اربطه بالمشغّل المضيَّق واحفظ.", "ui": ["Triggering", "Save"] }
+    ] },
+    { "type": "compare", "title": "النتيجة المتوقعة في المعاينة", "columns": ["حدث Link Click", "الوسم"], "rows": [
+      ["روابط القائمة", "يظهر", "أُطلق"],
+      ["رابط آخر", "يظهر", "لم يُطلق"]
+    ] },
+    { "type": "dosdonts", "title": "قواعد التتبع", "do": ["ضيّق المشغّل بشرط يميّز الروابط المطلوبة.", "تحقق من المعاملين في DebugView ثم انشر."], "dont": ["لا تربط الوسم بمشغّل عام.", "لا تكتب نصاً ثابتاً في قيمة المعامل."] },
+    { "type": "quiz", "title": "اختبر فهمك", "question": "ظهر حدث Link Click في المعاينة. هل يعني أن الوسم أُطلق؟", "options": ["لا، العبرة بتحقق شروط الوسم", "نعم دائماً", "نعم إن كان الرابط خارجياً"], "answer": 0, "why": "الحدث يظهر مع كل نقرة رابط، والوسم يُطلق عند تحقق شروطه فقط." },
+    { "type": "checklist", "title": "قبل أن تنتقل", "items": ["فعّلت متغيرات Clicks.", "ضيّقت المشغّل على روابط القائمة.", "أرسلت link_text و link_url بمتغيرات.", "اختبرت في Preview ثم DebugView.", "نشرت الحاوية."] }
+  ]
+}

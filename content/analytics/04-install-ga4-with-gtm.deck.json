@@ -1,0 +1,21 @@
+{
+  "slides": [
+    { "type": "idea", "title": "ضع معرّف القياس في متجرك", "text": "لا تصل البيانات حتى تضع Measurement ID في الموقع. Google Tag Manager هو الطريقة الموصى بها لأنه يدير كل وسومك في مكان واحد.", "visual": "tag-manager" },
+    { "type": "steps", "title": "أنشئ الوسم", "steps": [
+      { "do": "انسخ معرّف القياس من مصدر الويب.", "ui": ["Admin", "Data streams", "Measurement ID"] },
+      { "do": "أنشئ وسماً جديداً في Tag Manager.", "ui": ["Tags", "New"] },
+      { "do": "اختر نوع الوسم.", "ui": ["Tag Configuration", "Google Tag"] },
+      { "do": "أنشئ متغيّراً ثابتاً في Tag ID والصق المعرّف.", "ui": ["Constant", "Value", "Save"], "note": "المتغيّر يتيح إعادة استخدام المعرّف في وسوم أخرى." },
+      { "do": "أضف المشغّل واحفظ.", "ui": ["Triggering", "Initialization - All Pages", "Save"], "note": "يعمل في كل الصفحات وقبل الوسوم الأخرى." }
+    ] },
+    { "type": "steps", "title": "اختبر ثم انشر", "steps": [
+      { "do": "شغّل المعاينة وأدخل رابط متجرك.", "ui": ["Preview", "Connect"] },
+      { "do": "تصفّح الموقع ثم تحقق أن الوسم أُطلق.", "ui": ["Tag Assistant", "Fired"] },
+      { "do": "شاهد الأحداث مباشرة في Google Analytics.", "ui": ["Admin", "DebugView"] },
+      { "do": "انشر النسخة.", "ui": ["Submit", "Version name", "Publish"] }
+    ] },
+    { "type": "dosdonts", "title": "بعد الاختبار", "do": ["راقب تقرير Realtime؛ البيانات تظهر فيه خلال ثوانٍ.", "انتظر امتلاء بقية التقارير؛ فهي تحتاج وقتاً."], "dont": ["لا تكتفِ بالمعاينة دون النشر."] },
+    { "type": "quiz", "title": "اختبر فهمك", "question": "متى يصبح التتبّع حياً لكل الزوار؟", "options": ["بعد ضغط Preview", "بعد حفظ الوسم", "بعد ظهور Connected", "بعد Submit ثم Publish"], "answer": 3, "why": "في المعاينة لا تُسجَّل إلا أحداثك أنت أثناء الاختبار." },
+    { "type": "checklist", "title": "قبل أن تنتقل", "items": ["أنشأت وسم Google Tag بمعرّف القياس.", "استخدمت المشغّل Initialization - All Pages.", "تحققت في Tag Assistant و DebugView.", "نشرت النسخة عبر Publish."] }
+  ]
+}

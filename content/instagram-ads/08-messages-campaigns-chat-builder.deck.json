@@ -1,0 +1,70 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "إعلان يفتح محادثة مع متجرك",
+      "text": "يضغط العميل على الإعلان فيُفتح له بريد إنستغرام ليراسلك. خيار الرسائل موجود تحت هدفي Traffic و Engagement.",
+      "visual": "campaign-steps"
+    },
+    {
+      "type": "steps",
+      "title": "حملة رسائل عبر Traffic",
+      "steps": [
+        { "do": "أنشئ حملة زيارات.", "ui": ["Create", "Traffic", "Recommended settings"] },
+        { "do": "اختر وجهات المراسلة مكاناً للتحويل.", "ui": ["Conversion location", "Messaging destinations"] },
+        { "do": "غيّر هدف الأداء إلى المحادثات.", "ui": ["Performance goal", "Maximize number of conversations"], "note": "تحقق منه مجدداً بعد تغيير الصفحة." },
+        { "do": "حدد الصفحة ثم اختر Instagram فقط.", "ui": ["Manual destination", "Instagram"] },
+        { "do": "جهّز نسخة 1:1 من الصورة لموضع Feed.", "ui": ["Replace"] }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "عناصر Chat builder",
+      "cards": [
+        { "title": "Greeting", "text": "خصّص التحية وأدرج متغيراً مثل اسم المستخدم." },
+        { "title": "Questions", "text": "عدّل الأسئلة المقترحة أو أضف أسئلتك." },
+        { "title": "Automatic responses", "text": "اكتب رداً واضحاً لكل سؤال." },
+        { "title": "Follow-up message", "text": "رسالة لاحقة اختيارية تدعم المتغيرات." }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "أي طريقة تختار؟",
+      "cards": [
+        { "title": "Engagement", "text": "المفضل لرسائل الاستفسار والدعم، عبر Tailored messages campaign." },
+        { "title": "الحملة اليدوية", "text": "حين تريد التحكم في المواضع." },
+        { "title": "Leads", "text": "لعملاء محتملين جادّين مع متابعة منظمة." }
+      ]
+    },
+    {
+      "type": "dosdonts",
+      "title": "أخطاء تضيّع المحادثات",
+      "do": [
+        "اكتب نص الإعلان أولاً لتأتي الأسئلة المقترحة مناسبة.",
+        "احفظ قالب المحادثة لإعادة استخدامه."
+      ],
+      "dont": [
+        "لا تترك هدف الأداء على Link clicks.",
+        "لا تقيّد المواضع دون سبب محدد."
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "لماذا تأتي أسئلة Chat builder المقترحة عامة جداً؟",
+      "options": ["لأن الجمهور واسع", "لأن نص الإعلان فارغ أو عام", "لأن الميزانية صغيرة"],
+      "answer": 1,
+      "why": "Meta تولّد الأسئلة اعتماداً على نص إعلانك."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "الوجهة يدوية و Instagram فقط.",
+        "هدف الأداء Conversations بعد اختيار الصفحة.",
+        "نسخة 1:1 جاهزة لموضع Feed.",
+        "التحية والأسئلة والردود مخصصة والقالب محفوظ."
+      ]
+    }
+  ]
+}

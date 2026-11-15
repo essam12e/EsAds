@@ -1,0 +1,29 @@
+{
+  "slides": [
+    { "type": "idea", "title": "ابنِ تقريرك بنفسك", "text": "التقارير الجاهزة لا تجيب عن كل سؤال. Explore مساحة تبني فيها تقارير تجيب عن أسئلة محددة.", "visual": "analytics-report" },
+    { "type": "cards", "title": "شاشة الاستكشاف", "cards": [
+      { "title": "Variables", "text": "تلتقط فيه الشرائح والأبعاد والمقاييس التي تريد دراستها." },
+      { "title": "Settings", "text": "تبني فيه التقرير: صفوف وأعمدة وقيم وفلاتر." },
+      { "title": "اللوحة", "text": "تعرض النتيجة وتتحدّث فوراً مع كل تغيير." }
+    ] },
+    { "type": "steps", "title": "تقرير الحملات", "steps": [
+      { "do": "أنشئ تقريراً فارغاً وسمِّه Campaigns.", "ui": ["Explore", "Blank"] },
+      { "do": "أضف بُعد حملة الجلسة.", "ui": ["Dimensions", "+", "Session campaign", "Confirm"] },
+      { "do": "أضف المقاييس.", "ui": ["Metrics", "+", "Sessions", "Active users", "Key events", "Confirm"] },
+      { "do": "انقر نقراً مزدوجاً على البُعد ثم على كل مقياس.", "ui": ["Rows", "Values"] },
+      { "do": "أضف فلتراً بالتعبير ^\\(.*\\)$ لتبقى الحملات الفعلية.", "ui": ["Filters", "Session campaign", "does not match regex", "Apply"] }
+    ] },
+    { "type": "steps", "title": "المشتريات حسب المدينة والجهاز", "steps": [
+      { "do": "أضف الأبعاد والمقاييس إلى تقرير فارغ جديد.", "ui": ["City", "Country", "Device model", "Purchases"] },
+      { "do": "ضع المدينة في الصفوف والمشتريات في القيم.", "ui": ["Rows", "Values"] },
+      { "do": "احصر النتائج في بلد واحد.", "ui": ["Filters", "Country", "contains", "Apply"] },
+      { "do": "ضع طراز الجهاز في الأعمدة.", "ui": ["Columns", "Device model"], "note": "ارفع Show column groups حتى 20." }
+    ] },
+    { "type": "compare", "title": "الشرائح Segments", "columns": ["شريحة جاهزة", "شريحة مخصصة"], "rows": [
+      ["مثال", "Direct traffic", "مستخدمو بلد معيّن"],
+      ["الطريقة", "طبّقها مباشرة على التقرير", "أنشئ User segment بشرط"]
+    ] },
+    { "type": "quiz", "title": "اختبر فهمك", "question": "لم تجد البُعد في الصفوف أو الفلاتر. ما السبب؟", "options": ["البُعد محجوب", "لم تضفه إلى Variables أولاً", "النطاق الزمني قصير"], "answer": 1, "why": "كل ما تريد استخدامه يجب أن يضاف أولاً إلى عمود Variables." },
+    { "type": "checklist", "title": "قبل أن تنتقل", "items": ["أضفت الأبعاد والمقاييس إلى Variables أولاً.", "وزّعتها في Rows و Columns و Values و Filters.", "بنيت تقرير الحملات بفلتر regex.", "استبعدت (not set) بفلتر."] }
+  ]
+}

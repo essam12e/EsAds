@@ -1,0 +1,122 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "اعرف من أين يأتي زوارك",
+      "text": "GA4 يخبرك من أين يأتي الزوار وماذا يفعلون. تثبيته مرحلتان: الحصول على Measurement ID ثم إيصاله إلى المتجر.",
+      "visual": "analytics-report"
+    },
+    {
+      "type": "steps",
+      "title": "أنشئ الحساب والدفق",
+      "steps": [
+        {
+          "do": "أنشئ حساباً وخاصية بالمنطقة الزمنية والعملة.",
+          "ui": [
+            "Create",
+            "Account"
+          ]
+        },
+        {
+          "do": "اختر فئة النشاط وهدف زيادة المبيعات.",
+          "ui": [
+            "Shopping",
+            "Drive sales"
+          ]
+        },
+        {
+          "do": "أنشئ دفق ويب برابط متجرك.",
+          "ui": [
+            "Web",
+            "Create & continue"
+          ],
+          "note": "اترك Enhanced measurement مفعّلاً."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "طرق التثبيت",
+      "cards": [
+        {
+          "title": "تكامل Shopify الجاهز",
+          "text": "اختر المنصة من Install with a website builder / CMS واتبع تعليمات Google."
+        },
+        {
+          "title": "يدوياً",
+          "text": "يظهر كود Google tag تلصقه في رأس الموقع."
+        },
+        {
+          "title": "عبر Google Tag Manager",
+          "text": "انسخ Measurement ID وضعه في وسم؛ الأبسط مع عدة منصات."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "التثبيت عبر GTM",
+      "steps": [
+        {
+          "do": "أنشئ وسماً جديداً من نوع حدث GA4.",
+          "ui": [
+            "Tags",
+            "New",
+            "Google Analytics: GA4 Event"
+          ]
+        },
+        {
+          "do": "الصق Measurement ID وأنشئ الوسم الأساسي عند الطلب.",
+          "ui": [
+            "Create tag"
+          ]
+        },
+        {
+          "do": "اختر المتغيّر {{Event}} اسماً للحدث.",
+          "ui": [
+            "Event Name"
+          ]
+        },
+        {
+          "do": "اختر مشغّل كل الصفحات واحفظ.",
+          "ui": [
+            "Triggering",
+            "All Pages",
+            "Save"
+          ]
+        },
+        {
+          "do": "اختبر ثم انشر.",
+          "ui": [
+            "Preview",
+            "Submit",
+            "Publish"
+          ],
+          "note": "يجب أن يظهر الوسم Fired عن كل صفحة."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "أين تتحقق من وصول البيانات داخل Google Analytics؟",
+      "options": [
+        "Business details",
+        "Stream name",
+        "View realtime"
+      ],
+      "answer": 2,
+      "why": "في العرض الفوري ترى مستخدماً نشطاً واحداً على الأقل والصفحات التي زارها."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "فئة Shopping وهدف Drive sales محددان.",
+        "Enhanced measurement مفعّل.",
+        "وسم GA4 يظهر Fired في المعاينة.",
+        "الحاوية منشورة.",
+        "مستخدم نشط يظهر في View realtime."
+      ]
+    }
+  ]
+}

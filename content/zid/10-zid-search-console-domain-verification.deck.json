@@ -1,0 +1,133 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "تابع ظهور متجرك في بحث Google",
+      "text": "Search Console يريك كلمات البحث والظهور والنقرات والصفحات المؤرشفة. في زد تثبت الملكية عبر Analytics أو Tag Manager بلا كود.",
+      "visual": "search-performance"
+    },
+    {
+      "type": "steps",
+      "title": "أضف المتجر وأثبت الملكية",
+      "steps": [
+        {
+          "do": "سجّل الدخول بالبريد نفسه وأضف موقعاً جديداً.",
+          "ui": [
+            "URL prefix"
+          ]
+        },
+        {
+          "do": "أدخل رابط المتجر بصيغته الفعلية تماماً.",
+          "ui": [
+            "Continue"
+          ],
+          "note": "مع https:// ومع www أو بدونها."
+        },
+        {
+          "do": "اختر Google Analytics أو Google Tag Manager وتحقق.",
+          "ui": [
+            "Verify",
+            "Go to property"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "أرسل خريطة الموقع",
+      "steps": [
+        {
+          "do": "انسخ رابط خارطة أرشفة الموقع من زد.",
+          "ui": [
+            "المتجر الإلكتروني",
+            "تحسين محركات البحث"
+          ]
+        },
+        {
+          "do": "افتح خرائط الموقع في Search Console.",
+          "ui": [
+            "Sitemaps"
+          ]
+        },
+        {
+          "do": "أبقِ في الحقل sitemap.xml فقط وأرسل.",
+          "ui": [
+            "Submit"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "ماذا تتابع بعد الربط؟",
+      "cards": [
+        {
+          "title": "Performance",
+          "text": "كلمات الظهور وعدد مرات الظهور والنقرات ومتوسط الترتيب."
+        },
+        {
+          "title": "Pages",
+          "text": "الصفحات المؤرشفة وغير المؤرشفة وأسباب ذلك."
+        },
+        {
+          "title": "URL Inspection",
+          "text": "حالة صفحة بعينها وطلب أرشفتها."
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "أمران باسم متشابه",
+      "columns": [
+        "إثبات الملكية في Google",
+        "توثيق النطاق في Meta"
+      ],
+      "rows": [
+        [
+          "أين",
+          "Search Console و Merchant Center",
+          "مدير الأعمال: Brand Safety ثم Domains"
+        ],
+        [
+          "الطريقة",
+          "عبر Analytics أو Tag Manager",
+          "أشهرها سجل TXT في DNS"
+        ]
+      ]
+    },
+    {
+      "type": "dosdonts",
+      "title": "انتبه",
+      "do": [
+        "استخدم البريد نفسه في الخدمتين.",
+        "انتظر 10 إلى 15 دقيقة إن فعّلت التطبيق للتو.",
+        "اربط Search Console بـ Analytics."
+      ],
+      "dont": [
+        "لا تلصق رابط الخريطة كاملاً في الحقل."
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "ماذا تبقي في حقل إضافة خريطة الموقع؟",
+      "options": [
+        "sitemap.xml فقط",
+        "الرابط كاملاً",
+        "robots.txt"
+      ],
+      "answer": 0,
+      "why": "الحقل يبدأ بعنوان متجرك تلقائياً، ولصق الرابط كاملاً يكرر العنوان وتفشل القراءة."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "Analytics أو Tag Manager مفعّل في زد بالبريد نفسه.",
+        "المتجر مضاف بنوع URL prefix.",
+        "الملكية مثبتة عبر Verify.",
+        "خريطة الموقع مرسلة من Sitemaps."
+      ]
+    }
+  ]
+}

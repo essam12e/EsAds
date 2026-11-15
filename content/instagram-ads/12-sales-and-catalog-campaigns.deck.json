@@ -1,0 +1,75 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "الحملة الأهم للمتجر: Sales",
+      "text": "النظام يبحث عن الأشخاص المرجح أن يشتروا، لا الذين ينقرون فقط. وبدون وصول حدث الشراء إلى Meta تكون الحملة بلا قيمة.",
+      "visual": "conversion-tracking"
+    },
+    {
+      "type": "steps",
+      "title": "الحملة والمجموعة الإعلانية",
+      "steps": [
+        { "do": "أنشئ حملة مبيعات.", "ui": ["Create", "Sales"] },
+        { "do": "اختر الموقع مكاناً للتحويل.", "ui": ["Conversion location", "Website"] },
+        { "do": "اختر هدف تعظيم التحويلات.", "ui": ["Performance goal", "Maximize number of conversions"] },
+        { "do": "اختر البكسل وحدث الشراء.", "ui": ["Conversion event", "Purchase"] },
+        { "do": "للعرض على إنستغرام فقط أبقِ Instagram وحده.", "ui": ["Manual placements"] }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "إعداد الإعلان",
+      "steps": [
+        { "do": "ضع رابط صفحة المنتج أو المتجر وأضف رابط العرض.", "ui": ["Website URL", "Display link"] },
+        { "do": "غيّر زر الدعوة.", "ui": ["Shop now"] },
+        { "do": "فعّل أحداث الموقع ثم انشر.", "ui": ["Tracking", "Website events"] }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "اختيار حدث التحويل",
+      "cards": [
+        { "title": "Purchase", "text": "الاختيار الأساسي متى كان الحدث يصل من متجرك." },
+        { "title": "Initiate checkout", "text": "بديل مؤقت إن لم يكن حدث الشراء متاحاً." },
+        { "title": "Add to cart", "text": "بديل مؤقت آخر." }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "حملات الكتالوج",
+      "cards": [
+        { "title": "ما هي؟", "text": "تعرض منتجات متجرك من قائمة منتجاتك، وتُنشأ ضمن Sales." },
+        { "title": "المتطلب", "text": "ربط الكتالوج أولاً عبر Commerce Manager والتأكد من ظهور المنتجات." },
+        { "title": "إنستغرام فقط", "text": "أبقِ Instagram وحده في Platforms." }
+      ]
+    },
+    {
+      "type": "dosdonts",
+      "title": "أخطاء حملة المبيعات",
+      "do": ["ثبّت البكسل واختبر وصول الأحداث أولاً."],
+      "dont": [
+        "لا تخلط بين Conversions و Conversations.",
+        "لا توجه إعلان المبيعات إلى صفحة التواصل."
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "أي هدف أداء تختار لحملة المبيعات؟",
+      "options": ["Maximize number of conversations", "Landing page views", "Maximize number of conversions"],
+      "answer": 2,
+      "why": "Conversions للمبيعات، أما Conversations فلحملات الرسائل."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل النشر",
+      "items": [
+        "البكسل مثبت وحدث Purchase يصل.",
+        "مكان التحويل Website وهدف الأداء Conversions.",
+        "الرابط يفتح صفحة المنتج أو المتجر.",
+        "زر الدعوة Shop now و Website events مفعّل."
+      ]
+    }
+  ]
+}

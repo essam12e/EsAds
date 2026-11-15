@@ -1,0 +1,141 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "انسخ المعرّف بدل الكود الطويل",
+      "text": "لصق كود X يدوياً معقد. الأسهل أن تنسخ Pixel ID وتضعه في وسم داخل Google Tag Manager المثبت على متجرك.",
+      "visual": "pixel-flow"
+    },
+    {
+      "type": "compare",
+      "title": "قالبا X في المعرض",
+      "columns": [
+        "Twitter Base Pixel",
+        "Twitter Event Pixel"
+      ],
+      "rows": [
+        [
+          "الوظيفة",
+          "يرسل إشارة زيارة الموقع",
+          "لحدث محدد مثل الشراء"
+        ],
+        [
+          "يحتاج",
+          "Pixel ID",
+          "Pixel ID و Event ID"
+        ],
+        [
+          "المشغّل",
+          "All Pages",
+          "Custom Event باسم purchase"
+        ]
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "وسم البكسل الأساسي",
+      "steps": [
+        {
+          "do": "انسخ معرّف البكسل من X.",
+          "ui": [
+            "Events manager",
+            "Tag manager",
+            "Pixel ID"
+          ]
+        },
+        {
+          "do": "أنشئ وسماً وابحث عن Twitter في معرض القوالب.",
+          "ui": [
+            "Tags",
+            "New",
+            "Community Template Gallery"
+          ]
+        },
+        {
+          "do": "اختر القالب الأساسي والصق المعرّف.",
+          "ui": [
+            "Twitter Base Pixel"
+          ]
+        },
+        {
+          "do": "اختر مشغّل كل الصفحات واحفظ.",
+          "ui": [
+            "Triggering",
+            "All Pages",
+            "Save"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "وسم حدث الشراء",
+      "steps": [
+        {
+          "do": "أنشئ مشغّل حدث مخصص باسم purchase.",
+          "ui": [
+            "Triggers",
+            "New",
+            "Custom Event"
+          ]
+        },
+        {
+          "do": "انسخ معرّف الحدث من X.",
+          "ui": [
+            "Purchase tracker",
+            "Event ID"
+          ]
+        },
+        {
+          "do": "أنشئ وسم الحدث والصق المعرّفين واربطه بالمشغّل.",
+          "ui": [
+            "Twitter Event Pixel",
+            "Add to workspace"
+          ]
+        },
+        {
+          "do": "اختبر بطلب تجريبي ثم انشر.",
+          "ui": [
+            "Preview",
+            "Submit",
+            "Publish"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dosdonts",
+      "title": "انتبه",
+      "do": [
+        "تأكد أن المتجر يرسل حدثاً باسم purchase.",
+        "انتظر حتى ينشط حدث Purchase."
+      ],
+      "dont": [
+        "لا تستخدم وسم Twitter القديم Legacy.",
+        "لا تختر Site visit حدث تحويل لحملة مبيعات."
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "بأي كلمة تبحث عن قالب X في معرض القوالب؟",
+      "options": [
+        "X",
+        "Twitter",
+        "Pixel"
+      ],
+      "answer": 1,
+      "why": "البحث بكلمة X لا يعطي نتيجة واضحة، والقالبان باسم Twitter."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "وسم X Base يُطلق على كل الصفحات.",
+        "وسم X Purchase يُطلق عند طلب تجريبي.",
+        "الحدث صار Active في Events manager.",
+        "الحاوية منشورة."
+      ]
+    }
+  ]
+}

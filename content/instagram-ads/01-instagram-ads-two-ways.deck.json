@@ -1,0 +1,70 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "طريقان لتشغيل إعلان إنستغرام",
+      "text": "إعلانات إنستغرام جزء من نظام Meta Ads. تنشئ الإعلان بترويج المنشور من الحساب نفسه، أو من مدير الإعلانات.",
+      "visual": "funnel"
+    },
+    {
+      "type": "compare",
+      "title": "Boost أم Ads Manager؟",
+      "columns": ["Boost", "Ads Manager"],
+      "rows": [
+        ["السهولة", "بسيط وسريع", "أعقد قليلاً"],
+        ["التحكم", "محدود", "واسع جداً"],
+        ["المادة الإعلانية", "منشورات ملفك فقط", "مادة جديدة لا تظهر في ملفك"],
+        ["هدف الوعي", "لا مقابل مباشر", "متاح عبر Awareness"]
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "ما يضيفه Ads Manager",
+      "cards": [
+        { "title": "المنصات والمواضع", "text": "إنستغرام فقط أو مع فيسبوك، وفي Feed أو Stories أو Reels." },
+        { "title": "الأجهزة", "text": "احصر العرض على أجهزة محددة." },
+        { "title": "جماهير متقدمة", "text": "أعد استهداف من تفاعل مع حسابك، واستهدف المشابهين لهم." }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "كل هدف في Boost له مقابل",
+      "columns": ["Boost", "Ads Manager"],
+      "rows": [
+        ["الملف", "Visit your profile", "Traffic أو Engagement"],
+        ["الرسائل", "Message you", "Traffic أو Engagement أو Leads"],
+        ["الموقع", "Visit your website", "Traffic أو Leads مع Website"],
+        ["الشراء", "Make a purchase", "Sales مع Pixel وحدث Purchase"]
+      ]
+    },
+    {
+      "type": "dosdonts",
+      "title": "من أين تبدأ؟",
+      "do": [
+        "جرّب Boost أولاً لتفهم الهدف والجمهور والميزانية والمدة.",
+        "انتقل إلى Ads Manager لنتائج قابلة للتحسين."
+      ],
+      "dont": [
+        "لا تتجنب Ads Manager لأنه يبدو معقداً؛ الإعدادات الموصى بها تسهّل البداية."
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "تريد إعلاناً بيعياً لا يبقى ظاهراً في ملفك على إنستغرام. ماذا تستخدم؟",
+      "options": ["Boost", "Ads Manager", "أي منهما"],
+      "answer": 1,
+      "why": "Boost يستخدم منشورات ملفك فقط، أما Ads Manager فيتيح رفع مادة تظهر كإعلان فقط."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "أعرف أن Meta Ads تشمل Facebook و Instagram و WhatsApp.",
+        "أعرف حدود Boost: تحكم محدود ومنشورات ملفي فقط.",
+        "أعرف مقابل كل هدف Boost في Ads Manager.",
+        "حددت الطريقة الأنسب لحالة متجري."
+      ]
+    }
+  ]
+}

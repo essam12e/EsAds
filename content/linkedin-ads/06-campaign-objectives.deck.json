@@ -1,0 +1,34 @@
+{
+  "slides": [
+    { "type": "idea", "title": "الهدف أول قرار في الحملة", "text": "الهدف يحدد ما تحسّن المنصة الحملة من أجله، والصيغ وخيارات المزايدة التي تظهر بعده. لا تختره عشوائياً.", "visual": "funnel" },
+    { "type": "cards", "title": "سبعة أهداف على ثلاث مراحل", "cards": [
+      { "title": "Awareness: عميل بارد", "text": "Brand awareness، وغايته الوصول." },
+      { "title": "Consideration: عميل دافئ", "text": "Website visits و Engagement و Video views." },
+      { "title": "Conversion: عميل ساخن", "text": "Lead generation و Website conversions و Job applicants." }
+    ] },
+    { "type": "compare", "title": "أين يملأ العميل بياناته؟", "columns": ["Lead generation", "Website conversions"], "rows": [
+      ["المكان", "نموذج داخل لينكدإن", "موقعك، خارج لينكدإن"],
+      ["معرفة النتيجة", "تلقائية", "عبر وسم في صفحات موقعك"],
+      ["إعداد التتبع", "لا يحتاج", "إلزامي"]
+    ] },
+    { "type": "cards", "title": "استنتج الهدف من زر الإعلان", "cards": [
+      { "title": "صفحة في الموقع فقط", "text": "زر Learn more: الهدف المرجّح Website visits." },
+      { "title": "صفحة فيها نموذج", "text": "إجراء على الموقع: Website conversions في الغالب." },
+      { "title": "نموذج فوري داخل لينكدإن", "text": "زر Request demo أو Sign up: الهدف Lead generation." }
+    ] },
+    { "type": "dosdonts", "title": "اختر بوعي", "do": [
+      "ابدأ بـ Brand awareness عند الشك في جمهورك.",
+      "ثبّت Insight Tag عبر Google Tag Manager لتتبع موقعك.",
+      "راقب إعلانات Promoted في مجالك."
+    ], "dont": [
+      "لا تختر Website conversions دون تجهيز التتبع."
+    ] },
+    { "type": "quiz", "title": "اختبر فهمك", "question": "لست جاهزاً لإعداد الوسم وتريد عملاء محتملين. أي هدف تختار؟", "options": ["Website conversions", "Video views", "Lead generation"], "answer": 2, "why": "يعمل داخل لينكدإن دون أي إعداد تقني." },
+    { "type": "checklist", "title": "قبل أن تنتقل", "items": [
+      "أعرف الأهداف السبعة ومراحلها الثلاث.",
+      "الفرق بين الأهداف يظهر في هدف التحسين.",
+      "Lead generation بلا وسم، و Website conversions بتتبع إلزامي.",
+      "أستنتج أهداف إعلانات غيري من أزرارها ووجهاتها."
+    ] }
+  ]
+}

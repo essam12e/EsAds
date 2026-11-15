@@ -1,0 +1,61 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "أقسام قليلة وأسماؤها تدل عليها",
+      "text": "في أسابيعك الأولى ستقضي معظم وقتك في ثلاثة أماكن: Campaigns و Goals و Keyword Planner.",
+      "visual": "analytics-report"
+    },
+    {
+      "type": "cards",
+      "title": "أهم أقسام القائمة",
+      "cards": [
+        { "title": "Overview", "text": "ملخص الحساب: الحملات العاملة والرصيد المتبقي والمسودات." },
+        { "title": "Campaigns", "text": "شاشة العمل الرئيسية: الحملات والمجموعات والإعلانات والكلمات." },
+        { "title": "Goals", "text": "أهداف التحويل وزر Create conversion action." },
+        { "title": "Tools", "text": "الربط عبر Data manager والتخطيط عبر Keyword Planner." },
+        { "title": "Billing", "text": "حساب الفوترة وتفاصيل الدفع." },
+        { "title": "Admin", "text": "منح شخص آخر صلاحية الوصول إلى الحساب." }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "انزل من الحملة إلى كلماتها",
+      "steps": [
+        { "do": "اعرض كل حملات الحساب.", "ui": ["Campaigns", "Campaigns"] },
+        { "do": "انقر اسم الحملة ثم اسم المجموعة الإعلانية." },
+        { "do": "اعرض إعلانات المجموعة.", "ui": ["Ads"] },
+        { "do": "اعرض الكلمات المستهدفة.", "ui": ["Audiences, Keywords and Content", "Keywords"] }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "أين أذهب إذا أردت أن...؟",
+      "cards": [
+        { "title": "إنشاء حملة جديدة", "text": "زر + في Campaigns، أو New campaign في Overview." },
+        { "title": "إنشاء إجراء تحويل", "text": "Goals ثم Create conversion action." },
+        { "title": "البحث عن كلمات", "text": "Tools ثم Planning ثم Keyword Planner." },
+        { "title": "ربط YouTube أو الملف التجاري", "text": "Tools ثم Data manager ثم Connect product." }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "بدت لك أرقام الحساب ناقصة. ماذا تضغط أولاً؟",
+      "options": ["Recommendations", "Billing", "All Campaigns"],
+      "answer": 2,
+      "why": "ربما اخترت حملة من القائمة المنسدلة ونسيت، فتُعرض بياناتها وحدها."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "أعرف الأقسام السبعة في القائمة",
+        "أعرف أن Campaigns شاشة العمل و Goals مكان التحويلات",
+        "أجد Data manager و Keyword Planner داخل Tools",
+        "أعود إلى الحساب كله عبر All Campaigns",
+        "أعرف من أين أبدأ حملة جديدة"
+      ]
+    }
+  ]
+}

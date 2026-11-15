@@ -1,0 +1,29 @@
+{
+  "slides": [
+    { "type": "idea", "title": "كل حدث Meta وسم مستقل", "text": "الوسم الأساسي يرسل PageView فقط. لكل حدث أدق أنشئ وسماً بالمعرّف نفسه، يختلف في اسم الحدث والمشغّل.", "visual": "pixel-flow" },
+    { "type": "compare", "title": "القياسي والمخصص", "columns": ["قياسي", "مخصص"], "rows": [
+      ["المعنى", "معرّف مسبقاً لدى Meta", "تنشئه وتكتب اسمه"],
+      ["أمثلة", "AddToCart و InitiateCheckout", "Cart View"],
+      ["متى", "إن وُجد حدث مطابق", "لما لا يغطيه القياسي"]
+    ] },
+    { "type": "steps", "title": "حدث مخصص لمشاهدة السلة", "steps": [
+      { "do": "أنشئ مشغّلاً لصفحة السلة بالقيمة cart وسمِّه Cart Page View.", "ui": ["Page View", "Some Page Views", "Page Path", "contains"] },
+      { "do": "أنشئ وسماً بقالب Facebook Pixel.", "ui": ["Tags", "New", "Custom"] },
+      { "do": "اختر المتغير الثابت للمعرّف.", "ui": ["Pixel ID"] },
+      { "do": "اختر نوع الحدث المخصص واكتب اسمه Cart View.", "ui": ["Custom"] },
+      { "do": "اربطه بالمشغّل واحفظ.", "ui": ["Triggering", "Save"] }
+    ] },
+    { "type": "cards", "title": "أي اسم يصل إلى Meta؟", "cards": [
+      { "title": "اسم الوسم", "text": "لا يظهر في Meta." },
+      { "title": "اسم المشغّل", "text": "لا يظهر في Meta." },
+      { "title": "حقل Event Name", "text": "هو الوحيد الذي يظهر في Events Manager." }
+    ] },
+    { "type": "steps", "title": "انشر وأكّد الأحداث", "steps": [
+      { "do": "اختبر في المعاينة ثم انشر.", "ui": ["Preview", "Submit", "Publish"] },
+      { "do": "اختبر في Events Manager بفتح السلة وصفحة إتمام الطلب.", "ui": ["Test Events", "Website"] },
+      { "do": "أكّد الأحداث المخصصة التي أرسلتها.", "ui": ["Overview", "Review", "Confirm"], "note": "الحدث المخصص يبقى Inactive حتى تؤكده." }
+    ] },
+    { "type": "quiz", "title": "اختبر فهمك", "question": "أي حدث تختار لصفحة إتمام الطلب؟", "options": ["InitiateCheckout القياسي", "حدث مخصص جديد", "PageView فقط"], "answer": 0, "why": "إذا وُجد حدث قياسي مطابق فاختره، والمخصص لما لا يغطيه القياسي." },
+    { "type": "checklist", "title": "قبل أن تنتقل", "items": ["الوسم الأساسي FB Base منشور ويعمل.", "أنشأت مشغّلاً ووسماً لكل حدث.", "أعرف أن Event Name هو ما يظهر في Meta.", "نشرت الحاوية.", "أكّدت الأحداث المخصصة في Events Manager."] }
+  ]
+}

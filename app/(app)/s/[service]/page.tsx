@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import BrandIcon from "@/components/BrandIcon";
+import DoneMarks from "@/components/DoneMarks";
 import { platformOf, serviceOf } from "@/lib/catalog";
 import { KIND_LABEL, KIND_ORDER, topicsOf } from "@/lib/content";
 
@@ -25,6 +26,12 @@ export default async function ServicePage({ params }: { params: Promise<{ servic
           <p className="lead">{service.blurb}</p>
         </div>
       </section>
+      <div className="progress" data-progress hidden>
+        <span>تقدّمك في هذه الخدمة</span>
+        <i />
+        <b />
+      </div>
+      <DoneMarks />
       {groups.length > 1 && (
         <div className="chips" data-hero>
           {groups.map((g) => (
@@ -41,7 +48,7 @@ export default async function ServicePage({ params }: { params: Promise<{ servic
           </h2>
           <div className="grid cards-2">
             {g.items.map((t, i) => (
-              <Link key={t.slug} href={`/s/${service.id}/${t.slug}`} className="card topic-card" data-reveal>
+              <Link key={t.slug} href={`/s/${service.id}/${t.slug}`} className="card topic-card" data-reveal data-guide={`${service.id}/${t.slug}`}>
                 <span className="topic-num">{String(i + 1).padStart(2, "0")}</span>
                 <div>
                   <h3>{t.title}</h3>

@@ -1,0 +1,68 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "زوار من إنستغرام إلى متجرك",
+      "text": "حملة Traffic يدوية ترسل الناس إلى موقعك، مع اختيار ما يُحسَّن عليه الإعلان وحصر العرض على إنستغرام.",
+      "visual": "campaign-steps"
+    },
+    {
+      "type": "steps",
+      "title": "الحملة والمجموعة الإعلانية",
+      "steps": [
+        { "do": "أنشئ حملة زيارات يدوية.", "ui": ["Create", "Traffic", "Manual"] },
+        { "do": "اختر الموقع مكاناً للتحويل.", "ui": ["Conversion location", "Website"] },
+        { "do": "اختر هدف مشاهدات صفحة الهبوط.", "ui": ["Performance goal", "Maximize number of landing page views"] },
+        { "do": "اضبط الجمهور، ثم أبقِ Instagram وحده في المواضع.", "ui": ["Placements", "Manual placements"] }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "على ماذا تحسّن؟",
+      "columns": ["Link clicks", "Landing page views"],
+      "rows": [
+        ["ما يُحتسب", "أي نقرة على الإعلان", "زيارة اكتمل فيها تحميل الصفحة"],
+        ["التكلفة الظاهرة", "أرخص كثيراً", "أعلى"],
+        ["النتيجة", "زيارات كثيرة تضيع قبل التحميل", "تعكس وصول الزوار فعلياً"]
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "حقول الإعلان",
+      "cards": [
+        { "title": "Website URL", "text": "الرابط الفعلي الذي يهبط عليه المستخدم." },
+        { "title": "Display link", "text": "رابط قصير نظيف يظهر للمستخدم فقط." },
+        { "title": "Site links", "text": "روابط إضافية تنقل الزائر إلى أقسام محددة وترفع معدل النقر." },
+        { "title": "CTA", "text": "المعتاد في زيارات الموقع: Learn more." }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "إضافة Site links والتتبع",
+      "steps": [
+        { "do": "أضف رابط موقع واكتب عنوانه ووجهته.", "ui": ["Manage site links", "Add site link"] },
+        { "do": "كرر الخطوة لروابط أخرى." },
+        { "do": "تأكد من تفعيل أحداث الموقع.", "ui": ["Tracking", "Website events"] }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "أين يهبط المستخدم عند النقر على إعلان فيه Display link؟",
+      "options": ["على رابط العرض", "على ملف إنستغرام", "على Website URL الفعلي"],
+      "answer": 2,
+      "why": "رابط العرض للظهور فقط، والهبوط على رابط الموقع الفعلي."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل النشر",
+      "items": [
+        "الحملة Manual ومكان التحويل Website.",
+        "هدف الأداء Landing page views.",
+        "Instagram وحده محدد في المواضع.",
+        "رابط الموقع صحيح ورابط العرض قصير.",
+        "Website events مفعّل."
+      ]
+    }
+  ]
+}
