@@ -1,0 +1,114 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "ليست كل أقسام الواجهة بالأهمية نفسها",
+      "text": "اعرف ما تستخدمه كثيراً وما تتخطاه، وفعّل إعدادات الحماية من اليوم الأول."
+    },
+    {
+      "type": "cards",
+      "title": "أقسام تحتاجها",
+      "cards": [
+        {
+          "title": "Products",
+          "text": "الأكثر استخداماً: كل منتجاتك وحالاتها."
+        },
+        {
+          "title": "Notifications",
+          "text": "التحذيرات التي تحتاج انتباهك الفوري."
+        },
+        {
+          "title": "Shipping and returns",
+          "text": "سياسات الشحن والإرجاع داخل الحساب."
+        },
+        {
+          "title": "Data sources",
+          "text": "كل مصادر المنتجات المتصلة بالحساب."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "فعّل هذه الإعدادات أولاً",
+      "steps": [
+        {
+          "do": "فعّل تحسينات الصور وتحديثات الشحن",
+          "ui": [
+            "Automations",
+            "Automatic image improvements",
+            "Shipping updates"
+          ],
+          "note": "أبقِ السعر والتوفر وحالة المنتج مفعّلة"
+        },
+        {
+          "do": "أبقِ القوائم المجانية مفعّلة",
+          "ui": [
+            "Marketing methods",
+            "Free listings"
+          ]
+        },
+        {
+          "do": "فعّل حماية المنتجات على النسبة الافتراضية 40%",
+          "ui": [
+            "Settings",
+            "General",
+            "Product protection"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "صلاحيات الفريق",
+      "cards": [
+        {
+          "title": "Admin",
+          "text": "تحكم كامل."
+        },
+        {
+          "title": "Standard",
+          "text": "تحكم جزئي."
+        },
+        {
+          "title": "Performance and insights",
+          "text": "قراءة التقارير فقط."
+        }
+      ]
+    },
+    {
+      "type": "dosdonts",
+      "title": "أولويات البداية",
+      "do": [
+        "أدر حملاتك من Google Ads",
+        "اربط Google Ads و Google Analytics من Apps and services",
+        "امنح كل شخص أقل صلاحية تكفيه"
+      ],
+      "dont": [
+        "لا تنشغل الآن بـ Ad campaigns و Product Studio",
+        "لا تحدّث الشحن في الموقع وتنسَ Merchant Center"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "ما فائدة Product protection على 40%؟",
+      "options": [
+        "تمنع رفض المنتجات",
+        "تحسّن الصور تلقائياً",
+        "تنبّهك قبل إزالة 40% أو أكثر من المنتجات"
+      ],
+      "answer": 2,
+      "why": "الحذف غير المقصود يحدث أكثر مما تتوقع."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "Automations مفعّلة، وخصوصاً Shipping updates",
+        "Free listings مفعّلة",
+        "Product protection على 40%",
+        "Google Ads مربوط عبر Apps and services"
+      ]
+    }
+  ]
+}

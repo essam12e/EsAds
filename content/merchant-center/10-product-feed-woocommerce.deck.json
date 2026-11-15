@@ -1,0 +1,127 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "خلاصة المنتجات: رابط XML يقرؤه Merchant Center",
+      "text": "ملف يُولَّد من متجرك تلقائياً ويحوي كل منتجاتك وبياناتها. طريقة عامة تصلح لأي متجر تقريباً.",
+      "visual": "product-feed"
+    },
+    {
+      "type": "steps",
+      "title": "أنشئ الخلاصة في WooCommerce",
+      "steps": [
+        {
+          "do": "في WordPress ابحث عن إضافة خلاصات جيدة التقييم",
+          "ui": [
+            "Plugins",
+            "Add plugin"
+          ],
+          "note": "مثل CTX Feed"
+        },
+        {
+          "do": "ثبّتها وفعّلها",
+          "ui": [
+            "Install now",
+            "Activate"
+          ]
+        },
+        {
+          "do": "أنشئ خلاصة بقالب Google",
+          "ui": [
+            "New feed",
+            "Template",
+            "Google Shopping"
+          ]
+        },
+        {
+          "do": "ولّد الخلاصة وانسخ رابطها",
+          "ui": [
+            "Update and Generate Feed"
+          ],
+          "note": "افتح الرابط في المتصفح لتتأكد من المنتجات"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "أدخلها في Merchant Center",
+      "steps": [
+        {
+          "do": "أضف مصدر منتجات",
+          "ui": [
+            "Data sources",
+            "Add product source"
+          ]
+        },
+        {
+          "do": "اختر الإضافة من ملف والصق الرابط",
+          "ui": [
+            "Add products from a file",
+            "Enter a link to your file",
+            "Continue"
+          ]
+        },
+        {
+          "do": "تابع دخول المنتجات",
+          "ui": [
+            "Products"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "تابع المصدر",
+      "cards": [
+        {
+          "title": "عدد المنتجات",
+          "text": "تأكد أن كل منتجاتك دخلت."
+        },
+        {
+          "title": "Update history",
+          "text": "راجع التحديثات السابقة."
+        },
+        {
+          "title": "Update",
+          "text": "اطلب قراءة الخلاصة فوراً إن لم ينعكس تغيير."
+        }
+      ]
+    },
+    {
+      "type": "dosdonts",
+      "title": "أين تعدّل",
+      "do": [
+        "عدّل السعر والتوفر والصور من المتجر",
+        "عدّل العناوين من إعدادات إضافة الخلاصة",
+        "طابق نطاق الخلاصة مع نطاق الحساب"
+      ],
+      "dont": [
+        "لا تستخدم رابطاً بقالب منصة أخرى",
+        "لا تعدّل في Merchant Center مباشرة؛ ستكتب الخلاصة فوقه"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "أي قالب تختار عند إنشاء الخلاصة لـ Merchant Center؟",
+      "options": [
+        "Pinterest",
+        "Google Shopping",
+        "كتالوج Facebook"
+      ],
+      "answer": 1,
+      "why": "لكل منصة قالب خاص بها، فاختر القالب المناسب لـ Google."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "الخلاصة مولَّدة بقالب Google Shopping",
+        "الرابط يعرض المنتجات بأسعارها وصورها",
+        "الرابط مُدخل من Data sources",
+        "نطاق المنتجات يطابق نطاق الحساب",
+        "تعرف مكان زر Update وسجل التحديثات"
+      ]
+    }
+  ]
+}

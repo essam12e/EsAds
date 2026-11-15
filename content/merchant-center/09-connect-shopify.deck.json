@@ -1,0 +1,131 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "اربط Shopify عبر تطبيق Google & YouTube",
+      "text": "التطبيق الرسمي يدخل منتجاتك إلى Merchant Center ويبقيها متزامنة تلقائياً، سواء بدأت من Shopify أو من Google Ads.",
+      "visual": "store-linking"
+    },
+    {
+      "type": "steps",
+      "title": "من لوحة Shopify",
+      "steps": [
+        {
+          "do": "افتح متجر التطبيقات",
+          "ui": [
+            "Settings",
+            "Apps and sales channels",
+            "Shopify App Store"
+          ]
+        },
+        {
+          "do": "ابحث عن التطبيق وثبّته",
+          "ui": [
+            "Google & YouTube",
+            "Install"
+          ]
+        },
+        {
+          "do": "اربط حساب Google المستخدم للإعلانات",
+          "ui": [
+            "Connect Google account"
+          ]
+        },
+        {
+          "do": "اربط حساب Merchant Center",
+          "ui": [
+            "Connect"
+          ],
+          "note": "أو Create new إن لم يكن لديك حساب"
+        },
+        {
+          "do": "اقبل الشروط واختر الدول واللغات",
+          "ui": [
+            "Complete setup"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "إعدادات المزامنة",
+      "cards": [
+        {
+          "title": "Product sync",
+          "text": "Automatic، حتى لا تزامن يدوياً عند كل تغيير."
+        },
+        {
+          "title": "Checkout link settings",
+          "text": "Automatic، ليُسحب كل شيء من المتجر."
+        },
+        {
+          "title": "Target country and language",
+          "text": "حدّدهما واحفظ."
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "إعداد الشحن",
+      "columns": [
+        "Automatic",
+        "Manual"
+      ],
+      "rows": [
+        [
+          "متى تختاره",
+          "لم تضبط الشحن يدوياً في Merchant Center",
+          "ضبطته يدوياً وتريد إبقاءه"
+        ],
+        [
+          "النتيجة",
+          "يسحب إعدادات Shopify ويكتب فوق اليدوي",
+          "تبقى إعداداتك اليدوية"
+        ]
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "تحقق من النجاح",
+      "steps": [
+        {
+          "do": "ابحث عن Content API بين المصادر",
+          "ui": [
+            "Settings",
+            "Data sources"
+          ],
+          "note": "قد يستغرق الاتصال حتى ساعة"
+        },
+        {
+          "do": "راقب دخول المنتجات تباعاً",
+          "ui": [
+            "Products"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "ما علامة نجاح الربط في Merchant Center؟",
+      "options": [
+        "ظهور Content API في Data sources",
+        "وصول بريد تأكيد",
+        "ظهور شريط أحمر"
+      ],
+      "answer": 0,
+      "why": "وجود Content API بين المصادر يعني أن الاتصال قائم والإعداد صحيح."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "حساب Google و Merchant Center مربوطان بالتطبيق",
+        "Product sync و Checkout link على Automatic",
+        "إعداد الشحن مناسب لوضعك",
+        "Content API ظاهر في Data sources",
+        "الأسعار والتوفر تُعدَّل من Shopify دائماً"
+      ]
+    }
+  ]
+}

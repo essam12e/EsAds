@@ -1,0 +1,120 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "الربط بـ Google Ads: الحلقة الأخيرة",
+      "text": "المنتجات في Merchant Center والحملات في Google Ads. بدون الربط لن تجد منتجات تختارها عند إنشاء حملة تسوق.",
+      "visual": "store-linking"
+    },
+    {
+      "type": "steps",
+      "title": "الربط من Merchant Center",
+      "steps": [
+        {
+          "do": "افتح الوصول والخدمات",
+          "ui": [
+            "Settings",
+            "Access and services"
+          ]
+        },
+        {
+          "do": "اربط حساب Google Ads",
+          "ui": [
+            "Apps and services",
+            "Google Ads"
+          ],
+          "note": "ومنه تربط Google Analytics أيضاً"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "الربط من Google Ads",
+      "steps": [
+        {
+          "do": "افتح مدير البيانات",
+          "ui": [
+            "Tools",
+            "Data manager"
+          ]
+        },
+        {
+          "do": "ابحث عن المنصة أو الخدمة التي تريد ربطها",
+          "ui": [
+            "Connected products",
+            "Connect product"
+          ]
+        },
+        {
+          "do": "اتبع خطوات التفويض"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "علامات نجاح الربط",
+      "cards": [
+        {
+          "title": "حالة Connected",
+          "text": "تظهر بجانب الاتصال في شاشة Connected products."
+        },
+        {
+          "title": "عند إنشاء حملة",
+          "text": "اختر Sales ثم Shopping؛ يظهر حساب Merchant Center جاهزاً للاختيار."
+        },
+        {
+          "title": "عبر تطبيق المتجر",
+          "text": "تطبيق Google & YouTube في Shopify يتصل بـ Apps and services تلقائياً."
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "أين تُدار كل مهمة",
+      "columns": [
+        "Merchant Center",
+        "Google Ads"
+      ],
+      "rows": [
+        [
+          "البيانات",
+          "المنتجات وحالاتها",
+          "تقارير الأداء التفصيلية"
+        ],
+        [
+          "الإعدادات",
+          "الشحن والإرجاع ومعلومات النشاط",
+          "الميزانية والمزايدة والاستهداف"
+        ],
+        [
+          "الظهور",
+          "القوائم المجانية",
+          "إنشاء الحملات وإدارتها"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "لم يظهر أي حساب Merchant Center عند إنشاء حملة Shopping. ما السبب؟",
+      "options": [
+        "مشكلة في الحملة",
+        "الربط لم يتم بعد",
+        "المنتجات مرفوضة"
+      ],
+      "answer": 1,
+      "why": "غياب الحساب من القائمة علامة على أن الربط ناقص، لا مشكلة في الحملة."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "الموقع متحقَّق منه ومطالَب به",
+        "معلومات النشاط وخدمة العملاء مكتملة",
+        "إعدادات الشحن تطابق الموقع",
+        "المنتجات معتمدة",
+        "Merchant Center يظهر عند إنشاء حملة"
+      ]
+    }
+  ]
+}
