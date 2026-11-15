@@ -1,0 +1,135 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "Traffic تبحث عمن ينقر",
+      "text": "استخدمها لجلب زوار لصفحة في متجرك أو لصفحتك على Facebook. لا تنتظر منها مبيعات مباشرة، فهي مُحسَّنة للحجم.",
+      "visual": "campaign-steps"
+    },
+    {
+      "type": "cards",
+      "title": "Conversion location: إلى أين؟",
+      "cards": [
+        {
+          "title": "Website",
+          "text": "الغرض الأساسي: إرسال الزوار إلى متجرك."
+        },
+        {
+          "title": "Instagram or Facebook",
+          "text": "زيارات للصفحة، ويظهر الزر Visit Page تلقائياً."
+        },
+        {
+          "title": "Message destinations",
+          "text": "متاح، لكن الأفضل Engagement أو Leads للرسائل."
+        },
+        {
+          "title": "App و Calls",
+          "text": "لأخذهم إلى تطبيقك أو لجلب مكالمات."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "المجموعة الإعلانية",
+      "steps": [
+        {
+          "do": "اختر النسخة اليدوية ثم تابع.",
+          "ui": [
+            "Traffic",
+            "Manual traffic campaign",
+            "Continue"
+          ]
+        },
+        {
+          "do": "اجعل موقع التحويل على الموقع.",
+          "ui": [
+            "Conversion location",
+            "Website"
+          ]
+        },
+        {
+          "do": "اضبط الميزانية والجدولة والجمهور."
+        },
+        {
+          "do": "اختر المواضع اليدوية وأبقِ Facebook فقط إن أردت.",
+          "ui": [
+            "Placements",
+            "Edit",
+            "Manual"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "الإعلان",
+      "steps": [
+        {
+          "do": "ارفع الوسائط واكتب النصوص وراجع الصور المولّدة."
+        },
+        {
+          "do": "أبقِ تحسينات الإبداع مفعّلة واجعل إضافة المتصفح بلا.",
+          "ui": [
+            "Creative enhancements",
+            "Browser add-on",
+            "None"
+          ]
+        },
+        {
+          "do": "أدخل رابط صفحة المنتج أو العرض وتحقق أنه يعمل، ثم رابط العرض.",
+          "ui": [
+            "Website URL",
+            "Display link"
+          ]
+        },
+        {
+          "do": "فعّل أحداث الموقع إن كان Pixel مربوطاً.",
+          "ui": [
+            "Website events"
+          ],
+          "note": "بدونه لا تُحسَّن الحملة بعد النقرة"
+        },
+        {
+          "do": "غيّر الزر إن لم يعجبك الافتراضي.",
+          "ui": [
+            "See details",
+            "Learn more"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dosdonts",
+      "title": "افعل ولا تفعل",
+      "do": [
+        "استفد من الزوار لبناء جمهور تعيد استهدافه"
+      ],
+      "dont": [
+        "لا ترسل الزوار إلى الصفحة الرئيسية في إعلان منتج بعينه",
+        "لا تنتظر من Traffic مبيعات مباشرة"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "ما Conversion location الأساسي لحملة Traffic؟",
+      "options": [
+        "Website",
+        "Calls",
+        "Message destinations"
+      ],
+      "answer": 0,
+      "why": "الغرض الأساسي للحملة إرسال الزوار إلى متجرك."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "اخترت النسخة اليدوية",
+        "Conversion location يطابق وجهتي",
+        "الرابط لصفحة المنتج ويعمل",
+        "Display link مضاف و Website events مفعّل"
+      ]
+    }
+  ]
+}

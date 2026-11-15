@@ -1,0 +1,140 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "Sales تبحث عن المشترين",
+      "text": "الحملة الأهم للمتجر الإلكتروني. شرطها الحاسم Pixel مفعّل وحدث Purchase يعمل، وبلا تتبع لن تنجح.",
+      "visual": "product-feed"
+    },
+    {
+      "type": "compare",
+      "title": "هل تفعّل Catalog ads؟",
+      "columns": [
+        "متجر بمنتجات متعددة",
+        "منتج واحد أو صفحة بيع"
+      ],
+      "rows": [
+        [
+          "Catalog ads",
+          "فعّله Enable",
+          "لا حاجة له"
+        ],
+        [
+          "كيف يعمل",
+          "تُبنى الإعلانات من منتجاتك مباشرة",
+          "يدخل المستخدم الصفحة ويشتري"
+        ]
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "المجموعة الإعلانية",
+      "steps": [
+        {
+          "do": "اجعل موقع التحويل الموقع.",
+          "ui": [
+            "Conversion location",
+            "Website"
+          ]
+        },
+        {
+          "do": "اجعل هدف الأداء تعظيم التحويلات.",
+          "ui": [
+            "Performance goal",
+            "Maximize number of conversions"
+          ]
+        },
+        {
+          "do": "اختر Pixel.",
+          "ui": [
+            "Dataset"
+          ]
+        },
+        {
+          "do": "أبقِ حدث الشراء المحدد تلقائياً.",
+          "ui": [
+            "Conversion event",
+            "Purchase"
+          ],
+          "note": "البدائل: Add to cart أو Add payment info"
+        },
+        {
+          "do": "اضبط الميزانية والجمهور والمواضع.",
+          "ui": [
+            "Placements"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "الإعلان",
+      "steps": [
+        {
+          "do": "أدخل رابط الموقع الصحيح ورابط العرض القصير.",
+          "ui": [
+            "Website URL",
+            "Display link"
+          ]
+        },
+        {
+          "do": "أضف روابط إلى أقسام متجرك مثل العروض وتواصل معنا.",
+          "ui": [
+            "Site links",
+            "Add your first site link",
+            "Apply"
+          ]
+        },
+        {
+          "do": "اجعل الزر للشراء.",
+          "ui": [
+            "Shop now"
+          ],
+          "note": "لا Learn more ولا See details"
+        },
+        {
+          "do": "أبقِ تحسينات الإبداع وأحداث الموقع مفعّلة.",
+          "ui": [
+            "Creative enhancements",
+            "Website events"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dosdonts",
+      "title": "افعل ولا تفعل",
+      "do": [
+        "اطلب طلباً تجريبياً وتأكد من ظهور Purchase في Events Manager",
+        "اربط الكتالوج من Commerce Manager أولاً",
+        "تأكد أن حدث الشراء يُرسَل مرة واحدة"
+      ],
+      "dont": [
+        "لا تشغّل حملة مبيعات والتتبع لم يُختبر"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "متى تحسّن على Add to cart بدل Purchase؟",
+      "options": [
+        "دائماً لأنه أرخص",
+        "عند تفعيل Catalog ads",
+        "عندما لا يسجّل متجرك مشتريات كافية بعد"
+      ],
+      "answer": 2,
+      "why": "الأحداث الأسبق بديل حين لا يتوفر عدد كافٍ من المشتريات تتعلم منه المنصة."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "Pixel مثبت وحدث Purchase مختبر",
+        "قررت تفعيل Catalog ads من عدمه",
+        "هدف الأداء Maximize number of conversions",
+        "Site links مضافة والزر Shop now",
+        "Display link مضاف"
+      ]
+    }
+  ]
+}

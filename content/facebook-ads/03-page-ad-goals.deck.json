@@ -1,0 +1,114 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "الهدف يغيّر شكل الإعلان وحقوله",
+      "text": "اختيارك في Goal يحدد شكل الإعلان والزر الظاهر والحقول المطلوبة، وهل يُشترط ربط Pixel.",
+      "visual": "funnel"
+    },
+    {
+      "type": "cards",
+      "title": "أهداف وأزرارها",
+      "cards": [
+        {
+          "title": "Get more Page likes",
+          "text": "زر Like مباشرة. اختر Use a post بدل الشعار الافتراضي."
+        },
+        {
+          "title": "Get more website purchases",
+          "text": "الزر المقترح Shop now، وتُسحب منتجات Catalog إن كان مربوطاً."
+        },
+        {
+          "title": "Get more calls",
+          "text": "أدخل رقم الهاتف فيصبح الزر Call now ثابتاً."
+        },
+        {
+          "title": "Get more messages",
+          "text": "حدد الوجهة: WhatsApp أو Messenger أو Instagram، واضبط Chat builder."
+        },
+        {
+          "title": "Get more Page visits",
+          "text": "زر Visit Page: المستخدم يدخل صفحتك ويستكشف محتواها."
+        },
+        {
+          "title": "Automatic",
+          "text": "Meta تختار الهدف بناءً على فئة صفحتك."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "متى يُشترط Pixel",
+      "cards": [
+        {
+          "title": "إلزامي",
+          "text": "المشتريات والحجوزات، لأنها تتم في موقعك خارج Meta."
+        },
+        {
+          "title": "اختياري",
+          "text": "زوار الموقع ونموذج العملاء المحتملين."
+        },
+        {
+          "title": "غير مطلوب",
+          "text": "الإعجابات والاتصالات والرسائل وزيارات الصفحة."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "نموذج Grow customer base",
+      "steps": [
+        {
+          "do": "اختر المعلومات المطلوبة، ويكفي الهاتف فقط.",
+          "ui": [
+            "Create form",
+            "Phone number"
+          ]
+        },
+        {
+          "do": "الصق رابط سياسة الخصوصية في متجرك.",
+          "ui": [
+            "Privacy policy"
+          ]
+        },
+        {
+          "do": "اكتب عنواناً ووصفاً للنموذج.",
+          "ui": [
+            "Customize text",
+            "Description"
+          ]
+        },
+        {
+          "do": "سمِّ النموذج واحفظه ثم ارجع للإعلان.",
+          "ui": [
+            "Save"
+          ],
+          "note": "بلا حفظ لا تظهر المعاينة"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "أي هدف لا يمكن فيه تعطيل Meta Pixel؟",
+      "options": [
+        "Get more website purchases",
+        "Get more messages",
+        "Get more Page likes",
+        "Get more calls"
+      ],
+      "answer": 0,
+      "why": "الشراء يحدث في موقعك ولا تعرف به Meta إلا عبر التتبع."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "اخترت الهدف المطابق لما أريده",
+        "أعرف هل هدفي يشترط Pixel",
+        "نموذجي قصير وفيه رابط سياسة الخصوصية",
+        "حفظت النموذج قبل الرجوع للإعلان"
+      ]
+    }
+  ]
+}

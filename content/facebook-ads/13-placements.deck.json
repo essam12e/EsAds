@@ -1,0 +1,116 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "أين يظهر إعلانك داخل منظومة Meta",
+      "text": "Placements تحدد المنصة والمساحة والجهاز، وتُضبط في مستوى Ad set بوضعين: Advantage+ أو يدوي.",
+      "visual": "video-formats"
+    },
+    {
+      "type": "compare",
+      "title": "الوضعان",
+      "columns": [
+        "Advantage+ placements",
+        "Manual placements"
+      ],
+      "rows": [
+        [
+          "من يقرر",
+          "Meta",
+          "أنت"
+        ],
+        [
+          "أين يظهر",
+          "Facebook و Instagram و Messenger و Audience Network",
+          "المنصات والمواضع والأجهزة التي تحددها"
+        ],
+        [
+          "متى يناسب",
+          "أفضل نتيجة بأقل تدخل",
+          "تصميم بشكل واحد أو Facebook فقط"
+        ]
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "احصر الإعلان في Facebook",
+      "steps": [
+        {
+          "do": "عند إنشاء الحملة اختر النسخة اليدوية لا الموصى بها.",
+          "ui": [
+            "Manual traffic campaign"
+          ]
+        },
+        {
+          "do": "في المجموعة الإعلانية افتح المواضع وأبقِ Facebook فقط.",
+          "ui": [
+            "Placements",
+            "Edit",
+            "Manual placements"
+          ]
+        },
+        {
+          "do": "في مستوى الإعلان ارفض اقتراح إضافة حساب Instagram."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "خيارات المواضع اليدوية",
+      "cards": [
+        {
+          "title": "Devices",
+          "text": "Mobile أو Desktop أو كلاهما، للتضمين أو الاستبعاد."
+        },
+        {
+          "title": "المواضع داخل المنصة",
+          "text": "Feed و Stories و Reels و In-stream."
+        },
+        {
+          "title": "Show more options",
+          "text": "نظام الجوال Android أو iOS، وأجهزة بعينها، وإصدار النظام."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "المواضع ومقاسات التصميم",
+      "cards": [
+        {
+          "title": "الخلاصة",
+          "text": "شبه مربعة، يناسبها تصميم 1:1."
+        },
+        {
+          "title": "Stories و Reels",
+          "text": "عمودية."
+        },
+        {
+          "title": "تصميم غير مناسب",
+          "text": "يُقص جزء منه. جهّز نسخة لكل شكل."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "ضبطت المواضع على Facebook فقط ثم قبلت إضافة Instagram في الإعلان. النتيجة؟",
+      "options": [
+        "يعمل على Facebook فقط",
+        "يُرفض الإعلان",
+        "يعمل على المنصتين"
+      ],
+      "answer": 2,
+      "why": "قبول اقتراح Instagram في قسم الهوية يلغي حصر الإعلان في Facebook."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "اخترت Advantage+ أو اليدوي لغرض واضح",
+        "تصميمي يناسب شكل كل موضع",
+        "للحصر في Facebook: حملة يدوية ومواضع يدوية",
+        "رفضت إضافة Instagram إن أردت Facebook فقط"
+      ]
+    }
+  ]
+}

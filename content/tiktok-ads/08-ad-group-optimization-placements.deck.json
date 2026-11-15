@@ -1,0 +1,103 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "المستوى الثاني: المجموعة الإعلانية",
+      "text": "تحدد أين يذهب الجمهور، وما الحدث الذي تحسّن المنصة نحوه، وأين يظهر الإعلان.",
+      "visual": "conversion-tracking"
+    },
+    {
+      "type": "steps",
+      "title": "اضبط التحسين",
+      "steps": [
+        {
+          "do": "سمِّ المجموعة بوصف الجمهور واسم المنتج.",
+          "ui": [
+            "Ad group name"
+          ]
+        },
+        {
+          "do": "اجعل موقع التحسين الموقع الإلكتروني.",
+          "ui": [
+            "Optimization location",
+            "Website"
+          ]
+        },
+        {
+          "do": "تأكد أن البكسل محدد تلقائياً.",
+          "ui": [
+            "Data connection"
+          ]
+        },
+        {
+          "do": "اختر حدث السلة إن توفر، وإلا أبقِ عرض المحتوى.",
+          "ui": [
+            "Optimization event",
+            "Add to cart"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "احصر المواضع في TikTok",
+      "steps": [
+        {
+          "do": "اضغط أيقونة القلم وغيّر من التلقائي إلى التحديد.",
+          "ui": [
+            "Placements",
+            "Select placement"
+          ]
+        },
+        {
+          "do": "أبقِ TikTok وألغِ الموضعين الآخرين.",
+          "ui": [
+            "Global App Bundle",
+            "Pangle"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "إعدادات متقدمة: عطّل الثلاثة",
+      "cards": [
+        {
+          "title": "User comment",
+          "text": "يحمي الإعلان من التعليقات السلبية."
+        },
+        {
+          "title": "Allow video download",
+          "text": "يمنع غيرك من تنزيل تصاميمك."
+        },
+        {
+          "title": "Allow video sharing",
+          "text": "للسبب نفسه."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "أي حدث تحسين تختار؟",
+      "options": [
+        "Purchase دائماً",
+        "View content دائماً",
+        "Add to cart إن توفر، وإلا View content"
+      ],
+      "answer": 2,
+      "why": "في حساب جديد، حدث قريب من بداية رحلة الشراء يعطي المنصة إشارات أكثر."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "البكسل ظاهر في Data connection",
+        "حدث التحسين محدد",
+        "المواضع TikTok فقط",
+        "التعليقات والتنزيل والمشاركة مغلقة",
+        "صفحة المنتج تجيب عن أسئلة العملاء"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "Engagement: كل ما يحدث داخل Facebook",
+      "text": "تفاعل على منشور، مشاهدات فيديو، إعجابات بالصفحة، رسائل، مكالمات. كل شيء داخل منظومة Meta فلا تحتاج Pixel.",
+      "visual": "campaign-steps"
+    },
+    {
+      "type": "cards",
+      "title": "Conversion location يحدد النوع",
+      "cards": [
+        {
+          "title": "On your ad",
+          "text": "مشاهدات الفيديو، تفاعل المنشور، الردود على الفعاليات، التذكيرات."
+        },
+        {
+          "title": "Messaging apps",
+          "text": "الرسائل العامة: استفسار عن منتج أو سؤال دعم."
+        },
+        {
+          "title": "Calls",
+          "text": "هدف الأداء يصبح Maximize number of calls، والزر زر اتصال."
+        },
+        {
+          "title": "Instagram or Facebook",
+          "text": "زيارات الصفحة بزر Visit Page، أو إعجابات بزر Like Page."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "حملة مشاهدات الفيديو",
+      "steps": [
+        {
+          "do": "أنشئ حملة تفاعل يدوية.",
+          "ui": [
+            "Create",
+            "Engagement",
+            "Manual engagement campaign"
+          ]
+        },
+        {
+          "do": "اجعل موقع التحويل على إعلانك.",
+          "ui": [
+            "Conversion location",
+            "On your ad"
+          ]
+        },
+        {
+          "do": "اختر مشاهدات الفيديو نوعاً للتفاعل.",
+          "ui": [
+            "Engagement type",
+            "Video views"
+          ]
+        },
+        {
+          "do": "أبقِ هدف الأداء الافتراضي.",
+          "ui": [
+            "Performance goal",
+            "ThruPlay"
+          ]
+        },
+        {
+          "do": "اختر فيديو واكتب النص في مستوى الإعلان."
+        },
+        {
+          "do": "اترك الإعلان بلا وجهة.",
+          "ui": [
+            "No destination"
+          ],
+          "note": "الرابط يشتت عن التفاعل"
+        }
+      ]
+    },
+    {
+      "type": "dosdonts",
+      "title": "افعل ولا تفعل",
+      "do": [
+        "استخدمها لفيديو منتج أو منشور عرض أو صفحة جديدة",
+        "اختر التطبيق الذي تستقبل عليه الرسائل"
+      ],
+      "dont": [
+        "لا تختر Website داخل Engagement، مكانها Traffic",
+        "لا تنتظر منها مبيعات، اتركها لحملة Sales",
+        "لا تستخدمها لرسائل العملاء المحتملين الجادين"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "أي Conversion location لا يُنصح به داخل Engagement؟",
+      "options": [
+        "On your ad",
+        "Website",
+        "Calls",
+        "Messaging apps"
+      ],
+      "answer": 1,
+      "why": "زيارات الموقع مكانها حملة Traffic."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "Conversion location يطابق نوع التفاعل المطلوب",
+        "لمشاهدات الفيديو: ThruPlay وبلا وجهة",
+        "لا رابط يشتت المستخدم",
+        "أعرف أن التفاعل ليس مبيعات"
+      ]
+    }
+  ]
+}
