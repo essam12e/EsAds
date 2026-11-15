@@ -1,0 +1,25 @@
+{
+  "slides": [
+    { "type": "idea", "title": "اضبط الإعدادات من اليوم الأول", "text": "بعض الإعدادات الافتراضية تحرمك من بيانات مفيدة إن تركتها كما هي. اضبطها من صفحة Admin.", "visual": "store-linking" },
+    { "type": "steps", "title": "قائمة الضبط السريعة", "steps": [
+      { "do": "غيّر مدة الاحتفاظ بالبيانات.", "ui": ["Admin", "Data retention", "14 months", "Save"], "note": "بيانات تاريخية أكثر في تقارير Explore." },
+      { "do": "فعّل Google signals.", "ui": ["Data collection"], "note": "يظهر العمر والجنس والاهتمامات، وتعمل جماهير Google Ads." },
+      { "do": "أنشئ فلتراً يستبعد الزيارات الداخلية.", "ui": ["Data filters"], "note": "حتى لا تختلط زيارات فريقك ببيانات العملاء." },
+      { "do": "اربط Google Ads و Search Console.", "ui": ["Product links", "Next"] }
+    ] },
+    { "type": "steps", "title": "امنح صلاحية لشخص", "steps": [
+      { "do": "افتح إدارة الوصول بحسب المستوى المطلوب.", "ui": ["Property access management"] },
+      { "do": "أضف مستخدماً وأدخل بريده الإلكتروني." },
+      { "do": "اختر الدور ثم احفظ.", "ui": ["Administrator", "Editor", "Marketer"] }
+    ] },
+    { "type": "cards", "title": "إعدادات أخرى مفيدة", "cards": [
+      { "title": "Trash", "text": "تسترجع المحذوف خلال 35 يوماً ثم يُحذف نهائياً." },
+      { "title": "Consent settings", "text": "Consent mode مهم لاستهداف مستخدمي الاتحاد الأوروبي في Google Ads." },
+      { "title": "Channel groups", "text": "تنشئ تصنيفك الخاص لطرق الوصول." },
+      { "title": "My preferences", "text": "تغيّر النطاق الزمني الافتراضي ورسائل البريد." }
+    ] },
+    { "type": "dosdonts", "title": "أخطاء تتجنبها", "do": ["امنح الوكالة صلاحية على مستوى الـ Property.", "اختر أقل دور يكفي لعملهم."], "dont": ["لا تترك Data retention على شهرين.", "لا تمنح المسوّق المستقل صلاحية الحساب كله."] },
+    { "type": "quiz", "title": "اختبر فهمك", "question": "غيّرت الاحتفاظ إلى 14 شهراً بعد سنة. هل تعود البيانات المحذوفة؟", "options": ["نعم، فوراً", "نعم، خلال 35 يوماً", "لا، التغيير لا يسترجع ما حُذف"], "answer": 2, "why": "لذلك غيّر المدة من اليوم الأول." },
+    { "type": "checklist", "title": "قبل أن تنتقل", "items": ["غيّرت Data retention إلى 14 شهراً.", "فعّلت Google signals.", "استبعدت الزيارات الداخلية عبر Data filters.", "ربطت Google Ads و Search Console.", "منحت الصلاحيات بأقل دور كافٍ."] }
+  ]
+}

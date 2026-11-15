@@ -1,0 +1,24 @@
+{
+  "slides": [
+    { "type": "idea", "title": "مجموعات مستخدمين تعرّفها بشروط", "text": "الجماهير تضم تلقائياً كل مستخدم يطابق شروطك، وتُستخدم في تركيز التقارير وفي إعادة التسويق عبر Google Ads.", "visual": "audience-targeting" },
+    { "type": "cards", "title": "جمهوران جاهزان", "cards": [
+      { "title": "All Users", "text": "كل من زار موقعك أو استخدم تطبيقك." },
+      { "title": "Purchasers", "text": "من أتمّ عملية شراء؛ يبقى فارغاً بلا حدث purchase." }
+    ] },
+    { "type": "steps", "title": "أنشئ جمهور «لم يحوّلوا بعد»", "steps": [
+      { "do": "افتح الجماهير واضغط جمهور جديد.", "ui": ["Admin", "Data display", "Audiences", "New audience"] },
+      { "do": "اختر جمهوراً مخصصاً واكتب اسمه.", "ui": ["Create a custom audience"] },
+      { "do": "احذف مجموعة التضمين بأيقونة سلة المهملات.", "ui": ["Include users when"] },
+      { "do": "أضف مجموعة استبعاد واختر حدث التحويل.", "ui": ["Add group to exclude"], "note": "مثل generate_lead أو purchase." },
+      { "do": "احفظ.", "ui": ["Save"] }
+    ] },
+    { "type": "cards", "title": "أفكار لمتجر إلكتروني", "cards": [
+      { "title": "زاروا ولم يشتروا", "text": "استبعد purchase، واستهدفهم بعرض ترحيبي." },
+      { "title": "سلة متروكة", "text": "ضمّن add_to_cart واستبعد purchase، وذكّرهم بالسلة." },
+      { "title": "المشترون", "text": "اعرض منتجات مكمّلة، أو استبعدهم من حملات الاكتساب." }
+    ] },
+    { "type": "dosdonts", "title": "حتى يعمل الجمهور", "do": ["أنشئ جماهيرك مبكراً قبل بدء الإعلان.", "اربط Google Ads وفعّل Google signals.", "تحقق من حجم القائمة في Advertising segments."], "dont": ["لا تكتب اسم الحدث بصيغة مختلفة قليلاً."] },
+    { "type": "quiz", "title": "اختبر فهمك", "question": "لم يظهر حدثك الجديد في قائمة الأحداث. ماذا تفعل؟", "options": ["تكتب اسمه الدقيق وتختار Create event", "تنتظر شهراً", "تحذف الجمهور"], "answer": 0, "why": "القائمة تعرض فقط الأحداث التي جُمعت سابقاً في الـ Property." },
+    { "type": "checklist", "title": "قبل أن تنتقل", "items": ["أعرف الجمهورين الجاهزين All Users و Purchasers.", "أنشأت جمهور غير المحوّلين بمجموعة استبعاد.", "طابقت اسم الحدث تماماً.", "ربطت Google Ads وفعّلت Google signals."] }
+  ]
+}

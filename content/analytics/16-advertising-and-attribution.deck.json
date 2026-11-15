@@ -1,0 +1,28 @@
+{
+  "slides": [
+    { "type": "idea", "title": "العميل قلّما يشتري من أول زيارة", "text": "قسم Advertising يوضح كيف تعمل قنواتك التسويقية معاً وكيف يُوزَّع الفضل في التحويل بينها. هذا هو الإسناد.", "visual": "conversion-tracking" },
+    { "type": "steps", "title": "قبل أن تبدأ", "steps": [
+      { "do": "عرّف الأحداث الرئيسية في الـ Property.", "ui": ["Key events"] },
+      { "do": "اربط Google Analytics بحساب Google Ads.", "ui": ["Admin", "Product links"] },
+      { "do": "افتح قسم الإعلانات من القائمة اليسرى.", "ui": ["Advertising"] }
+    ] },
+    { "type": "compare", "title": "مصطلحان متشابهان", "columns": ["Key events", "Conversions"], "rows": [
+      ["أين يُستخدم", "في Google Analytics", "في Google Ads"],
+      ["ماذا يشمل", "الأحداث المعلَّمة كرئيسية", "الأحداث المستوردة وتحويلات Google Ads"]
+    ] },
+    { "type": "cards", "title": "تقارير القسم", "cards": [
+      { "title": "Key event performance", "text": "عدد الأحداث الرئيسية من كل قناة تسويقية." },
+      { "title": "Attribution paths", "text": "نقاط التماس التي مرّ بها العميل قبل الحدث الرئيسي." },
+      { "title": "Attribution models", "text": "يقارن طريقتين لتوزيع الفضل ويبيّن الفرق بالنسبة." },
+      { "title": "Budgeting", "text": "توقعات أثر تغيير الميزانية في التحويلات والإنفاق." },
+      { "title": "Advertising segments", "text": "هل تستوفي جماهيرك الحد الأدنى لقوائم إعادة التسويق." }
+    ] },
+    { "type": "compare", "title": "نموذجا الإسناد", "columns": ["Last click", "Data-driven"], "rows": [
+      ["توزيع الفضل", "كله لآخر قناة قبل التحويل", "على نقاط التماس بحسب مساهمتها"],
+      ["الأساس", "النقرة الأخيرة", "بيانات حسابك"]
+    ] },
+    { "type": "dosdonts", "title": "قبل الحكم على قناة", "do": ["راجع مسارات الإسناد أولاً.", "جرّب Scenario planner قبل زيادة الميزانية."], "dont": ["لا تحكم بفشل قناة لقلة تحويلات النقرة الأخيرة."] },
+    { "type": "quiz", "title": "اختبر فهمك", "question": "قناة تزيد 30% في Data-driven عن Last click. ماذا يعني ذلك؟", "options": ["القناة فاشلة", "تساهم في بداية رحلة الشراء أكثر مما يظهر", "التتبّع مكرر"], "answer": 1, "why": "إيقافها قد يضر مبيعات تُنسب ظاهرياً إلى قنوات أخرى." },
+    { "type": "checklist", "title": "قبل أن تنتقل", "items": ["عرّفت أحداثاً رئيسية وربطت Google Ads.", "أفرّق بين Key events و Conversions.", "قرأت تسلسل القنوات في Attribution paths.", "قارنت Last click بالنموذج Data-driven."] }
+  ]
+}
