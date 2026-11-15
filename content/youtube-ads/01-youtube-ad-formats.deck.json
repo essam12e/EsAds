@@ -1,0 +1,93 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "اعرف الصيغ قبل أول حملة",
+      "text": "كل ما يحمل علامة Sponsored إعلان مدفوع. افهم الفرق بين الصيغ لتعرف أي حملة تناسب هدف متجرك.",
+      "visual": "video-formats"
+    },
+    {
+      "type": "cards",
+      "title": "الصيغ الأساسية",
+      "cards": [
+        {
+          "title": "Skippable in-stream",
+          "text": "قبل الفيديو أو أثناءه، ويظهر زر Skip بعد لحظات."
+        },
+        {
+          "title": "In-feed",
+          "text": "بطاقة في الصفحة الرئيسية ونتائج البحث؛ المشاهد يقرر النقر."
+        },
+        {
+          "title": "Non-skippable in-stream",
+          "text": "لا يمكن تخطيه؛ القياسي من 7 إلى 15 ثانية."
+        },
+        {
+          "title": "Bumper",
+          "text": "غير قابل للتخطي، 6 ثوانٍ أو أقل."
+        },
+        {
+          "title": "Shorts ads",
+          "text": "بين مقاطع Shorts، وتحتاج فيديو عمودياً."
+        },
+        {
+          "title": "Masthead",
+          "text": "بانر أعلى الصفحة الرئيسية، يُحجز عبر ممثل Google فقط."
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "أي حملة تشغّل أي صيغة؟",
+      "columns": [
+        "Video views",
+        "Video reach"
+      ],
+      "rows": [
+        [
+          "الصيغ",
+          "Skippable in-stream و In-feed و Shorts",
+          "Non-skippable in-stream و Bumper"
+        ],
+        [
+          "التخطي",
+          "قابلة للتخطي أو اختيارية",
+          "غير قابلة للتخطي"
+        ]
+      ]
+    },
+    {
+      "type": "dosdonts",
+      "title": "الإعلان غير القابل للتخطي",
+      "do": [
+        "اجعل مدته 15 ثانية أو أقل ليظهر على كل الأجهزة",
+        "جهّز نسختين: أقل من 15 ثانية، و6 ثوانٍ أو أقل"
+      ],
+      "dont": [
+        "لا تبحث عنه داخل حملة Video views"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "من أين يُنشأ الإعلان الثابت (صورة بلا فيديو) على YouTube؟",
+      "options": [
+        "حملة Video views",
+        "حملة Demand Gen",
+        "Masthead"
+      ],
+      "answer": 1,
+      "why": "يُنشأ من Demand Gen مع قصر العرض على YouTube، لا من حملات الفيديو."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "ميّزت الصيغ القابلة للتخطي من غير القابلة",
+        "حفظت مدد Bumper والقياسي",
+        "عرفت أن Masthead يُحجز عبر ممثل Google",
+        "عرفت أن Shorts تتطلب فيديو عمودياً"
+      ]
+    }
+  ]
+}

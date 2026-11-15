@@ -1,0 +1,111 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "حملة لزيادة مشتركي قناتك",
+      "text": "تظهر ضمن أنواع Video الفرعية، لكنها تُبنى كحملة Demand Gen بهدف YouTube engagement.",
+      "visual": "campaign-steps"
+    },
+    {
+      "type": "steps",
+      "title": "إعداد الحملة",
+      "steps": [
+        {
+          "do": "ابدأ حملة فيديو بدون إرشاد",
+          "ui": [
+            "New campaign",
+            "Create a campaign without guidance",
+            "Video"
+          ]
+        },
+        {
+          "do": "اختر نوع الاشتراكات والتفاعل وتابع",
+          "ui": [
+            "YouTube subscriptions and engagement",
+            "Continue"
+          ]
+        },
+        {
+          "do": "اختر اشتراكات القناة لزيادة المشتركين",
+          "ui": [
+            "YouTube conversions",
+            "Channel subscriptions"
+          ]
+        },
+        {
+          "do": "اترك التكلفة المستهدفة فارغة واكتساب العملاء معطلاً",
+          "ui": [
+            "Target CPA",
+            "Customer acquisition"
+          ]
+        },
+        {
+          "do": "اقصر العرض على YouTube: ألغِ Discover و Gmail و Display Network",
+          "ui": [
+            "Channels",
+            "Let me choose"
+          ]
+        },
+        {
+          "do": "أضف حتى 5 فيديوهات والرابط والشعار والنصوص وروابط الموقع",
+          "ui": [
+            "Sitelinks"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "شريحة شبيهة: درجة التشابه",
+      "cards": [
+        {
+          "title": "Narrow",
+          "text": "الأقرب للقائمة البذرة، جمهور صغير، أعلى دقة."
+        },
+        {
+          "title": "Balanced",
+          "text": "متوسط؛ نقطة بداية معقولة."
+        },
+        {
+          "title": "Broad",
+          "text": "الأبعد، جمهور كبير جداً، عند التوسيع."
+        }
+      ]
+    },
+    {
+      "type": "dosdonts",
+      "title": "نص الإعلان والموقع",
+      "do": [
+        "تحدّث عن القناة ولماذا يشترك الناس فيها",
+        "ادفع Ad strength إلى Excellent بتنويع العناوين والأوصاف",
+        "اختر Presence إن كنت لا تشحن خارج المملكة"
+      ],
+      "dont": [
+        "لا تستخدم نصوص صفحة المنتج في حملة اشتراكات"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "ما وظيفة خيار Follow-on views؟",
+      "options": [
+        "زيادة المشتركين",
+        "استبعاد عناوين IP",
+        "إدخال فيديوك ضمن تسلسل التشغيل التلقائي"
+      ],
+      "answer": 2,
+      "why": "يروّج فيديوك ليدخل ضمن التسلسل الطبيعي للمشاهدة."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "اخترت Channel subscriptions",
+        "تركت Target CPA فارغاً و Customer acquisition معطلاً",
+        "أبقيت YouTube فقط من Let me choose",
+        "نص الإعلان عن القناة وسبب الاشتراك",
+        "أضفت Sitelinks"
+      ]
+    }
+  ]
+}

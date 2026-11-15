@@ -1,0 +1,123 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "سؤالان يحددان حملتك",
+      "text": "ما هدفك؟ وما نوع الحملة؟ إجابتك تحدد صيغ إعلاناتك وطريقة احتساب التكلفة.",
+      "visual": "account-hierarchy"
+    },
+    {
+      "type": "cards",
+      "title": "مستويات الحساب",
+      "cards": [
+        {
+          "title": "Campaign",
+          "text": "ماذا تريد أن تحقق؟ الهدف والميزانية والشبكات والموقع."
+        },
+        {
+          "title": "Ad group",
+          "text": "من تستهدف؟ الجمهور."
+        },
+        {
+          "title": "Ad",
+          "text": "ماذا يرى الجمهور؟ الفيديو والرابط والنصوص."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "الوصول إلى الأنواع الفرعية",
+      "steps": [
+        {
+          "do": "ابدأ حملة جديدة",
+          "ui": [
+            "New campaign"
+          ]
+        },
+        {
+          "do": "اختر الإنشاء بدون إرشاد لترى كل الخيارات",
+          "ui": [
+            "Create a campaign without guidance"
+          ]
+        },
+        {
+          "do": "اختر نوع الحملة",
+          "ui": [
+            "Video"
+          ]
+        },
+        {
+          "do": "اختر النوع الفرعي المناسب لهدفك"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "أي نوع فرعي لمتجرك؟",
+      "cards": [
+        {
+          "title": "Video views",
+          "text": "متجر جديد: تعريف بتكلفة مشاهدة منخفضة."
+        },
+        {
+          "title": "Video reach",
+          "text": "عرض موسمي قصير برسالة واحدة."
+        },
+        {
+          "title": "Drive conversions",
+          "text": "لديك تتبع مبيعات يعمل وتريد طلبات."
+        },
+        {
+          "title": "Subscriptions and engagement",
+          "text": "تبني قناة محتوى لمتجرك."
+        },
+        {
+          "title": "Ad sequence",
+          "text": "لديك أكثر من فيديو يكمّل بعضها بعضاً."
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "طريقة الدفع",
+      "columns": [
+        "Video views",
+        "Video reach و Ad sequence"
+      ],
+      "rows": [
+        [
+          "أساس التسعير",
+          "CPV",
+          "Target CPM"
+        ],
+        [
+          "تدفع مقابل",
+          "المشاهدة الواحدة",
+          "كل ألف ظهور"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "اخترت Drive conversions من قائمة Video. أي واجهة تُفتح؟",
+      "options": [
+        "Demand Gen",
+        "Performance Max",
+        "Search"
+      ],
+      "answer": 0,
+      "why": "Drive conversions والاشتراكات والتفاعل تُبنى فعلياً كحملات Demand Gen."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "فهمت دور الحملة والمجموعة الإعلانية والإعلان",
+        "أختار Create a campaign without guidance ثم Video",
+        "حددت النوع الفرعي المناسب لهدفي",
+        "عرفت الفرق بين CPV و Target CPM"
+      ]
+    }
+  ]
+}

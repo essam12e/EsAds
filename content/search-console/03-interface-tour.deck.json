@@ -1,0 +1,107 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "شريط جانبي واحد لكل الأسئلة",
+      "text": "التقارير تتوزع في الشريط الجانبي بحسب السؤال الذي تجيب عنه. اعرف وظيفة كل قسم لتعرف أين تذهب.",
+      "visual": "analytics-report"
+    },
+    {
+      "type": "cards",
+      "title": "أهم الأقسام",
+      "cards": [
+        {
+          "title": "Performance",
+          "text": "قلب الأداة: الاستعلامات والصفحات والنقرات، مع تقارير Generative AI و Discover و Google News."
+        },
+        {
+          "title": "Indexing",
+          "text": "هل صفحاتك في فهرس Google؟ يضم Pages و Videos و Sitemaps و Removals."
+        },
+        {
+          "title": "Experience",
+          "text": "يقيس Core Web Vitals و HTTPS."
+        },
+        {
+          "title": "Shopping و Enhancements",
+          "text": "أهلية صفحات منتجاتك للنتائج الغنية."
+        },
+        {
+          "title": "Links",
+          "text": "من يربط إلى متجرك، وأعداد الروابط الداخلية."
+        },
+        {
+          "title": "Settings",
+          "text": "صلاحيات المستخدمين وتقارير الزحف."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "أين تذهب عند كل سؤال",
+      "steps": [
+        {
+          "do": "هل زياراتي من البحث تنمو؟",
+          "ui": [
+            "Performance",
+            "Search results"
+          ]
+        },
+        {
+          "do": "لماذا لا تظهر صفحتي؟ افحص الرابط ثم راجع الصفحات",
+          "ui": [
+            "URL inspection",
+            "Indexing",
+            "Pages"
+          ]
+        },
+        {
+          "do": "هل يظهر محتواي في إجابات الذكاء الاصطناعي؟",
+          "ui": [
+            "Performance",
+            "Generative AI"
+          ]
+        },
+        {
+          "do": "كيف أضيف موظفاً إلى الحساب؟",
+          "ui": [
+            "Settings"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dosdonts",
+      "title": "عادة دورية سريعة",
+      "do": [
+        "زر Security & Manual Actions دورياً؛ بقاؤه فارغاً خبر جيد",
+        "استخدم URL inspection لفحص صفحة مفردة وطلب إعادة الزحف"
+      ],
+      "dont": [
+        "لا تؤجل أي تنبيه يظهر فيه؛ يستدعي معالجة فورية"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "أي قسم تتمنى أن يبقى فارغاً دائماً؟",
+      "options": [
+        "Links",
+        "Indexing",
+        "Security & Manual Actions"
+      ],
+      "answer": 2,
+      "why": "ظهور أي شيء فيه يعني مشكلة أمان أو إجراءً يدوياً من Google."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "عرفت أن Performance قلب الأداة",
+        "عرفت أن Indexing يجيب عن وجود صفحاتي في الفهرس",
+        "عرفت مكان شريط URL inspection",
+        "جعلت مراجعة قسم الأمان عادة دورية"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "Video views: أنسب بداية للتعريف بمتجرك",
+      "text": "تعرض إعلانك بالصيغ القابلة للتخطي وتحاسبك على المشاهدة. المرحلة الأولى: إعدادات الحملة.",
+      "visual": "campaign-steps"
+    },
+    {
+      "type": "steps",
+      "title": "الوصول إلى الإعدادات",
+      "steps": [
+        {
+          "do": "ابدأ حملة جديدة بدون إرشاد",
+          "ui": [
+            "New campaign",
+            "Create a campaign without guidance"
+          ]
+        },
+        {
+          "do": "اختر النوع ثم النوع الفرعي وتابع",
+          "ui": [
+            "Video",
+            "Video views",
+            "Continue"
+          ]
+        },
+        {
+          "do": "غيّر اسم الحملة إلى اسم يوضّح غرضها",
+          "ui": [
+            "Campaign name"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "نوع الميزانية",
+      "columns": [
+        "Daily",
+        "Campaign total"
+      ],
+      "rows": [
+        [
+          "كيف يعمل",
+          "يُنفق المبلغ كل يوم بلا تاريخ نهاية",
+          "مبلغ إجمالي بتاريخ بداية ونهاية"
+        ],
+        [
+          "متى",
+          "الحملات المستمرة",
+          "الحملات الموسمية القصيرة"
+        ]
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "الإعدادات الموصى بها",
+      "cards": [
+        {
+          "title": "Networks",
+          "text": "أبقِ YouTube وألغِ Google video partners."
+        },
+        {
+          "title": "Locations",
+          "text": "واسع على مستوى الدولة."
+        },
+        {
+          "title": "Languages",
+          "text": "All languages."
+        },
+        {
+          "title": "Related videos",
+          "text": "أضف فيديوهات من قناتك؛ ترفع التفاعل."
+        },
+        {
+          "title": "Devices",
+          "text": "كل الأجهزة."
+        },
+        {
+          "title": "Frequency capping و Ad schedule",
+          "text": "بلا سقف مبدئياً، و All day."
+        }
+      ]
+    },
+    {
+      "type": "dosdonts",
+      "title": "الميزانية",
+      "do": [
+        "اجعل الميزانية متناسبة مع المدة"
+      ],
+      "dont": [
+        "لا توزّع مبلغاً صغيراً على مدة طويلة"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "ما الفرق بين Impression و View؟",
+      "options": [
+        "لا فرق بينهما",
+        "View تعني النقر على الإعلان",
+        "Impression ظهور، و View مشاهدة فعلية"
+      ],
+      "answer": 2,
+      "why": "الظهور يعني أن الإعلان ظهر أمام المستخدم فقط، والمشاهدة أنه شاهده فعلاً."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "سمّيت الحملة باسم واضح",
+        "اخترت نوع الميزانية المناسب",
+        "ألغيت Google video partners",
+        "أبقيت الموقع واللغات والأجهزة واسعة",
+        "أضفت Related videos من قناتي"
+      ]
+    }
+  ]
+}

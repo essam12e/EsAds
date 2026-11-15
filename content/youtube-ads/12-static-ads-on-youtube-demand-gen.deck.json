@@ -1,0 +1,121 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "أعلن على YouTube بلا فيديو",
+      "text": "الإعلان الثابت يُنشأ من حملة Demand Gen مع اختيار YouTube وحده من بين القنوات، لا من حملات Video.",
+      "visual": "campaign-steps"
+    },
+    {
+      "type": "steps",
+      "title": "أنشئ الإعلان الثابت",
+      "steps": [
+        {
+          "do": "ابدأ حملة جديدة بدون إرشاد",
+          "ui": [
+            "New campaign",
+            "Create a campaign without guidance"
+          ]
+        },
+        {
+          "do": "اختر النوع وتابع",
+          "ui": [
+            "Demand Gen",
+            "Continue"
+          ]
+        },
+        {
+          "do": "اختر هدف الحملة ثم الميزانية اليومية والموقع واللغة",
+          "ui": [
+            "Campaign goal"
+          ]
+        },
+        {
+          "do": "اقصر القنوات: ألغِ Discover و Gmail و Display Network",
+          "ui": [
+            "Channels",
+            "Let me choose"
+          ]
+        },
+        {
+          "do": "ارفع الصور والشعار وأضف الرابط وعناوين وأوصافاً متنوعة"
+        },
+        {
+          "do": "عاين الإعلان ثم انشر",
+          "ui": [
+            "Preview"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "أي هدف تختار؟",
+      "columns": [
+        "Clicks",
+        "Conversions"
+      ],
+      "rows": [
+        [
+          "متى",
+          "تريد زيارات أو لا تملك تتبعاً",
+          "تتبع التحويل يعمل وتريد طلبات"
+        ],
+        [
+          "الاستخدام",
+          "زيارات للمتجر",
+          "مبيعات وتسجيلات"
+        ]
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "نوع الإعلان",
+      "cards": [
+        {
+          "title": "Single image ad",
+          "text": "صورة واحدة مع عناوين وأوصاف وشعار. لمنتج أو عرض واحد."
+        },
+        {
+          "title": "Carousel image ad",
+          "text": "عدة صور كبطاقات، لعدة منتجات أو مزايا. اجعل البطاقة الأولى أقوى صورة."
+        }
+      ]
+    },
+    {
+      "type": "dosdonts",
+      "title": "صور تعمل على YouTube",
+      "do": [
+        "منتج واضح بخلفية نظيفة ونص قليل",
+        "اذكر العرض أو الميزة في العنوان",
+        "ادفع Ad strength إلى Excellent"
+      ],
+      "dont": [
+        "لا تترك القنوات على الإعداد الافتراضي"
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "لماذا Demand Gen وليس Performance Max للإعلان الثابت؟",
+      "options": [
+        "لأنه يتيح قصر العرض على YouTube",
+        "لأنه لا يحتاج ميزانية",
+        "لأنه يعرض الفيديو فقط"
+      ],
+      "answer": 0,
+      "why": "Performance Max يعرض على YouTube ضمن كل المواضع دون تحكم بقصر العرض."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "أنشأت الحملة من نوع Demand Gen",
+        "اخترت Clicks أو Conversions",
+        "أبقيت YouTube فقط من Let me choose",
+        "اخترت Single image أو Carousel",
+        "وصل Ad strength إلى Excellent"
+      ]
+    }
+  ]
+}
