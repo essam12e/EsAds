@@ -16,7 +16,7 @@ illustration: funnel
 | **Engagement** (التفاعل) | تفاعل على المنشور: إعجابات وردود وإعادة نشر | Engagement | لا يظهر هذا الخيار |
 | **Website traffic** (زيارات الموقع) | نقرات الرابط ومشاهدات صفحة الهبوط | Link clicks | Impression أو Link click |
 | **Video views** (مشاهدات الفيديو) | مشاهدات للفيديو | Video views | Impressions أو Video views |
-| **App installs** (تثبيت التطبيق) | تثبيتات للتطبيق؛ يتطلب ربط تطبيق عبر App manager | بحسب التطبيق المربوط | بحسب التطبيق المربوط |
+| **App installs** (تثبيت التطبيق) | تثبيتات للتطبيق؛ يتطلب ربط تطبيق عبر App manager | — | — |
 | **Sales** (المبيعات) | التحويلات ومشتريات الموقع | Website conversions | يُنصح بـ Link clicks |
 
 عند النقر على أي هدف في الشاشة يظهر وصف مختصر لما يناسبه، فاقرأه قبل المتابعة.
