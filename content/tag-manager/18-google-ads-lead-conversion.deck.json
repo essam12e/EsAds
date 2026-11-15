@@ -1,0 +1,31 @@
+{
+  "slides": [
+    { "type": "idea", "title": "صفحة الشكر تساوي تحويلاً", "text": "بعد إرسال النموذج يُحوَّل العميل إلى صفحة شكر، ووصوله إليها يُحتسب تحويلاً في Google Ads.", "visual": "conversion-tracking" },
+    { "type": "steps", "title": "أنشئ إجراء التحويل في Google Ads", "steps": [
+      { "do": "ابدأ إجراء تحويل جديداً للموقع.", "ui": ["Goals", "Conversions", "Summary", "New conversion action", "Conversions on a website"] },
+      { "do": "اختر فئة إرسال النموذج وأنشئ التحويل.", "ui": ["Submit lead form", "Create conversion"] },
+      { "do": "اختر الإعداد اليدوي.", "ui": ["Manually with code"] },
+      { "do": "اضبط الإعدادات ثم تابع.", "ui": ["Done", "Save and continue"] },
+      { "do": "اختر GTM وانسخ المعرّف والتصنيف.", "ui": ["Use Google Tag Manager", "Conversion ID", "Conversion Label"] }
+    ] },
+    { "type": "cards", "title": "إعدادات تحويل النموذج", "cards": [
+      { "title": "Primary action", "text": "ليحسّن Google Ads عروض الأسعار نحو هذا التحويل." },
+      { "title": "Don't use a value", "text": "طلب العميل المحتمل ليس له مبلغ محدد لحظة الإرسال." },
+      { "title": "Count: One", "text": "من يرسل النموذج أكثر من مرة يُحتسب عميلاً محتملاً واحداً." }
+    ] },
+    { "type": "steps", "title": "اربطه في GTM واختبر", "steps": [
+      { "do": "أنشئ مشغّلاً لصفحة الشكر بكلمة رابطها، مثل thanks.", "ui": ["Page View", "Some Page Views", "Page URL", "contains"] },
+      { "do": "أنشئ وسم التحويل والصق المعرّف والتصنيف.", "ui": ["Tags", "New", "Google Ads Conversion Tracking"] },
+      { "do": "اربطه بمشغّل صفحة الشكر وسمِّه Google Ads - Lead.", "ui": ["Triggering", "Save"] },
+      { "do": "انشر الحاوية.", "ui": ["Submit", "Publish", "Continue"] },
+      { "do": "أرسل النموذج ببيانات تجريبية في المعاينة.", "ui": ["Preview", "Connect"], "note": "وسم التحويل يُطلق في صفحة الشكر فقط." }
+    ] },
+    { "type": "compare", "title": "المعرّف والتصنيف", "columns": ["Conversion ID", "Conversion Label"], "rows": [
+      ["الثبات", "ثابت للحساب الواحد", "يختلف مع كل إجراء"],
+      ["النسخ", "مرة واحدة", "من كل إجراء تحويل"]
+    ] },
+    { "type": "dosdonts", "title": "شرط صفحة الشكر", "do": ["اختر كلمة لا تتكرر في روابط صفحات أخرى.", "استخدم Element Visibility إن ظهرت رسالة النجاح دون انتقال."], "dont": ["لا تختر كلمة عامة تظهر في روابط كثيرة.", "لا تقلق من حالة Misconfigured بعد الإعداد مباشرة."] },
+    { "type": "quiz", "title": "اختبر فهمك", "question": "ماذا تعني حالة No recent conversions؟", "options": ["الوسم محذوف", "الإعداد خاطئ", "الإعداد اكتمل ولم يُسجَّل تحويل بعد"], "answer": 2, "why": "الحالة تدل على اكتمال الإعداد دون وقوع تحويل حتى الآن." },
+    { "type": "checklist", "title": "قبل أن تنتقل", "items": ["Google Tag و Conversion Linker منشوران.", "أنشأت تحويل Submit lead form بعدّ One.", "أنشأت مشغّل صفحة الشكر.", "وسم التحويل يُطلق في صفحة الشكر فقط.", "نشرت واختبرت بنموذج تجريبي."] }
+  ]
+}

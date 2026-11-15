@@ -1,0 +1,27 @@
+{
+  "slides": [
+    { "type": "idea", "title": "أرسل كل طلب مع قيمته", "text": "عندما يصل إلى Google Ads كل طلب مع قيمته، تحسّن المنصة حملاتك نحو المبيعات وتحسب العائد منها.", "visual": "conversion-tracking" },
+    { "type": "cards", "title": "المتطلبات", "cards": [
+      { "title": "الوسمان الأساسيان", "text": "Google Tag بمعرّف AW- و Conversion Linker منشوران في الحاوية." },
+      { "title": "مشغّل الشراء", "text": "من نوع Custom Event باسم purchase، ويعتمد على إرسال متجرك للحدث." },
+      { "title": "مشغّل بدء الدفع", "text": "بحدث مخصص أو بمشاهدة صفحة إتمام الطلب." },
+      { "title": "متغير قيمة الطلب", "text": "متغير في الحاوية يحمل إجمالي قيمة الطلب." }
+    ] },
+    { "type": "steps", "title": "أنشئ إجراء تحويل الشراء", "steps": [
+      { "do": "ابدأ إجراء تحويل للموقع.", "ui": ["Goals", "Summary", "Create conversion action", "Conversions on a website"] },
+      { "do": "اختر فئة الشراء وأنشئ التحويل.", "ui": ["Purchase", "Create conversion"] },
+      { "do": "اختر الإعداد اليدوي ثم تابع.", "ui": ["Manually with code", "Done", "Save and continue"] },
+      { "do": "اختر GTM وانسخ المعرّف والتصنيف.", "ui": ["Use Google Tag Manager", "Conversion ID", "Conversion Label"] }
+    ] },
+    { "type": "steps", "title": "أنشئ وسم الشراء في GTM", "steps": [
+      { "do": "أنشئ وسم تحويل والصق المعرّف والتصنيف.", "ui": ["Tags", "New", "Google Ads Conversion Tracking"] },
+      { "do": "ضع متغير قيمة الطلب ورمز العملة مثل SAR.", "ui": ["Conversion Value", "Currency Code"], "note": "Transaction ID يحمل رقم الطلب إن توفّر." },
+      { "do": "اربطه بمشغّل Purchase وسمِّه Google Ads Purchase.", "ui": ["Triggering", "Save"] },
+      { "do": "أتمم طلباً تجريبياً وتأكد من القيمة والعملة.", "ui": ["Preview", "Values"] },
+      { "do": "انشر الحاوية.", "ui": ["Submit", "Publish"] }
+    ] },
+    { "type": "dosdonts", "title": "عند تكرار الإعداد لبدء الدفع", "do": ["انسخ التصنيف من صفحة الإجراء نفسه كل مرة.", "أضف الوسم إلى المشغّل الموجود مع وسوم المنصات الأخرى.", "تأكد أن عدد وسوم المشغّل زاد بواحد."], "dont": ["لا تلصق تصنيف تحويل في وسم تحويل آخر."] },
+    { "type": "quiz", "title": "اختبر فهمك", "question": "ما الذي يختلف بين وسم الشراء ووسم بدء الدفع؟", "options": ["Conversion ID", "وسم Google Tag", "Conversion Linker", "Conversion Label"], "answer": 3, "why": "المعرّف ثابت للحساب، والتصنيف مختلف لكل تحويل." },
+    { "type": "checklist", "title": "قبل أن تنتقل", "items": ["متجري يرسل حدث purchase إلى GTM.", "أنشأت إجراء تحويل ووسماً لكل تحويل.", "وسم الشراء يحمل القيمة والعملة.", "اختبرت بطلب تجريبي ثم نشرت.", "أعرف أن حالة Misconfigured مؤقتة."] }
+  ]
+}

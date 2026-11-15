@@ -1,0 +1,117 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "خطوتان قبل أي حملة تسوق",
+      "text": "أضف رابط الخلاصة إلى Merchant Center كمصدر بيانات، ثم اربط Merchant Center بحساب Google Ads.",
+      "visual": "product-feed"
+    },
+    {
+      "type": "steps",
+      "title": "أضف الخلاصة",
+      "steps": [
+        {
+          "do": "افتح مصادر البيانات وأضف مصدر منتجات.",
+          "ui": [
+            "Data sources",
+            "Add product source"
+          ]
+        },
+        {
+          "do": "اختر الإضافة من ملف ثم الصق رابط خلاصة XML.",
+          "ui": [
+            "Add products from a file",
+            "Enter a link to your file"
+          ]
+        },
+        {
+          "do": "تابع لتُربط المنتجات بالحساب.",
+          "ui": [
+            "Continue"
+          ]
+        },
+        {
+          "do": "اربط حساب Google Ads.",
+          "ui": [
+            "Apps and services"
+          ],
+          "note": "بدونه لا تعمل إعلانات المنتجات إطلاقاً."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "حالات المنتج",
+      "cards": [
+        {
+          "title": "Approved",
+          "text": "المنتج سليم وجاهز للإعلان."
+        },
+        {
+          "title": "Under review",
+          "text": "لم يُبتّ فيه بعد؛ انتظر."
+        },
+        {
+          "title": "Not approved",
+          "text": "مخالفة أو نقص؛ مرّر المؤشر فوقه لمعرفة الإصلاح."
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "أين تعدّل البيانات؟",
+      "columns": [
+        "من WooCommerce فقط",
+        "من المتجر أو إعدادات الإضافة"
+      ],
+      "rows": [
+        [
+          "السمات",
+          "السعر والعملة والتوفر والتخفيض",
+          "عنوان المنتج ووصفه"
+        ],
+        [
+          "السبب",
+          "Google تفحصها يومياً والتباين يرفض المنتج",
+          "حتى لا يُكتب فوق تعديلك"
+        ]
+      ]
+    },
+    {
+      "type": "dosdonts",
+      "title": "انتبه",
+      "do": [
+        "فعّل Product protection على 40%.",
+        "اضغط Update إن بدت البيانات قديمة.",
+        "طابق معلومات النشاط والشحن مع الموقع."
+      ],
+      "dont": [
+        "لا تغيّر ID المنتج أبداً.",
+        "لا تعدّل العناوين يدوياً داخل Merchant Center."
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "من أين تربط Merchant Center بحساب Google Ads؟",
+      "options": [
+        "من Data sources",
+        "من People and access",
+        "من Apps and services"
+      ],
+      "answer": 2,
+      "why": "هذا القسم هو الجسر الذي يربط Merchant Center بالمنصات الأخرى."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "رابط الخلاصة مضاف في Data sources.",
+        "نطاق الخلاصة يطابق نطاق الحساب.",
+        "المنتجات بحالة Approved.",
+        "حساب Merchant Center يظهر عند إنشاء حملة Shopping.",
+        "Product protection مفعّلة."
+      ]
+    }
+  ]
+}

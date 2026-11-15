@@ -1,0 +1,140 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "اعرف ماذا يفعل زوار متجرك",
+      "text": "GA4 يخبرك من أين يأتي الزوار وماذا يفعلون. احصل على Measurement ID ثم ضعه في وسم داخل Google Tag Manager.",
+      "visual": "analytics-report"
+    },
+    {
+      "type": "cards",
+      "title": "كيف تُنظَّم حسابات GA4؟",
+      "cards": [
+        {
+          "title": "Account",
+          "text": "أعلى مستوى، مثل اسم الشركة أو الموقع."
+        },
+        {
+          "title": "Property",
+          "text": "تحت الحساب؛ خاصية للموقع وأخرى للتطبيق."
+        },
+        {
+          "title": "Data Stream",
+          "text": "داخل الخاصية، ويحدد المنصة التي تأتي منها البيانات."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "أنشئ الحساب والدفق",
+      "steps": [
+        {
+          "do": "أنشئ حساباً وخاصية بتوقيت بلدك وعملة متجرك.",
+          "ui": [
+            "Create",
+            "Account"
+          ]
+        },
+        {
+          "do": "اختر فئة النشاط وهدف زيادة المبيعات.",
+          "ui": [
+            "Shopping",
+            "Drive sales"
+          ]
+        },
+        {
+          "do": "أنشئ دفق ويب برابط الموقع.",
+          "ui": [
+            "Web",
+            "Create & continue"
+          ],
+          "note": "اترك Enhanced measurement مفعّلاً."
+        },
+        {
+          "do": "انسخ معرّف القياس من تفاصيل الدفق.",
+          "ui": [
+            "Measurement ID"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "اربط عبر GTM",
+      "steps": [
+        {
+          "do": "أنشئ وسماً من نوع حدث GA4 والصق المعرّف.",
+          "ui": [
+            "Tags",
+            "New",
+            "Google Analytics: GA4 Event"
+          ]
+        },
+        {
+          "do": "أنشئ الوسم الأساسي عند ظهور الرسالة.",
+          "ui": [
+            "Create tag"
+          ]
+        },
+        {
+          "do": "اختر المتغيّر {{Event}} اسماً للحدث.",
+          "ui": [
+            "Event Name"
+          ]
+        },
+        {
+          "do": "اختر مشغّل كل الصفحات واحفظ.",
+          "ui": [
+            "Triggering",
+            "All Pages",
+            "Save"
+          ]
+        },
+        {
+          "do": "اختبر ثم انشر.",
+          "ui": [
+            "Preview",
+            "Submit",
+            "Publish"
+          ],
+          "note": "الوسم يظهر Fired عن كل صفحة."
+        }
+      ]
+    },
+    {
+      "type": "dosdonts",
+      "title": "انتبه",
+      "do": [
+        "تحقق من View realtime بعد النشر.",
+        "اربط Analytics من Apps and services في Merchant Center."
+      ],
+      "dont": [
+        "لا تنسَ النشر بعد نجاح المعاينة.",
+        "لا تكتب اسماً ثابتاً للحدث بدل {{Event}}."
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "لماذا تختار {{Event}} في Event Name؟",
+      "options": [
+        "ليتوقف التتبع عند الاختبار",
+        "ليُنشأ الدفق تلقائياً",
+        "ليُرسل اسم كل حدث كما يلتقطه GTM"
+      ],
+      "answer": 2,
+      "why": "كلما زادت الأحداث في Analytics ساعدتك على التعمق في سلوك الزوار."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "فئة Shopping وهدف Drive sales محددان.",
+        "Enhanced measurement مفعّل.",
+        "وسم GA4 بمشغّل All Pages.",
+        "الحاوية منشورة.",
+        "مستخدم نشط يظهر في View realtime."
+      ]
+    }
+  ]
+}
