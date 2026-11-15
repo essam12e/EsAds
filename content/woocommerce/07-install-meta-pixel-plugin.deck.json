@@ -1,0 +1,127 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "معرّف البكسل في إضافة يكفي",
+      "text": "Meta Pixel يرسل إشارات المشاهدة والسلة والشراء إلى Meta. في WordPress تكفي إضافة تلصق فيها معرّف البكسل.",
+      "visual": "pixel-flow"
+    },
+    {
+      "type": "cards",
+      "title": "متى تحتاج إلى البكسل؟",
+      "cards": [
+        {
+          "title": "Sales",
+          "text": "نعم، وهو الأهم؛ حملة مبيعات بلا بكسل لن تنجح."
+        },
+        {
+          "title": "Leads عبر الموقع",
+          "text": "نعم؛ بدونه لا يُتتبَّع إرسال النموذج."
+        },
+        {
+          "title": "Traffic",
+          "text": "ينصح به لتحسين الحملة على مشاهدات صفحة الهبوط."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "أنشئ البكسل وثبّت الإضافة",
+      "steps": [
+        {
+          "do": "افتح مدير الأحداث وأنشئ البكسل.",
+          "ui": [
+            "All tools",
+            "Events Manager",
+            "Connect data",
+            "Web"
+          ]
+        },
+        {
+          "do": "انسخ المعرّف.",
+          "ui": [
+            "Datasets"
+          ],
+          "note": "Dataset ID هو نفسه Pixel ID."
+        },
+        {
+          "do": "ابحث عن PixelYourSite في WordPress وثبّتها وفعّلها.",
+          "ui": [
+            "Plugins",
+            "Add plugin",
+            "Install Now",
+            "Activate"
+          ]
+        },
+        {
+          "do": "فعّل البكسل والصق المعرّف واحفظ.",
+          "ui": [
+            "PixelYourSite",
+            "Enable Pixel",
+            "Save changes"
+          ],
+          "note": "تجاهل حقول Conversions API مؤقتاً."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "اختبر الأحداث",
+      "steps": [
+        {
+          "do": "افتح تبويب اختبار الأحداث وأدخل رابط موقعك.",
+          "ui": [
+            "Datasets",
+            "Test events",
+            "Website"
+          ]
+        },
+        {
+          "do": "تصفّح صفحة أو صفحتين وافتح منتجاً.",
+          "note": "يجب أن يظهر PageView و ViewContent."
+        },
+        {
+          "do": "امسح النشاط وأغلق الاختبار.",
+          "ui": [
+            "Clear activity"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dosdonts",
+      "title": "قبل نشر الحملة",
+      "do": [
+        "تأكد أن البكسل يظهر Active في Dataset.",
+        "اختر حدث تحويل نشطاً مثل Purchase.",
+        "تأكد أن Website events محدد."
+      ],
+      "dont": [
+        "لا تطلق حملة قبل رؤية الأحداث في Test events.",
+        "لا تكتفِ بظهور الإضافة مفعّلة."
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "ما الذي تحتاجه الإضافة من كود البكسل؟",
+      "options": [
+        "الكود كاملاً",
+        "Pixel ID فقط",
+        "رمز الوصول"
+      ],
+      "answer": 1,
+      "why": "كود البكسل متطابق في كل الحسابات ما عدا Pixel ID."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "الإضافة مفعّلة و Enable Pixel مفعّل.",
+        "Pixel ID ملصوق ومحفوظ.",
+        "PageView و ViewContent يظهران في Test events.",
+        "البكسل Active في المجموعة الإعلانية."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "تحقق من البكسل قبل حملة التحويل",
+      "text": "Snap Pixel يسجّل المشاهدة والإضافة إلى السلة والشراء. بدون تتبع دقيق لا تستطيع Snapchat تحسين الحملات.",
+      "visual": "pixel-flow"
+    },
+    {
+      "type": "steps",
+      "title": "أنشئ البكسل",
+      "steps": [
+        {
+          "do": "افتح البكسلات في حساب الإعلانات.",
+          "ui": [
+            "Manage Ads",
+            "Pixels"
+          ]
+        },
+        {
+          "do": "أنشئ بكسلاً باسم واضح مثل اسم المتجر.",
+          "ui": [
+            "Create Pixel"
+          ]
+        },
+        {
+          "do": "اختر طريقة التثبيت."
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "طريقا التثبيت",
+      "columns": [
+        "عبر Google Tag Manager",
+        "التثبيت اليدوي"
+      ],
+      "rows": [
+        [
+          "الخيار في Snapchat",
+          "Partner integration",
+          "Manual installation"
+        ],
+        [
+          "ما تفعله",
+          "قالب Snapchat من معرض القوالب",
+          "تلصق الكود في خانة Header"
+        ],
+        [
+          "لكي يعمل",
+          "Submit ثم Publish",
+          "Save Changes"
+        ]
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "التثبيت اليدوي",
+      "steps": [
+        {
+          "do": "انسخ كود البكسل.",
+          "ui": [
+            "Manual installation"
+          ]
+        },
+        {
+          "do": "افتح إضافة إدراج الأكواد في WordPress.",
+          "ui": [
+            "Code Snippets",
+            "Header & Footer"
+          ]
+        },
+        {
+          "do": "الصق الكود في خانة الترويسة واحفظ.",
+          "ui": [
+            "Header",
+            "Save Changes"
+          ],
+          "note": "أبقِ كود GTM وأضف البكسل تحته."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "تحقق بإضافة Snap Pixel Helper",
+      "steps": [
+        {
+          "do": "ثبّت الإضافة على Chrome.",
+          "ui": [
+            "Chrome Web Store",
+            "Snap Pixel Helper"
+          ]
+        },
+        {
+          "do": "افتح متجرك وحدّث الصفحة واضغط أيقونة الإضافة.",
+          "note": "يجب أن يظهر Pixel ID مع الأحداث."
+        },
+        {
+          "do": "جرّب المسار: المتجر ثم منتج ثم السلة ثم إتمام الطلب."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "كم تحويلاً ناجحاً يحتاج هدف Sales قبل الاعتماد عليه؟",
+      "options": [
+        "من 5 إلى 10",
+        "لا يحتاج إلى تاريخ",
+        "من 50 إلى 100 على الأقل"
+      ],
+      "answer": 2,
+      "why": "البكسل الجديد يبدأ بحملة Traffic لتوليد البيانات ثم ينتقل إلى Sales."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "البكسل مُنشأ ومثبت بطريقة واحدة.",
+        "كود GTM باقٍ في خانة Header.",
+        "Pixel ID في الإضافة يطابق بكسل حسابك.",
+        "أحداث Page View و Add to Cart و Purchase تُطلق."
+      ]
+    }
+  ]
+}

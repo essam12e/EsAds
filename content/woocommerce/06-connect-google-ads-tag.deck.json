@@ -1,0 +1,152 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "حلّ التتبع قبل أي حملة",
+      "text": "أنشئ تحويلاً في Google Ads واربطه بالموقع ليعرف أن زائر الإعلان أتم ما تريده. كل ذلك عبر Google Tag Manager.",
+      "visual": "conversion-tracking"
+    },
+    {
+      "type": "cards",
+      "title": "أجزاء الربط الثلاثة",
+      "cards": [
+        {
+          "title": "Google tag",
+          "text": "الوسم الأساسي الذي ينقل الأحداث من GTM إلى Google Ads."
+        },
+        {
+          "title": "إجراء التحويل",
+          "text": "تعريف ما الذي يُحتسب تحويلاً، ويُنشأ في Google Ads."
+        },
+        {
+          "title": "وسم تتبع التحويل",
+          "text": "يُنشأ في GTM مع مشغّل صفحة الشكر."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "اربط Google tag",
+      "steps": [
+        {
+          "do": "أنشئ إجراء تحويل جديداً على موقع.",
+          "ui": [
+            "Goals",
+            "Conversions",
+            "New conversion action"
+          ]
+        },
+        {
+          "do": "اختر التثبيت اليدوي وانسخ المعرّف الذي يبدأ بـ AW-.",
+          "ui": [
+            "Set up",
+            "Install manually",
+            "Tag ID"
+          ]
+        },
+        {
+          "do": "أنشئ في GTM وسماً والصق المعرّف.",
+          "ui": [
+            "Add new tag",
+            "Google Tag"
+          ]
+        },
+        {
+          "do": "اختر مشغّل التهيئة واحفظ وانشر.",
+          "ui": [
+            "Initialization - All Pages",
+            "Submit",
+            "Publish"
+          ]
+        },
+        {
+          "do": "اختبر التثبيت في Google Ads.",
+          "ui": [
+            "Test installation",
+            "Confirm"
+          ],
+          "note": "تظهر رسالة Detected."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "أنشئ وسم التحويل",
+      "steps": [
+        {
+          "do": "اختر الإعداد اليدوي ثم إضافة الوسم عبر GTM.",
+          "ui": [
+            "Manually with code",
+            "Use Google Tag Manager"
+          ]
+        },
+        {
+          "do": "أنشئ وسم التحويل والصق Conversion ID و Conversion Label.",
+          "ui": [
+            "Google Ads Conversion Tracking"
+          ]
+        },
+        {
+          "do": "أنشئ مشغّلاً شرطه رابط يحتوي كلمة صفحة الشكر.",
+          "ui": [
+            "Page View",
+            "Some Page Views",
+            "Page URL",
+            "contains"
+          ]
+        },
+        {
+          "do": "اختبر حتى يظهر الوسم Fired ثم انشر.",
+          "ui": [
+            "Preview",
+            "Submit",
+            "Publish"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "إعداد العدّ",
+      "columns": [
+        "One",
+        "Every"
+      ],
+      "rows": [
+        [
+          "ماذا يحتسب",
+          "تحويلاً واحداً للشخص ولو كرر",
+          "كل مرة يحدث فيها التحويل"
+        ],
+        [
+          "مثال",
+          "المناسب للنماذج",
+          "10 مرات تُحتسب 10"
+        ]
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "أي القيمتين تتغير مع كل تحويل جديد تنشئه؟",
+      "options": [
+        "Conversion ID",
+        "Tag ID",
+        "Conversion Label"
+      ],
+      "answer": 2,
+      "why": "Conversion ID يبقى ثابتاً في حساب Google Ads الواحد."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "وسم Google Tag منشور بمشغّل التهيئة.",
+        "Test installation أظهر Detected.",
+        "شرط المشغّل contains لا equals.",
+        "وسم التحويل يظهر Fired عند صفحة الشكر.",
+        "الحاوية منشورة."
+      ]
+    }
+  ]
+}

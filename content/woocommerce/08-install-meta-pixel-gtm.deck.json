@@ -1,0 +1,134 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "أدر بكسل Meta من داخل GTM",
+      "text": "إن كنت تعلن على أكثر من منصة فضع كود GTM وحده في الموقع، وأضف بكسل Meta كوسم بدل إضافة مستقلة.",
+      "visual": "tag-manager"
+    },
+    {
+      "type": "steps",
+      "title": "الوسم الأساسي",
+      "steps": [
+        {
+          "do": "أنشئ وسماً وابحث عن Facebook في معرض القوالب.",
+          "ui": [
+            "Tags",
+            "New",
+            "Template Gallery"
+          ]
+        },
+        {
+          "do": "تحقق من ناشر القالب ثم أضفه.",
+          "ui": [
+            "Add to workspace"
+          ]
+        },
+        {
+          "do": "الصق المعرّف واختر الحدث القياسي.",
+          "ui": [
+            "Pixel ID",
+            "PageView"
+          ]
+        },
+        {
+          "do": "اختر مشغّل كل الصفحات وسمِّ الوسم FB Base.",
+          "ui": [
+            "Triggering",
+            "All Pages",
+            "Save"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "ثلاثة عناصر تبنيها",
+      "cards": [
+        {
+          "title": "متغيّر Constant",
+          "text": "خزّن Pixel ID فيه وأعد استخدامه في كل الوسوم."
+        },
+        {
+          "title": "مشغّل Cart Page View",
+          "text": "Page View لبعض الصفحات بشرط Page Path contains cart."
+        },
+        {
+          "title": "وسم FB Cart Page View",
+          "text": "حدث Custom باسم Cart View مربوط بمشغّل السلة."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "اختبر وانشر وتحقق",
+      "steps": [
+        {
+          "do": "افتح المعاينة وتنقّل بين الرئيسية والسلة وحسابي.",
+          "ui": [
+            "Preview",
+            "Connect"
+          ],
+          "note": "وسم السلة يُطلق في صفحة السلة فقط."
+        },
+        {
+          "do": "انشر النسخة.",
+          "ui": [
+            "Submit",
+            "Publish"
+          ]
+        },
+        {
+          "do": "اختبر الأحداث في مدير الأحداث.",
+          "ui": [
+            "Events Manager",
+            "Datasets",
+            "Test Events"
+          ]
+        },
+        {
+          "do": "أكّد الحدث المخصص ليصبح نشطاً.",
+          "ui": [
+            "Review",
+            "Confirm"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dosdonts",
+      "title": "انتبه",
+      "do": [
+        "استخدم contains عند استهداف صفحة محددة.",
+        "استخدم قوالب أصلية موثوقة فقط."
+      ],
+      "dont": [
+        "لا تستخدم equals في شرط المسار.",
+        "لا تثبّت قالباً عشوائياً من المعرض."
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "ما الذي يظهر في Meta كاسم للحدث المخصص؟",
+      "options": [
+        "قيمة حقل Event Name",
+        "اسم الوسم",
+        "اسم المشغّل"
+      ],
+      "answer": 0,
+      "why": "اسم الوسم واسم المشغّل لا يظهران في Events Manager."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "قالب Facebook Pixel من ناشر موثوق.",
+        "FB Base يُطلق على كل الصفحات.",
+        "Pixel ID مخزّن في متغيّر Constant.",
+        "الحاوية منشورة على Live.",
+        "الحدث المخصص مؤكَّد في Events Manager."
+      ]
+    }
+  ]
+}
