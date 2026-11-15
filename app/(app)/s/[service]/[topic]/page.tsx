@@ -65,7 +65,7 @@ export default async function TopicPage({ params }: { params: Params }) {
                 {children}
               </a>
             ),
-            code: ({ children }) => <code dir="ltr">{children}</code>,
+            code: ({ children }) => <code dir="auto">{children}</code>,
           }}
         >
           {topic.body}
