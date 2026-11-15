@@ -1,0 +1,126 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "Demand Gen: التحكم بيدك",
+      "text": "تعرض إعلاناتك المصوّرة على YouTube و Discover و Gmail وشبكة العرض، وأنت تختار القنوات وتبني الجمهور.",
+      "visual": "campaign-steps"
+    },
+    {
+      "type": "steps",
+      "title": "ابدأ الحملة",
+      "steps": [
+        {
+          "do": "ابدأ حملة جديدة واختر هدف المبيعات.",
+          "ui": [
+            "New campaign",
+            "Sales"
+          ],
+          "note": "تأكد أن إجراء التحويل هو Purchase."
+        },
+        {
+          "do": "اختر نوع الحملة وسمِّها.",
+          "ui": [
+            "Demand Gen",
+            "Continue",
+            "Campaign name"
+          ]
+        },
+        {
+          "do": "اختر هدف الحملة ثم حدث الشراء.",
+          "ui": [
+            "Campaign goal",
+            "Conversions",
+            "Purchase"
+          ]
+        },
+        {
+          "do": "اضبط الميزانية والتواريخ والموقع واللغة والأجهزة.",
+          "ui": [
+            "Budget and dates"
+          ]
+        },
+        {
+          "do": "انتقل إلى المجموعة الإعلانية واختر القنوات.",
+          "ui": [
+            "Go to ad group",
+            "Channels"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "خيارات هدف الحملة",
+      "cards": [
+        {
+          "title": "Conversions",
+          "text": "الأكثر شيوعاً؛ للمتاجر اختره دائماً."
+        },
+        {
+          "title": "Clicks",
+          "text": "إذا كان هدفك زيارات لصفحة الهبوط."
+        },
+        {
+          "title": "YouTube engagements",
+          "text": "للاشتراكات في حسابك أو المشاهدات اللاحقة."
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "اختيار القنوات",
+      "columns": [
+        "All Google channels",
+        "قنوات تحددها"
+      ],
+      "rows": [
+        [
+          "التغطية",
+          "تشبه Performance Max دون البحث",
+          "قناة بعينها مثل YouTube فقط"
+        ],
+        [
+          "متى",
+          "لا سبب لديك للحصر",
+          "أصولك مصممة لقناة بعينها"
+        ]
+      ]
+    },
+    {
+      "type": "dosdonts",
+      "title": "افعل ولا تفعل",
+      "do": [
+        "أبقِ View-through conversion optimization مفعّلاً.",
+        "اترك Target CPA فارغاً في البداية.",
+        "ابدأ بكل القنوات ودع النتائج تدلّك."
+      ],
+      "dont": [
+        "لا تختر هدفاً لا يناسبك، مثل جهات الاتصال بدل المبيعات."
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "ما الذي لا تشمله قنوات Demand Gen؟",
+      "options": [
+        "Gmail",
+        "Discover",
+        "YouTube",
+        "نتائج البحث"
+      ],
+      "answer": 3,
+      "why": "Demand Gen تعرض على YouTube و Discover و Gmail وشبكة العرض دون البحث."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "الهدف Conversions مع حدث Purchase.",
+        "تحسين تحويلات المشاهدة مفعّل.",
+        "Target CPA مؤجّل حتى تتوفر البيانات.",
+        "اخترت كل قنوات Google أو قنوات بعينها."
+      ]
+    }
+  ]
+}

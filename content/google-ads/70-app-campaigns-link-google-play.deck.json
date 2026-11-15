@@ -1,0 +1,110 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "اربط Google Play قبل الحملة",
+      "text": "حملة التطبيق تحتاج حساب Google Ads وتطبيقاً منشوراً، ثم ربط Google Play بالحساب لتظهر تطبيقاتك فيه.",
+      "visual": "store-linking"
+    },
+    {
+      "type": "steps",
+      "title": "الطريقة الأولى: من Google Ads",
+      "steps": [
+        {
+          "do": "افتح مدير البيانات وتحقق من حالة Google Play.",
+          "ui": [
+            "Tools",
+            "Data manager"
+          ],
+          "note": "إن كانت Linked فالربط موجود."
+        },
+        {
+          "do": "اضغط ربط منتج وابحث عن Google Play.",
+          "ui": [
+            "Connect product",
+            "Google Play",
+            "Continue"
+          ]
+        },
+        {
+          "do": "انقر علامة الإضافة وأدخل بريد حساب Play Console.",
+          "ui": [
+            "+"
+          ],
+          "note": "أخبر المطوّر الخارجي مسبقاً إن كان يدير الحساب."
+        },
+        {
+          "do": "يقبل صاحب الحساب الطلب الذي يصله بالبريد فيكتمل الربط."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "الطريقة الثانية: من Play Console",
+      "steps": [
+        {
+          "do": "افتح الخدمات المرتبطة.",
+          "ui": [
+            "Play Console",
+            "Settings",
+            "Linked services"
+          ]
+        },
+        {
+          "do": "اضغط ربط حساب Google Ads.",
+          "ui": [
+            "Google Ads account",
+            "Link Google Ads account"
+          ]
+        },
+        {
+          "do": "أدخل رقم تعريف العميل وأكمل الربط.",
+          "ui": [
+            "Google Ads Customer ID"
+          ],
+          "note": "عند النجاح يظهر الحساب بحالة Linked."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "حل مشكلات الربط",
+      "cards": [
+        {
+          "title": "لم يصل بريد الطلب",
+          "text": "استخدم الطريقة الثانية من Play Console."
+        },
+        {
+          "title": "الربط يفشل",
+          "text": "امنح مدير Play Console صلاحية وصول إلى حساب Google Ads."
+        },
+        {
+          "title": "التطبيق لا يظهر",
+          "text": "نفّذ الطريقتين معاً."
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "لم يصل بريد طلب الربط إلى صاحب حساب Play Console. ما الحل؟",
+      "options": [
+        "اربط من Linked services في Play Console",
+        "أنشئ حساب Google Ads جديداً",
+        "انتظر دون إجراء"
+      ],
+      "answer": 0,
+      "why": "الطريقة الثانية تُستخدم إن لم يصل البريد."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "لديك حساب Google Ads وتطبيق منشور.",
+        "حالة Google Play في Data manager هي Linked.",
+        "مدير Play Console لديه صلاحية على الحساب الإعلاني.",
+        "تطبيقاتك تظهر داخل Google Ads."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "slides": [
+    {
+      "type": "idea",
+      "title": "اربط أولاً ثم أنشئ الحملة",
+      "text": "في حساب جديد لن تجد أي حساب Merchant Center عند إنشاء حملة Shopping. أتمّ الربط من Data manager أولاً.",
+      "visual": "store-linking"
+    },
+    {
+      "type": "steps",
+      "title": "اربط متجر Shopify",
+      "steps": [
+        {
+          "do": "افتح شاشة المنتجات المتصلة.",
+          "ui": [
+            "Tools",
+            "Data manager",
+            "Connected products"
+          ]
+        },
+        {
+          "do": "اضغط ربط منتج وابحث عن المنصة.",
+          "ui": [
+            "Connect product",
+            "Shopify"
+          ]
+        },
+        {
+          "do": "اختر الاتصال المباشر ثم التفويض.",
+          "ui": [
+            "Direct connection",
+            "Authorize"
+          ]
+        },
+        {
+          "do": "الصق رابط المتجر الداخلي المنتهي بـ myshopify.com.",
+          "ui": [
+            "Continue",
+            "Finish"
+          ],
+          "note": "تجده في Shopify من Settings ثم Domains."
+        },
+        {
+          "do": "أكمل داخل تطبيق Google & YouTube: حساب Google ثم Google Ads ثم Merchant Center."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "المنصات الأخرى",
+      "cards": [
+        {
+          "title": "WooCommerce",
+          "text": "ربطه في Connected products للتحويلات لا للمنتجات."
+        },
+        {
+          "title": "خلاصة المنتجات",
+          "text": "أضف خلاصة إلى Merchant Center ثم اربطه بحساب Google Ads."
+        },
+        {
+          "title": "تطابق النطاق",
+          "text": "نطاق روابط المنتجات يطابق النطاق المسجّل، وإلا صارت Not approved."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "تحقق من نجاح الربط",
+      "cards": [
+        {
+          "title": "في Google Ads",
+          "text": "المنصة أو Merchant Center بحالة Connected في Data manager."
+        },
+        {
+          "title": "في Merchant Center",
+          "text": "منتجاتك مدرجة في Products وحالتها Approved."
+        },
+        {
+          "title": "عند إنشاء الحملة",
+          "text": "حساب Merchant Center ظاهر في قائمة الاختيار."
+        }
+      ]
+    },
+    {
+      "type": "dosdonts",
+      "title": "عند الخلل",
+      "do": [
+        "حدّث مصدر البيانات من Data sources إن لم تظهر المنتجات.",
+        "اقطع الربط ثم أعده عند خلل في Google Ads.",
+        "اختر حساب Merchant Center الخاص بهذا المتجر تحديداً."
+      ],
+      "dont": [
+        "لا تنشئ حملة التسوق قبل اعتماد المنتجات."
+      ]
+    },
+    {
+      "type": "quiz",
+      "title": "اختبر فهمك",
+      "question": "أي رابط تدخله عند ربط Shopify؟",
+      "options": [
+        "رابط نطاقك الخاص",
+        "الرابط الداخلي المنتهي بـ myshopify.com",
+        "رابط Merchant Center"
+      ],
+      "answer": 1,
+      "why": "المطلوب هو الرابط الداخلي لا الرابط الأساسي الذي يراه العملاء."
+    },
+    {
+      "type": "checklist",
+      "title": "قبل أن تنتقل",
+      "items": [
+        "الحالة Connected في Data manager.",
+        "المنتجات Approved في Merchant Center.",
+        "حساب Merchant Center يظهر عند إنشاء الحملة.",
+        "نطاق المنتجات يطابق النطاق المسجّل."
+      ]
+    }
+  ]
+}
